@@ -1,0 +1,241 @@
+Start of 'main' @ Mon Sep 16 13:00:47 2024
+	Start of 'CompTest' @ Mon Sep 16 13:00:47 2024
+		Start of 'get_date' @ Mon Sep 16 13:00:47 2024
+		Elapsed Time: 21 microseconds
+		End of 'get_date'
+------------------------------
+		Start of 'get_date' @ Mon Sep 16 13:00:47 2024
+		Elapsed Time: 4 microseconds
+		End of 'get_date'
+------------------------------
+		Start of 'get_date' @ Mon Sep 16 13:00:47 2024
+		Elapsed Time: 7 microseconds
+		End of 'get_date'
+------------------------------
+		Start of 'get_date' @ Mon Sep 16 13:00:47 2024
+		Elapsed Time: 4 microseconds
+		End of 'get_date'
+------------------------------
+		Start of 'SetDate' @ Mon Sep 16 13:00:47 2024
+		Elapsed Time: 6 microseconds
+		End of 'SetDate'
+------------------------------
+		Start of 'get_date' @ Mon Sep 16 13:00:47 2024
+		Elapsed Time: 3 microseconds
+		End of 'get_date'
+------------------------------
+		Start of 'get_date' @ Mon Sep 16 13:00:47 2024
+		Elapsed Time: 3 microseconds
+		End of 'get_date'
+------------------------------
+		Start of 'get_date' @ Mon Sep 16 13:00:47 2024
+		Elapsed Time: 6 microseconds
+		End of 'get_date'
+------------------------------
+		Start of 'get_date' @ Mon Sep 16 13:00:47 2024
+		Elapsed Time: 3 microseconds
+		End of 'get_date'
+------------------------------
+	Elapsed Time: 130 microseconds
+	End of 'CompTest'
+------------------------------
+	Start of 'UnitTest' @ Mon Sep 16 13:00:47 2024
+	Elapsed Time: 27 microseconds
+	End of 'UnitTest'
+------------------------------
+	Start of 'ProgramGreeting' @ Mon Sep 16 13:00:47 2024
+	Elapsed Time: 11 microseconds
+	End of 'ProgramGreeting'
+------------------------------
+	Start of 'add_element' @ Mon Sep 16 13:00:55 2024
+	Elapsed Time: 48 microseconds
+	End of 'add_element'
+------------------------------
+	Start of 'add_element' @ Mon Sep 16 13:00:57 2024
+	Elapsed Time: 49 microseconds
+	End of 'add_element'
+------------------------------
+	Start of 'add_element' @ Mon Sep 16 13:00:58 2024
+	Elapsed Time: 52 microseconds
+	End of 'add_element'
+------------------------------
+	Start of 'add_element' @ Mon Sep 16 13:01:01 2024
+	Elapsed Time: 55 microseconds
+	End of 'add_element'
+------------------------------
+	Start of 'length' @ Mon Sep 16 13:01:02 2024
+	Elapsed Time: 57 microseconds
+	End of 'length'
+------------------------------
+	Start of 'print_ln_colored' @ Mon Sep 16 13:01:02 2024
+	Elapsed Time: 28 microseconds
+	End of 'print_ln_colored'
+------------------------------
+	Start of 'length' @ Mon Sep 16 13:01:02 2024
+	Elapsed Time: 12 microseconds
+	End of 'length'
+------------------------------
+	Start of 'print_ln_colored' @ Mon Sep 16 13:01:02 2024
+	Elapsed Time: 17 microseconds
+	End of 'print_ln_colored'
+------------------------------
+	Start of 'length' @ Mon Sep 16 13:01:02 2024
+	Elapsed Time: 10 microseconds
+	End of 'length'
+------------------------------
+	Start of 'print_ln_colored' @ Mon Sep 16 13:01:02 2024
+	Elapsed Time: 40 microseconds
+	End of 'print_ln_colored'
+------------------------------
+	Start of 'length' @ Mon Sep 16 13:01:02 2024
+	Elapsed Time: 12 microseconds
+	End of 'length'
+------------------------------
+	Start of 'print_ln_colored' @ Mon Sep 16 13:01:02 2024
+	Elapsed Time: 16 microseconds
+	End of 'print_ln_colored'
+------------------------------
+	Start of 'length' @ Mon Sep 16 13:01:02 2024
+	Elapsed Time: 11 microseconds
+	End of 'length'
+------------------------------
+	Start of 'length' @ Mon Sep 16 13:01:05 2024
+	Elapsed Time: 55 microseconds
+	End of 'length'
+------------------------------
+	Start of 'length' @ Mon Sep 16 13:01:05 2024
+	Elapsed Time: 17 microseconds
+	End of 'length'
+------------------------------
+	Start of 'length' @ Mon Sep 16 13:01:05 2024
+	Elapsed Time: 8 microseconds
+	End of 'length'
+------------------------------
+	Start of 'length' @ Mon Sep 16 13:01:05 2024
+	Elapsed Time: 7 microseconds
+	End of 'length'
+------------------------------
+	Start of 'length' @ Mon Sep 16 13:01:05 2024
+	Elapsed Time: 7 microseconds
+	End of 'length'
+------------------------------
+	Start of 'length' @ Mon Sep 16 13:01:05 2024
+	Elapsed Time: 7 microseconds
+	End of 'length'
+------------------------------
+	Start of 'print_ln_colored' @ Mon Sep 16 13:01:05 2024
+	Elapsed Time: 13 microseconds
+	End of 'print_ln_colored'
+------------------------------
+	Start of 'add_element' @ Mon Sep 16 13:01:11 2024
+	Elapsed Time: 83 microseconds
+	End of 'add_element'
+------------------------------
+	Start of 'add_element' @ Mon Sep 16 13:01:13 2024
+	Elapsed Time: 49 microseconds
+	End of 'add_element'
+------------------------------
+	Start of 'add_element' @ Mon Sep 16 13:01:15 2024
+	Elapsed Time: 50 microseconds
+	End of 'add_element'
+------------------------------
+	Start of 'length' @ Mon Sep 16 13:01:16 2024
+	Elapsed Time: 68 microseconds
+	End of 'length'
+------------------------------
+	Start of 'print_ln_colored' @ Mon Sep 16 13:01:16 2024
+	Elapsed Time: 12 microseconds
+	End of 'print_ln_colored'
+------------------------------
+	Start of 'length' @ Mon Sep 16 13:01:16 2024
+	Elapsed Time: 6 microseconds
+	End of 'length'
+------------------------------
+	Start of 'print_ln_colored' @ Mon Sep 16 13:01:16 2024
+	Elapsed Time: 9 microseconds
+	End of 'print_ln_colored'
+------------------------------
+	Start of 'length' @ Mon Sep 16 13:01:16 2024
+	Elapsed Time: 5 microseconds
+	End of 'length'
+------------------------------
+	Start of 'print_ln_colored' @ Mon Sep 16 13:01:16 2024
+	Elapsed Time: 9 microseconds
+	End of 'print_ln_colored'
+------------------------------
+	Start of 'length' @ Mon Sep 16 13:01:16 2024
+	Elapsed Time: 6 microseconds
+	End of 'length'
+------------------------------
+	Start of 'print_ln_colored' @ Mon Sep 16 13:01:16 2024
+	Elapsed Time: 9 microseconds
+	End of 'print_ln_colored'
+------------------------------
+	Start of 'length' @ Mon Sep 16 13:01:16 2024
+	Elapsed Time: 21 microseconds
+	End of 'length'
+------------------------------
+	Start of 'print_ln_colored' @ Mon Sep 16 13:01:16 2024
+	Elapsed Time: 10 microseconds
+	End of 'print_ln_colored'
+------------------------------
+	Start of 'length' @ Mon Sep 16 13:01:16 2024
+	Elapsed Time: 5 microseconds
+	End of 'length'
+------------------------------
+	Start of 'print_ln_colored' @ Mon Sep 16 13:01:16 2024
+	Elapsed Time: 13 microseconds
+	End of 'print_ln_colored'
+------------------------------
+	Start of 'length' @ Mon Sep 16 13:01:16 2024
+	Elapsed Time: 10 microseconds
+	End of 'length'
+------------------------------
+	Start of 'print_ln_colored' @ Mon Sep 16 13:01:16 2024
+	Elapsed Time: 13 microseconds
+	End of 'print_ln_colored'
+------------------------------
+	Start of 'length' @ Mon Sep 16 13:01:16 2024
+	Elapsed Time: 12 microseconds
+	End of 'length'
+------------------------------
+	Start of 'length' @ Mon Sep 16 13:01:19 2024
+	Elapsed Time: 56 microseconds
+	End of 'length'
+------------------------------
+	Start of 'length' @ Mon Sep 16 13:01:19 2024
+	Elapsed Time: 14 microseconds
+	End of 'length'
+------------------------------
+	Start of 'length' @ Mon Sep 16 13:01:19 2024
+	Elapsed Time: 11 microseconds
+	End of 'length'
+------------------------------
+	Start of 'length' @ Mon Sep 16 13:01:19 2024
+	Elapsed Time: 10 microseconds
+	End of 'length'
+------------------------------
+	Start of 'length' @ Mon Sep 16 13:01:19 2024
+	Elapsed Time: 10 microseconds
+	End of 'length'
+------------------------------
+	Start of 'length' @ Mon Sep 16 13:01:19 2024
+	Elapsed Time: 11 microseconds
+	End of 'length'
+------------------------------
+	Start of 'length' @ Mon Sep 16 13:01:19 2024
+	Elapsed Time: 12 microseconds
+	End of 'length'
+------------------------------
+	Start of 'length' @ Mon Sep 16 13:01:19 2024
+	Elapsed Time: 11 microseconds
+	End of 'length'
+------------------------------
+	Start of 'length' @ Mon Sep 16 13:01:19 2024
+	Elapsed Time: 10 microseconds
+	End of 'length'
+------------------------------
+	Start of 'print_ln_colored' @ Mon Sep 16 13:01:19 2024
+	Elapsed Time: 19 microseconds
+	End of 'print_ln_colored'
+------------------------------

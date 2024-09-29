@@ -1,0 +1,870 @@
+Start of 'main' @ Sat Sep  7 22:14:22 2024
+Start of 'ProgramGreeting' @ Sat Sep  7 22:14:22 2024
+	End of 'ProgramGreeting'
+	Elapsed Time: 18 microseconds
+Start of 'Gameloop' @ Sat Sep  7 22:14:25 2024
+Start of 'DisplayRoundInfo' @ Sat Sep  7 22:14:25 2024
+	End of 'DisplayRoundInfo'
+	Elapsed Time: 64 microseconds
+Start of 'GetTurnChoice' @ Sat Sep  7 22:14:25 2024
+	End of 'GetTurnChoice'
+	Elapsed Time: 1477211 microseconds
+Start of 'D6' @ Sat Sep  7 22:14:26 2024
+Start of 'RandomNumber' @ Sat Sep  7 22:14:26 2024
+	End of 'RandomNumber'
+	Elapsed Time: 8 microseconds
+	End of 'D6'
+	Elapsed Time: 101 microseconds
+Start of 'GetTurnChoice' @ Sat Sep  7 22:14:27 2024
+Start of 'D6' @ Sat Sep  7 22:14:27 2024
+Start of 'RandomNumber' @ Sat Sep  7 22:14:27 2024
+	End of 'RandomNumber'
+	Elapsed Time: 6 microseconds
+	End of 'D6'
+	Elapsed Time: 18 microseconds
+	End of 'GetTurnChoice'
+	Elapsed Time: 70 microseconds
+Start of 'D6' @ Sat Sep  7 22:14:27 2024
+Start of 'RandomNumber' @ Sat Sep  7 22:14:27 2024
+	End of 'RandomNumber'
+	Elapsed Time: 6 microseconds
+	End of 'D6'
+	Elapsed Time: 15 microseconds
+Start of 'DisplayRoundInfo' @ Sat Sep  7 22:14:27 2024
+	End of 'DisplayRoundInfo'
+	Elapsed Time: 19 microseconds
+Start of 'GetTurnChoice' @ Sat Sep  7 22:14:27 2024
+	End of 'GetTurnChoice'
+	Elapsed Time: 759984 microseconds
+Start of 'D6' @ Sat Sep  7 22:14:28 2024
+Start of 'RandomNumber' @ Sat Sep  7 22:14:28 2024
+	End of 'RandomNumber'
+	Elapsed Time: 11 microseconds
+	End of 'D6'
+	Elapsed Time: 64 microseconds
+Start of 'GetTurnChoice' @ Sat Sep  7 22:14:29 2024
+Start of 'D6' @ Sat Sep  7 22:14:29 2024
+Start of 'RandomNumber' @ Sat Sep  7 22:14:29 2024
+	End of 'RandomNumber'
+	Elapsed Time: 11 microseconds
+	End of 'D6'
+	Elapsed Time: 32 microseconds
+	End of 'GetTurnChoice'
+	Elapsed Time: 123 microseconds
+Start of 'DisplayRoundInfo' @ Sat Sep  7 22:14:29 2024
+	End of 'DisplayRoundInfo'
+	Elapsed Time: 44 microseconds
+Start of 'GetTurnChoice' @ Sat Sep  7 22:14:29 2024
+	End of 'GetTurnChoice'
+	Elapsed Time: 1270504 microseconds
+Start of 'D6' @ Sat Sep  7 22:14:30 2024
+Start of 'RandomNumber' @ Sat Sep  7 22:14:30 2024
+	End of 'RandomNumber'
+	Elapsed Time: 12 microseconds
+	End of 'D6'
+	Elapsed Time: 68 microseconds
+Start of 'DisplayRoundInfo' @ Sat Sep  7 22:14:30 2024
+	End of 'DisplayRoundInfo'
+	Elapsed Time: 26 microseconds
+Start of 'GetTurnChoice' @ Sat Sep  7 22:14:30 2024
+	End of 'GetTurnChoice'
+	Elapsed Time: 914662 microseconds
+Start of 'D6' @ Sat Sep  7 22:14:31 2024
+Start of 'RandomNumber' @ Sat Sep  7 22:14:31 2024
+	End of 'RandomNumber'
+	Elapsed Time: 13 microseconds
+	End of 'D6'
+	Elapsed Time: 69 microseconds
+Start of 'GetTurnChoice' @ Sat Sep  7 22:14:32 2024
+Start of 'D6' @ Sat Sep  7 22:14:32 2024
+Start of 'RandomNumber' @ Sat Sep  7 22:14:32 2024
+	End of 'RandomNumber'
+	Elapsed Time: 8 microseconds
+	End of 'D6'
+	Elapsed Time: 24 microseconds
+	End of 'GetTurnChoice'
+	Elapsed Time: 87 microseconds
+Start of 'DisplayRoundInfo' @ Sat Sep  7 22:14:32 2024
+	End of 'DisplayRoundInfo'
+	Elapsed Time: 41 microseconds
+Start of 'GetTurnChoice' @ Sat Sep  7 22:14:32 2024
+	End of 'GetTurnChoice'
+	Elapsed Time: 435137 microseconds
+Start of 'D6' @ Sat Sep  7 22:14:33 2024
+Start of 'RandomNumber' @ Sat Sep  7 22:14:33 2024
+	End of 'RandomNumber'
+	Elapsed Time: 7 microseconds
+	End of 'D6'
+	Elapsed Time: 49 microseconds
+Start of 'DisplayRoundInfo' @ Sat Sep  7 22:14:33 2024
+	End of 'DisplayRoundInfo'
+	Elapsed Time: 18 microseconds
+Start of 'GetTurnChoice' @ Sat Sep  7 22:14:33 2024
+	End of 'GetTurnChoice'
+	Elapsed Time: 583121 microseconds
+Start of 'D6' @ Sat Sep  7 22:14:33 2024
+Start of 'RandomNumber' @ Sat Sep  7 22:14:33 2024
+	End of 'RandomNumber'
+	Elapsed Time: 8 microseconds
+	End of 'D6'
+	Elapsed Time: 61 microseconds
+Start of 'DisplayRoundInfo' @ Sat Sep  7 22:14:33 2024
+	End of 'DisplayRoundInfo'
+	Elapsed Time: 26 microseconds
+Start of 'GetTurnChoice' @ Sat Sep  7 22:14:33 2024
+	End of 'GetTurnChoice'
+	Elapsed Time: 403846 microseconds
+Start of 'D6' @ Sat Sep  7 22:14:34 2024
+Start of 'RandomNumber' @ Sat Sep  7 22:14:34 2024
+	End of 'RandomNumber'
+	Elapsed Time: 7 microseconds
+	End of 'D6'
+	Elapsed Time: 52 microseconds
+Start of 'DisplayRoundInfo' @ Sat Sep  7 22:14:34 2024
+	End of 'DisplayRoundInfo'
+	Elapsed Time: 18 microseconds
+Start of 'GetTurnChoice' @ Sat Sep  7 22:14:34 2024
+	End of 'GetTurnChoice'
+	Elapsed Time: 387460 microseconds
+Start of 'GetTurnChoice' @ Sat Sep  7 22:14:35 2024
+Start of 'D6' @ Sat Sep  7 22:14:35 2024
+Start of 'RandomNumber' @ Sat Sep  7 22:14:35 2024
+	End of 'RandomNumber'
+	Elapsed Time: 10 microseconds
+	End of 'D6'
+	Elapsed Time: 26 microseconds
+	End of 'GetTurnChoice'
+	Elapsed Time: 88 microseconds
+Start of 'DisplayRoundInfo' @ Sat Sep  7 22:14:35 2024
+	End of 'DisplayRoundInfo'
+	Elapsed Time: 44 microseconds
+Start of 'GetTurnChoice' @ Sat Sep  7 22:14:35 2024
+	End of 'GetTurnChoice'
+	Elapsed Time: 695733 microseconds
+Start of 'D6' @ Sat Sep  7 22:14:36 2024
+Start of 'RandomNumber' @ Sat Sep  7 22:14:36 2024
+	End of 'RandomNumber'
+	Elapsed Time: 7 microseconds
+	End of 'D6'
+	Elapsed Time: 47 microseconds
+Start of 'DisplayRoundInfo' @ Sat Sep  7 22:14:36 2024
+	End of 'DisplayRoundInfo'
+	Elapsed Time: 20 microseconds
+Start of 'GetTurnChoice' @ Sat Sep  7 22:14:36 2024
+	End of 'GetTurnChoice'
+	Elapsed Time: 404174 microseconds
+Start of 'D6' @ Sat Sep  7 22:14:36 2024
+Start of 'RandomNumber' @ Sat Sep  7 22:14:36 2024
+	End of 'RandomNumber'
+	Elapsed Time: 7 microseconds
+	End of 'D6'
+	Elapsed Time: 49 microseconds
+Start of 'DisplayRoundInfo' @ Sat Sep  7 22:14:36 2024
+	End of 'DisplayRoundInfo'
+	Elapsed Time: 28 microseconds
+Start of 'GetTurnChoice' @ Sat Sep  7 22:14:36 2024
+	End of 'GetTurnChoice'
+	Elapsed Time: 512494 microseconds
+Start of 'GetTurnChoice' @ Sat Sep  7 22:14:38 2024
+Start of 'D6' @ Sat Sep  7 22:14:38 2024
+Start of 'RandomNumber' @ Sat Sep  7 22:14:38 2024
+	End of 'RandomNumber'
+	Elapsed Time: 6 microseconds
+	End of 'D6'
+	Elapsed Time: 17 microseconds
+	End of 'GetTurnChoice'
+	Elapsed Time: 64 microseconds
+Start of 'DisplayRoundInfo' @ Sat Sep  7 22:14:38 2024
+	End of 'DisplayRoundInfo'
+	Elapsed Time: 19 microseconds
+Start of 'GetTurnChoice' @ Sat Sep  7 22:14:38 2024
+	End of 'GetTurnChoice'
+	Elapsed Time: 379756 microseconds
+Start of 'D6' @ Sat Sep  7 22:14:38 2024
+Start of 'RandomNumber' @ Sat Sep  7 22:14:38 2024
+	End of 'RandomNumber'
+	Elapsed Time: 7 microseconds
+	End of 'D6'
+	Elapsed Time: 45 microseconds
+Start of 'DisplayRoundInfo' @ Sat Sep  7 22:14:38 2024
+	End of 'DisplayRoundInfo'
+	Elapsed Time: 36 microseconds
+Start of 'GetTurnChoice' @ Sat Sep  7 22:14:38 2024
+	End of 'GetTurnChoice'
+	Elapsed Time: 419932 microseconds
+Start of 'D6' @ Sat Sep  7 22:14:39 2024
+Start of 'RandomNumber' @ Sat Sep  7 22:14:39 2024
+	End of 'RandomNumber'
+	Elapsed Time: 9 microseconds
+	End of 'D6'
+	Elapsed Time: 64 microseconds
+Start of 'GetTurnChoice' @ Sat Sep  7 22:14:40 2024
+Start of 'D6' @ Sat Sep  7 22:14:40 2024
+Start of 'RandomNumber' @ Sat Sep  7 22:14:40 2024
+	End of 'RandomNumber'
+	Elapsed Time: 6 microseconds
+	End of 'D6'
+	Elapsed Time: 17 microseconds
+	End of 'GetTurnChoice'
+	Elapsed Time: 67 microseconds
+Start of 'D6' @ Sat Sep  7 22:14:40 2024
+Start of 'RandomNumber' @ Sat Sep  7 22:14:40 2024
+	End of 'RandomNumber'
+	Elapsed Time: 6 microseconds
+	End of 'D6'
+	Elapsed Time: 15 microseconds
+Start of 'DisplayRoundInfo' @ Sat Sep  7 22:14:40 2024
+	End of 'DisplayRoundInfo'
+	Elapsed Time: 19 microseconds
+Start of 'GetTurnChoice' @ Sat Sep  7 22:14:40 2024
+Start of 'D6' @ Sat Sep  7 22:14:40 2024
+Start of 'RandomNumber' @ Sat Sep  7 22:14:40 2024
+	End of 'RandomNumber'
+	Elapsed Time: 7 microseconds
+	End of 'D6'
+	Elapsed Time: 15 microseconds
+	End of 'GetTurnChoice'
+	Elapsed Time: 23 microseconds
+Start of 'DisplayRoundInfo' @ Sat Sep  7 22:14:40 2024
+	End of 'DisplayRoundInfo'
+	Elapsed Time: 51 microseconds
+Start of 'GetTurnChoice' @ Sat Sep  7 22:14:40 2024
+	End of 'GetTurnChoice'
+	Elapsed Time: 583462 microseconds
+Start of 'D6' @ Sat Sep  7 22:14:40 2024
+Start of 'RandomNumber' @ Sat Sep  7 22:14:40 2024
+	End of 'RandomNumber'
+	Elapsed Time: 12 microseconds
+	End of 'D6'
+	Elapsed Time: 64 microseconds
+Start of 'DisplayRoundInfo' @ Sat Sep  7 22:14:40 2024
+	End of 'DisplayRoundInfo'
+	Elapsed Time: 139 microseconds
+Start of 'GetTurnChoice' @ Sat Sep  7 22:14:40 2024
+	End of 'GetTurnChoice'
+	Elapsed Time: 567045 microseconds
+Start of 'D6' @ Sat Sep  7 22:14:41 2024
+Start of 'RandomNumber' @ Sat Sep  7 22:14:41 2024
+	End of 'RandomNumber'
+	Elapsed Time: 13 microseconds
+	End of 'D6'
+	Elapsed Time: 67 microseconds
+Start of 'GetTurnChoice' @ Sat Sep  7 22:14:42 2024
+Start of 'D6' @ Sat Sep  7 22:14:42 2024
+Start of 'RandomNumber' @ Sat Sep  7 22:14:42 2024
+	End of 'RandomNumber'
+	Elapsed Time: 7 microseconds
+	End of 'D6'
+	Elapsed Time: 18 microseconds
+	End of 'GetTurnChoice'
+	Elapsed Time: 87 microseconds
+Start of 'DisplayRoundInfo' @ Sat Sep  7 22:14:42 2024
+	End of 'DisplayRoundInfo'
+	Elapsed Time: 31 microseconds
+Start of 'GetTurnChoice' @ Sat Sep  7 22:14:42 2024
+	End of 'GetTurnChoice'
+	Elapsed Time: 653420 microseconds
+Start of 'D6' @ Sat Sep  7 22:14:42 2024
+Start of 'RandomNumber' @ Sat Sep  7 22:14:42 2024
+	End of 'RandomNumber'
+	Elapsed Time: 3 microseconds
+	End of 'D6'
+	Elapsed Time: 34 microseconds
+Start of 'GetTurnChoice' @ Sat Sep  7 22:14:43 2024
+Start of 'D6' @ Sat Sep  7 22:14:43 2024
+Start of 'RandomNumber' @ Sat Sep  7 22:14:43 2024
+	End of 'RandomNumber'
+	Elapsed Time: 7 microseconds
+	End of 'D6'
+	Elapsed Time: 19 microseconds
+	End of 'GetTurnChoice'
+	Elapsed Time: 69 microseconds
+Start of 'D6' @ Sat Sep  7 22:14:43 2024
+Start of 'RandomNumber' @ Sat Sep  7 22:14:43 2024
+	End of 'RandomNumber'
+	Elapsed Time: 6 microseconds
+	End of 'D6'
+	Elapsed Time: 17 microseconds
+Start of 'DisplayRoundInfo' @ Sat Sep  7 22:14:43 2024
+	End of 'DisplayRoundInfo'
+	Elapsed Time: 24 microseconds
+Start of 'GetTurnChoice' @ Sat Sep  7 22:14:43 2024
+Start of 'D6' @ Sat Sep  7 22:14:43 2024
+Start of 'RandomNumber' @ Sat Sep  7 22:14:43 2024
+	End of 'RandomNumber'
+	Elapsed Time: 6 microseconds
+	End of 'D6'
+	Elapsed Time: 14 microseconds
+	End of 'GetTurnChoice'
+	Elapsed Time: 23 microseconds
+Start of 'DisplayRoundInfo' @ Sat Sep  7 22:14:43 2024
+	End of 'DisplayRoundInfo'
+	Elapsed Time: 23 microseconds
+Start of 'GetTurnChoice' @ Sat Sep  7 22:14:43 2024
+	End of 'GetTurnChoice'
+	Elapsed Time: 367750 microseconds
+Start of 'D6' @ Sat Sep  7 22:14:44 2024
+Start of 'RandomNumber' @ Sat Sep  7 22:14:44 2024
+	End of 'RandomNumber'
+	Elapsed Time: 10 microseconds
+	End of 'D6'
+	Elapsed Time: 60 microseconds
+Start of 'DisplayRoundInfo' @ Sat Sep  7 22:14:44 2024
+	End of 'DisplayRoundInfo'
+	Elapsed Time: 31 microseconds
+Start of 'GetTurnChoice' @ Sat Sep  7 22:14:44 2024
+	End of 'GetTurnChoice'
+	Elapsed Time: 707554 microseconds
+Start of 'D6' @ Sat Sep  7 22:14:44 2024
+Start of 'RandomNumber' @ Sat Sep  7 22:14:44 2024
+	End of 'RandomNumber'
+	Elapsed Time: 7 microseconds
+	End of 'D6'
+	Elapsed Time: 48 microseconds
+Start of 'DisplayRoundInfo' @ Sat Sep  7 22:14:44 2024
+	End of 'DisplayRoundInfo'
+	Elapsed Time: 24 microseconds
+Start of 'GetTurnChoice' @ Sat Sep  7 22:14:44 2024
+	End of 'GetTurnChoice'
+	Elapsed Time: 446690 microseconds
+Start of 'GetTurnChoice' @ Sat Sep  7 22:14:46 2024
+Start of 'D6' @ Sat Sep  7 22:14:46 2024
+Start of 'RandomNumber' @ Sat Sep  7 22:14:46 2024
+	End of 'RandomNumber'
+	Elapsed Time: 7 microseconds
+	End of 'D6'
+	Elapsed Time: 20 microseconds
+	End of 'GetTurnChoice'
+	Elapsed Time: 72 microseconds
+Start of 'DisplayRoundInfo' @ Sat Sep  7 22:14:46 2024
+	End of 'DisplayRoundInfo'
+	Elapsed Time: 46 microseconds
+Start of 'GetTurnChoice' @ Sat Sep  7 22:14:46 2024
+	End of 'GetTurnChoice'
+	Elapsed Time: 637803 microseconds
+Start of 'D6' @ Sat Sep  7 22:14:47 2024
+Start of 'RandomNumber' @ Sat Sep  7 22:14:47 2024
+	End of 'RandomNumber'
+	Elapsed Time: 13 microseconds
+	End of 'D6'
+	Elapsed Time: 67 microseconds
+Start of 'DisplayRoundInfo' @ Sat Sep  7 22:14:47 2024
+	End of 'DisplayRoundInfo'
+	Elapsed Time: 34 microseconds
+Start of 'GetTurnChoice' @ Sat Sep  7 22:14:47 2024
+	End of 'GetTurnChoice'
+	Elapsed Time: 456739 microseconds
+Start of 'D6' @ Sat Sep  7 22:14:47 2024
+Start of 'RandomNumber' @ Sat Sep  7 22:14:47 2024
+	End of 'RandomNumber'
+	Elapsed Time: 8 microseconds
+	End of 'D6'
+	Elapsed Time: 63 microseconds
+Start of 'DisplayRoundInfo' @ Sat Sep  7 22:14:47 2024
+	End of 'DisplayRoundInfo'
+	Elapsed Time: 42 microseconds
+Start of 'GetTurnChoice' @ Sat Sep  7 22:14:47 2024
+	End of 'GetTurnChoice'
+	Elapsed Time: 363156 microseconds
+Start of 'GetTurnChoice' @ Sat Sep  7 22:14:48 2024
+Start of 'D6' @ Sat Sep  7 22:14:48 2024
+Start of 'RandomNumber' @ Sat Sep  7 22:14:48 2024
+	End of 'RandomNumber'
+	Elapsed Time: 7 microseconds
+	End of 'D6'
+	Elapsed Time: 21 microseconds
+	End of 'GetTurnChoice'
+	Elapsed Time: 127 microseconds
+Start of 'DisplayRoundInfo' @ Sat Sep  7 22:14:48 2024
+	End of 'DisplayRoundInfo'
+	Elapsed Time: 24 microseconds
+Start of 'GetTurnChoice' @ Sat Sep  7 22:14:48 2024
+	End of 'GetTurnChoice'
+	Elapsed Time: 539579 microseconds
+Start of 'D6' @ Sat Sep  7 22:14:49 2024
+Start of 'RandomNumber' @ Sat Sep  7 22:14:49 2024
+	End of 'RandomNumber'
+	Elapsed Time: 20 microseconds
+	End of 'D6'
+	Elapsed Time: 86 microseconds
+Start of 'DisplayRoundInfo' @ Sat Sep  7 22:14:49 2024
+	End of 'DisplayRoundInfo'
+	Elapsed Time: 43 microseconds
+Start of 'GetTurnChoice' @ Sat Sep  7 22:14:49 2024
+	End of 'GetTurnChoice'
+	Elapsed Time: 531694 microseconds
+Start of 'D6' @ Sat Sep  7 22:14:49 2024
+Start of 'RandomNumber' @ Sat Sep  7 22:14:49 2024
+	End of 'RandomNumber'
+	Elapsed Time: 7 microseconds
+	End of 'D6'
+	Elapsed Time: 48 microseconds
+Start of 'DisplayRoundInfo' @ Sat Sep  7 22:14:49 2024
+	End of 'DisplayRoundInfo'
+	Elapsed Time: 20 microseconds
+Start of 'GetTurnChoice' @ Sat Sep  7 22:14:49 2024
+	End of 'GetTurnChoice'
+	Elapsed Time: 451088 microseconds
+Start of 'D6' @ Sat Sep  7 22:14:50 2024
+Start of 'RandomNumber' @ Sat Sep  7 22:14:50 2024
+	End of 'RandomNumber'
+	Elapsed Time: 8 microseconds
+	End of 'D6'
+	Elapsed Time: 51 microseconds
+Start of 'DisplayRoundInfo' @ Sat Sep  7 22:14:50 2024
+	End of 'DisplayRoundInfo'
+	Elapsed Time: 35 microseconds
+Start of 'GetTurnChoice' @ Sat Sep  7 22:14:50 2024
+	End of 'GetTurnChoice'
+	Elapsed Time: 407442 microseconds
+Start of 'GetTurnChoice' @ Sat Sep  7 22:14:51 2024
+Start of 'D6' @ Sat Sep  7 22:14:51 2024
+Start of 'RandomNumber' @ Sat Sep  7 22:14:51 2024
+	End of 'RandomNumber'
+	Elapsed Time: 6 microseconds
+	End of 'D6'
+	Elapsed Time: 17 microseconds
+	End of 'GetTurnChoice'
+	Elapsed Time: 64 microseconds
+Start of 'D6' @ Sat Sep  7 22:14:51 2024
+Start of 'RandomNumber' @ Sat Sep  7 22:14:51 2024
+	End of 'RandomNumber'
+	Elapsed Time: 5 microseconds
+	End of 'D6'
+	Elapsed Time: 14 microseconds
+Start of 'DisplayRoundInfo' @ Sat Sep  7 22:14:51 2024
+	End of 'DisplayRoundInfo'
+	Elapsed Time: 17 microseconds
+Start of 'GetTurnChoice' @ Sat Sep  7 22:14:51 2024
+Start of 'D6' @ Sat Sep  7 22:14:51 2024
+Start of 'RandomNumber' @ Sat Sep  7 22:14:51 2024
+	End of 'RandomNumber'
+	Elapsed Time: 5 microseconds
+	End of 'D6'
+	Elapsed Time: 12 microseconds
+	End of 'GetTurnChoice'
+	Elapsed Time: 19 microseconds
+Start of 'DisplayRoundInfo' @ Sat Sep  7 22:14:51 2024
+	End of 'DisplayRoundInfo'
+	Elapsed Time: 17 microseconds
+Start of 'GetTurnChoice' @ Sat Sep  7 22:14:51 2024
+	End of 'GetTurnChoice'
+	Elapsed Time: 632217 microseconds
+Start of 'D6' @ Sat Sep  7 22:14:52 2024
+Start of 'RandomNumber' @ Sat Sep  7 22:14:52 2024
+	End of 'RandomNumber'
+	Elapsed Time: 8 microseconds
+	End of 'D6'
+	Elapsed Time: 52 microseconds
+Start of 'GetTurnChoice' @ Sat Sep  7 22:14:53 2024
+Start of 'D6' @ Sat Sep  7 22:14:53 2024
+Start of 'RandomNumber' @ Sat Sep  7 22:14:53 2024
+	End of 'RandomNumber'
+	Elapsed Time: 6 microseconds
+	End of 'D6'
+	Elapsed Time: 17 microseconds
+	End of 'GetTurnChoice'
+	Elapsed Time: 73 microseconds
+Start of 'DisplayRoundInfo' @ Sat Sep  7 22:14:53 2024
+	End of 'DisplayRoundInfo'
+	Elapsed Time: 20 microseconds
+Start of 'GetTurnChoice' @ Sat Sep  7 22:14:53 2024
+	End of 'GetTurnChoice'
+	Elapsed Time: 644303 microseconds
+Start of 'D6' @ Sat Sep  7 22:14:54 2024
+Start of 'RandomNumber' @ Sat Sep  7 22:14:54 2024
+	End of 'RandomNumber'
+	Elapsed Time: 8 microseconds
+	End of 'D6'
+	Elapsed Time: 65 microseconds
+Start of 'DisplayRoundInfo' @ Sat Sep  7 22:14:54 2024
+	End of 'DisplayRoundInfo'
+	Elapsed Time: 119 microseconds
+Start of 'GetTurnChoice' @ Sat Sep  7 22:14:54 2024
+	End of 'GetTurnChoice'
+	Elapsed Time: 444066 microseconds
+Start of 'D6' @ Sat Sep  7 22:14:54 2024
+Start of 'RandomNumber' @ Sat Sep  7 22:14:54 2024
+	End of 'RandomNumber'
+	Elapsed Time: 7 microseconds
+	End of 'D6'
+	Elapsed Time: 47 microseconds
+Start of 'DisplayRoundInfo' @ Sat Sep  7 22:14:54 2024
+	End of 'DisplayRoundInfo'
+	Elapsed Time: 23 microseconds
+Start of 'GetTurnChoice' @ Sat Sep  7 22:14:54 2024
+	End of 'GetTurnChoice'
+	Elapsed Time: 374942 microseconds
+Start of 'D6' @ Sat Sep  7 22:14:54 2024
+Start of 'RandomNumber' @ Sat Sep  7 22:14:54 2024
+	End of 'RandomNumber'
+	Elapsed Time: 8 microseconds
+	End of 'D6'
+	Elapsed Time: 53 microseconds
+Start of 'DisplayRoundInfo' @ Sat Sep  7 22:14:54 2024
+	End of 'DisplayRoundInfo'
+	Elapsed Time: 18 microseconds
+Start of 'GetTurnChoice' @ Sat Sep  7 22:14:54 2024
+	End of 'GetTurnChoice'
+	Elapsed Time: 316220 microseconds
+Start of 'GetTurnChoice' @ Sat Sep  7 22:14:56 2024
+Start of 'D6' @ Sat Sep  7 22:14:56 2024
+Start of 'RandomNumber' @ Sat Sep  7 22:14:56 2024
+	End of 'RandomNumber'
+	Elapsed Time: 6 microseconds
+	End of 'D6'
+	Elapsed Time: 17 microseconds
+	End of 'GetTurnChoice'
+	Elapsed Time: 68 microseconds
+Start of 'DisplayRoundInfo' @ Sat Sep  7 22:14:56 2024
+	End of 'DisplayRoundInfo'
+	Elapsed Time: 19 microseconds
+Start of 'GetTurnChoice' @ Sat Sep  7 22:14:56 2024
+	End of 'GetTurnChoice'
+	Elapsed Time: 359575 microseconds
+Start of 'D6' @ Sat Sep  7 22:14:56 2024
+Start of 'RandomNumber' @ Sat Sep  7 22:14:56 2024
+	End of 'RandomNumber'
+	Elapsed Time: 8 microseconds
+	End of 'D6'
+	Elapsed Time: 53 microseconds
+Start of 'DisplayRoundInfo' @ Sat Sep  7 22:14:56 2024
+	End of 'DisplayRoundInfo'
+	Elapsed Time: 20 microseconds
+Start of 'GetTurnChoice' @ Sat Sep  7 22:14:56 2024
+	End of 'GetTurnChoice'
+	Elapsed Time: 465264 microseconds
+Start of 'D6' @ Sat Sep  7 22:14:57 2024
+Start of 'RandomNumber' @ Sat Sep  7 22:14:57 2024
+	End of 'RandomNumber'
+	Elapsed Time: 13 microseconds
+	End of 'D6'
+	Elapsed Time: 67 microseconds
+Start of 'DisplayRoundInfo' @ Sat Sep  7 22:14:57 2024
+	End of 'DisplayRoundInfo'
+	Elapsed Time: 33 microseconds
+Start of 'GetTurnChoice' @ Sat Sep  7 22:14:57 2024
+	End of 'GetTurnChoice'
+	Elapsed Time: 321064 microseconds
+Start of 'D6' @ Sat Sep  7 22:14:57 2024
+Start of 'RandomNumber' @ Sat Sep  7 22:14:57 2024
+	End of 'RandomNumber'
+	Elapsed Time: 8 microseconds
+	End of 'D6'
+	Elapsed Time: 59 microseconds
+Start of 'DisplayRoundInfo' @ Sat Sep  7 22:14:57 2024
+	End of 'DisplayRoundInfo'
+	Elapsed Time: 30 microseconds
+Start of 'GetTurnChoice' @ Sat Sep  7 22:14:57 2024
+	End of 'GetTurnChoice'
+	Elapsed Time: 328601 microseconds
+Start of 'GetTurnChoice' @ Sat Sep  7 22:14:58 2024
+Start of 'D6' @ Sat Sep  7 22:14:58 2024
+Start of 'RandomNumber' @ Sat Sep  7 22:14:58 2024
+	End of 'RandomNumber'
+	Elapsed Time: 7 microseconds
+	End of 'D6'
+	Elapsed Time: 20 microseconds
+	End of 'GetTurnChoice'
+	Elapsed Time: 76 microseconds
+Start of 'D6' @ Sat Sep  7 22:14:58 2024
+Start of 'RandomNumber' @ Sat Sep  7 22:14:58 2024
+	End of 'RandomNumber'
+	Elapsed Time: 12 microseconds
+	End of 'D6'
+	Elapsed Time: 29 microseconds
+Start of 'DisplayRoundInfo' @ Sat Sep  7 22:14:58 2024
+	End of 'DisplayRoundInfo'
+	Elapsed Time: 41 microseconds
+Start of 'GetTurnChoice' @ Sat Sep  7 22:14:58 2024
+Start of 'D6' @ Sat Sep  7 22:14:58 2024
+Start of 'RandomNumber' @ Sat Sep  7 22:14:58 2024
+	End of 'RandomNumber'
+	Elapsed Time: 7 microseconds
+	End of 'D6'
+	Elapsed Time: 16 microseconds
+	End of 'GetTurnChoice'
+	Elapsed Time: 29 microseconds
+Start of 'DisplayRoundInfo' @ Sat Sep  7 22:14:58 2024
+	End of 'DisplayRoundInfo'
+	Elapsed Time: 31 microseconds
+Start of 'GetTurnChoice' @ Sat Sep  7 22:14:58 2024
+	End of 'GetTurnChoice'
+	Elapsed Time: 265102 microseconds
+Start of 'D6' @ Sat Sep  7 22:14:58 2024
+Start of 'RandomNumber' @ Sat Sep  7 22:14:58 2024
+	End of 'RandomNumber'
+	Elapsed Time: 8 microseconds
+	End of 'D6'
+	Elapsed Time: 54 microseconds
+Start of 'DisplayRoundInfo' @ Sat Sep  7 22:14:58 2024
+	End of 'DisplayRoundInfo'
+	Elapsed Time: 18 microseconds
+Start of 'GetTurnChoice' @ Sat Sep  7 22:14:58 2024
+	End of 'GetTurnChoice'
+	Elapsed Time: 436053 microseconds
+Start of 'D6' @ Sat Sep  7 22:14:59 2024
+Start of 'RandomNumber' @ Sat Sep  7 22:14:59 2024
+	End of 'RandomNumber'
+	Elapsed Time: 7 microseconds
+	End of 'D6'
+	Elapsed Time: 61 microseconds
+Start of 'DisplayRoundInfo' @ Sat Sep  7 22:14:59 2024
+	End of 'DisplayRoundInfo'
+	Elapsed Time: 18 microseconds
+Start of 'GetTurnChoice' @ Sat Sep  7 22:14:59 2024
+	End of 'GetTurnChoice'
+	Elapsed Time: 430657 microseconds
+Start of 'D6' @ Sat Sep  7 22:14:59 2024
+Start of 'RandomNumber' @ Sat Sep  7 22:14:59 2024
+	End of 'RandomNumber'
+	Elapsed Time: 8 microseconds
+	End of 'D6'
+	Elapsed Time: 76 microseconds
+Start of 'DisplayRoundInfo' @ Sat Sep  7 22:14:59 2024
+	End of 'DisplayRoundInfo'
+	Elapsed Time: 44 microseconds
+Start of 'GetTurnChoice' @ Sat Sep  7 22:14:59 2024
+	End of 'GetTurnChoice'
+	Elapsed Time: 363787 microseconds
+Start of 'GetTurnChoice' @ Sat Sep  7 22:15:01 2024
+Start of 'D6' @ Sat Sep  7 22:15:01 2024
+Start of 'RandomNumber' @ Sat Sep  7 22:15:01 2024
+	End of 'RandomNumber'
+	Elapsed Time: 6 microseconds
+	End of 'D6'
+	Elapsed Time: 18 microseconds
+	End of 'GetTurnChoice'
+	Elapsed Time: 78 microseconds
+Start of 'D6' @ Sat Sep  7 22:15:01 2024
+Start of 'RandomNumber' @ Sat Sep  7 22:15:01 2024
+	End of 'RandomNumber'
+	Elapsed Time: 10 microseconds
+	End of 'D6'
+	Elapsed Time: 24 microseconds
+Start of 'DisplayRoundInfo' @ Sat Sep  7 22:15:01 2024
+	End of 'DisplayRoundInfo'
+	Elapsed Time: 37 microseconds
+Start of 'GetTurnChoice' @ Sat Sep  7 22:15:01 2024
+Start of 'D6' @ Sat Sep  7 22:15:01 2024
+Start of 'RandomNumber' @ Sat Sep  7 22:15:01 2024
+	End of 'RandomNumber'
+	Elapsed Time: 6 microseconds
+	End of 'D6'
+	Elapsed Time: 13 microseconds
+	End of 'GetTurnChoice'
+	Elapsed Time: 25 microseconds
+Start of 'D6' @ Sat Sep  7 22:15:01 2024
+Start of 'RandomNumber' @ Sat Sep  7 22:15:01 2024
+	End of 'RandomNumber'
+	Elapsed Time: 6 microseconds
+	End of 'D6'
+	Elapsed Time: 13 microseconds
+Start of 'DisplayRoundInfo' @ Sat Sep  7 22:15:01 2024
+	End of 'DisplayRoundInfo'
+	Elapsed Time: 26 microseconds
+Start of 'GetTurnChoice' @ Sat Sep  7 22:15:01 2024
+Start of 'D6' @ Sat Sep  7 22:15:01 2024
+Start of 'RandomNumber' @ Sat Sep  7 22:15:01 2024
+	End of 'RandomNumber'
+	Elapsed Time: 6 microseconds
+	End of 'D6'
+	Elapsed Time: 16 microseconds
+	End of 'GetTurnChoice'
+	Elapsed Time: 29 microseconds
+Start of 'D6' @ Sat Sep  7 22:15:01 2024
+Start of 'RandomNumber' @ Sat Sep  7 22:15:01 2024
+	End of 'RandomNumber'
+	Elapsed Time: 6 microseconds
+	End of 'D6'
+	Elapsed Time: 13 microseconds
+Start of 'DisplayRoundInfo' @ Sat Sep  7 22:15:01 2024
+	End of 'DisplayRoundInfo'
+	Elapsed Time: 17 microseconds
+Start of 'GetTurnChoice' @ Sat Sep  7 22:15:01 2024
+Start of 'D6' @ Sat Sep  7 22:15:01 2024
+Start of 'RandomNumber' @ Sat Sep  7 22:15:01 2024
+	End of 'RandomNumber'
+	Elapsed Time: 6 microseconds
+	End of 'D6'
+	Elapsed Time: 13 microseconds
+	End of 'GetTurnChoice'
+	Elapsed Time: 21 microseconds
+Start of 'D6' @ Sat Sep  7 22:15:01 2024
+Start of 'RandomNumber' @ Sat Sep  7 22:15:01 2024
+	End of 'RandomNumber'
+	Elapsed Time: 7 microseconds
+	End of 'D6'
+	Elapsed Time: 15 microseconds
+Start of 'DisplayRoundInfo' @ Sat Sep  7 22:15:01 2024
+	End of 'DisplayRoundInfo'
+	Elapsed Time: 28 microseconds
+Start of 'GetTurnChoice' @ Sat Sep  7 22:15:01 2024
+Start of 'D6' @ Sat Sep  7 22:15:01 2024
+Start of 'RandomNumber' @ Sat Sep  7 22:15:01 2024
+	End of 'RandomNumber'
+	Elapsed Time: 6 microseconds
+	End of 'D6'
+	Elapsed Time: 14 microseconds
+	End of 'GetTurnChoice'
+	Elapsed Time: 29 microseconds
+Start of 'D6' @ Sat Sep  7 22:15:01 2024
+Start of 'RandomNumber' @ Sat Sep  7 22:15:01 2024
+	End of 'RandomNumber'
+	Elapsed Time: 9 microseconds
+	End of 'D6'
+	Elapsed Time: 25 microseconds
+Start of 'DisplayRoundInfo' @ Sat Sep  7 22:15:01 2024
+	End of 'DisplayRoundInfo'
+	Elapsed Time: 33 microseconds
+Start of 'GetTurnChoice' @ Sat Sep  7 22:15:01 2024
+Start of 'D6' @ Sat Sep  7 22:15:01 2024
+Start of 'RandomNumber' @ Sat Sep  7 22:15:01 2024
+	End of 'RandomNumber'
+	Elapsed Time: 14 microseconds
+	End of 'D6'
+	Elapsed Time: 210 microseconds
+	End of 'GetTurnChoice'
+	Elapsed Time: 228 microseconds
+Start of 'D6' @ Sat Sep  7 22:15:01 2024
+Start of 'RandomNumber' @ Sat Sep  7 22:15:01 2024
+	End of 'RandomNumber'
+	Elapsed Time: 17 microseconds
+	End of 'D6'
+	Elapsed Time: 42 microseconds
+Start of 'DisplayRoundInfo' @ Sat Sep  7 22:15:01 2024
+	End of 'DisplayRoundInfo'
+	Elapsed Time: 50 microseconds
+Start of 'GetTurnChoice' @ Sat Sep  7 22:15:01 2024
+Start of 'D6' @ Sat Sep  7 22:15:01 2024
+Start of 'RandomNumber' @ Sat Sep  7 22:15:01 2024
+	End of 'RandomNumber'
+	Elapsed Time: 17 microseconds
+	End of 'D6'
+	Elapsed Time: 42 microseconds
+	End of 'GetTurnChoice'
+	Elapsed Time: 59 microseconds
+Start of 'D6' @ Sat Sep  7 22:15:01 2024
+Start of 'RandomNumber' @ Sat Sep  7 22:15:01 2024
+	End of 'RandomNumber'
+	Elapsed Time: 14 microseconds
+	End of 'D6'
+	Elapsed Time: 40 microseconds
+Start of 'DisplayRoundInfo' @ Sat Sep  7 22:15:01 2024
+	End of 'DisplayRoundInfo'
+	Elapsed Time: 52 microseconds
+Start of 'GetTurnChoice' @ Sat Sep  7 22:15:01 2024
+Start of 'D6' @ Sat Sep  7 22:15:01 2024
+Start of 'RandomNumber' @ Sat Sep  7 22:15:01 2024
+	End of 'RandomNumber'
+	Elapsed Time: 18 microseconds
+	End of 'D6'
+	Elapsed Time: 36 microseconds
+	End of 'GetTurnChoice'
+	Elapsed Time: 60 microseconds
+Start of 'DisplayRoundInfo' @ Sat Sep  7 22:15:01 2024
+	End of 'DisplayRoundInfo'
+	Elapsed Time: 45 microseconds
+Start of 'GetTurnChoice' @ Sat Sep  7 22:15:01 2024
+	End of 'GetTurnChoice'
+	Elapsed Time: 368109 microseconds
+Start of 'D6' @ Sat Sep  7 22:15:01 2024
+Start of 'RandomNumber' @ Sat Sep  7 22:15:01 2024
+	End of 'RandomNumber'
+	Elapsed Time: 12 microseconds
+	End of 'D6'
+	Elapsed Time: 76 microseconds
+Start of 'DisplayRoundInfo' @ Sat Sep  7 22:15:01 2024
+	End of 'DisplayRoundInfo'
+	Elapsed Time: 36 microseconds
+Start of 'GetTurnChoice' @ Sat Sep  7 22:15:01 2024
+	End of 'GetTurnChoice'
+	Elapsed Time: 328805 microseconds
+Start of 'D6' @ Sat Sep  7 22:15:01 2024
+Start of 'RandomNumber' @ Sat Sep  7 22:15:01 2024
+	End of 'RandomNumber'
+	Elapsed Time: 12 microseconds
+	End of 'D6'
+	Elapsed Time: 83 microseconds
+Start of 'DisplayRoundInfo' @ Sat Sep  7 22:15:01 2024
+	End of 'DisplayRoundInfo'
+	Elapsed Time: 28 microseconds
+Start of 'GetTurnChoice' @ Sat Sep  7 22:15:01 2024
+	End of 'GetTurnChoice'
+	Elapsed Time: 303890 microseconds
+Start of 'D6' @ Sat Sep  7 22:15:02 2024
+Start of 'RandomNumber' @ Sat Sep  7 22:15:02 2024
+	End of 'RandomNumber'
+	Elapsed Time: 3 microseconds
+	End of 'D6'
+	Elapsed Time: 36 microseconds
+Start of 'DisplayRoundInfo' @ Sat Sep  7 22:15:02 2024
+	End of 'DisplayRoundInfo'
+	Elapsed Time: 9 microseconds
+Start of 'GetTurnChoice' @ Sat Sep  7 22:15:02 2024
+	End of 'GetTurnChoice'
+	Elapsed Time: 354091 microseconds
+Start of 'GetTurnChoice' @ Sat Sep  7 22:15:03 2024
+Start of 'D6' @ Sat Sep  7 22:15:03 2024
+Start of 'RandomNumber' @ Sat Sep  7 22:15:03 2024
+	End of 'RandomNumber'
+	Elapsed Time: 7 microseconds
+	End of 'D6'
+	Elapsed Time: 19 microseconds
+	End of 'GetTurnChoice'
+	Elapsed Time: 78 microseconds
+Start of 'DisplayRoundInfo' @ Sat Sep  7 22:15:03 2024
+	End of 'DisplayRoundInfo'
+	Elapsed Time: 21 microseconds
+Start of 'GetTurnChoice' @ Sat Sep  7 22:15:03 2024
+	End of 'GetTurnChoice'
+	Elapsed Time: 418919 microseconds
+Start of 'D6' @ Sat Sep  7 22:15:03 2024
+Start of 'RandomNumber' @ Sat Sep  7 22:15:03 2024
+	End of 'RandomNumber'
+	Elapsed Time: 8 microseconds
+	End of 'D6'
+	Elapsed Time: 52 microseconds
+Start of 'DisplayRoundInfo' @ Sat Sep  7 22:15:03 2024
+	End of 'DisplayRoundInfo'
+	Elapsed Time: 35 microseconds
+Start of 'GetTurnChoice' @ Sat Sep  7 22:15:03 2024
+	End of 'GetTurnChoice'
+	Elapsed Time: 442696 microseconds
+Start of 'D6' @ Sat Sep  7 22:15:04 2024
+Start of 'RandomNumber' @ Sat Sep  7 22:15:04 2024
+	End of 'RandomNumber'
+	Elapsed Time: 8 microseconds
+	End of 'D6'
+	Elapsed Time: 51 microseconds
+Start of 'DisplayRoundInfo' @ Sat Sep  7 22:15:04 2024
+	End of 'DisplayRoundInfo'
+	Elapsed Time: 45 microseconds
+Start of 'GetTurnChoice' @ Sat Sep  7 22:15:04 2024
+	End of 'GetTurnChoice'
+	Elapsed Time: 489345 microseconds
+Start of 'GetTurnChoice' @ Sat Sep  7 22:15:05 2024
+Start of 'D6' @ Sat Sep  7 22:15:05 2024
+Start of 'RandomNumber' @ Sat Sep  7 22:15:05 2024
+	End of 'RandomNumber'
+	Elapsed Time: 9 microseconds
+	End of 'D6'
+	Elapsed Time: 26 microseconds
+	End of 'GetTurnChoice'
+	Elapsed Time: 86 microseconds
+	End of 'Gameloop'
+	Elapsed Time: 40458410 microseconds
+Start of 'push' @ Sat Sep  7 22:15:05 2024
+Start of 'is_full' @ Sat Sep  7 22:15:05 2024
+	End of 'is_full'
+	Elapsed Time: 8 microseconds
+	End of 'push'
+	Elapsed Time: 22 microseconds
+Start of 'display_stack' @ Sat Sep  7 22:15:08 2024
+Start of 'peek' @ Sat Sep  7 22:15:08 2024
+	End of 'peek'
+	Elapsed Time: 12 microseconds
+	End of 'display_stack'
+	Elapsed Time: 96 microseconds
+	End of 'main'
+	Elapsed Time: 47353756 microseconds
