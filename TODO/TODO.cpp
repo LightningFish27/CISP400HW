@@ -184,6 +184,14 @@ struct TODO {
     std::string description;
     TODO(int id, Date date, const std::string& desc) : ID(id), dateAdded(date), description(desc) {}
     // Specification A4 - Overload Constructor
+    /*
+        Note that most of the instructions included within Spec A4 are within the main
+        function while getting input. If the user enters only the '+' command, and 
+        no arguments, a dummy is created. Otherwise, a real TODO is made
+        I put the Specification here because it made more sense given the *name* of the
+        Spec, even if not most of the contents. It also allows my TODO struct to hold 
+        5 Specs, which is fun.
+    */
     TODO(){
         ID = -2;
         dateAdded = Date(1,1,1111);
@@ -205,8 +213,9 @@ struct TODO {
         os << todo.ID << '\t' << todo.description << '\t' << todo.dateAdded.get_date() ;
         return os;
     }
-    friend std::istream& operator>>(std::istream& os, TODO& todo){
-
+    // Specification C2 - Overload >>
+    friend std::istream& operator>>(std::istream& is, TODO& todo){
+        return is;
     }
 
     void ComponentTest(){
@@ -218,6 +227,14 @@ struct TODO {
         std::cout << "Testing assignment operator with dummy and test.\n";
         test = dummy;
         std::cout << "New values of test: " << test << '\n';
+        // Specification C3 - Test TODO’s
+        std::cout << "Now creating 5 unique TODOs to see the general format.\n";
+        TODO t0 = TODO(1, Date(), "First test TODO.");
+        TODO t1 = TODO(2, Date(), "Second test TODO.");
+        TODO t2 = TODO(3, Date(), "Third test TODO.");
+        TODO t3 = TODO(4, Date(), "Fourth test TODO.");
+        TODO t4 = TODO(5, Date(), "Fifth test TODO.");
+        std::cout << t0 << '\n' << t1 << '\n' << t2 << '\n' << t3 << '\n' << t4 << '\n' << '\n';
         std::cout << "Finished component testing of TODO object.\n";
     }
 };

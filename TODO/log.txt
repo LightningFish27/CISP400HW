@@ -1,1152 +1,227 @@
-Start of 'main' @ Tue Oct  1 21:29:04 2024
-	Start of 'Date Constructor' @ Tue Oct  1 21:29:04 2024
-	Elapsed Time: 11 microseconds
-	End of 'Date Constructor'
-------------------------------
-	Start of 'Date specific constructor' @ Tue Oct  1 21:29:04 2024
-	Elapsed Time: 4 microseconds
-	End of 'Date specific constructor'
-------------------------------
-	Start of 'Date Constructor' @ Tue Oct  1 21:29:04 2024
-	Elapsed Time: 7 microseconds
-	End of 'Date Constructor'
-------------------------------
-	Start of 'Date specific constructor' @ Tue Oct  1 21:29:04 2024
-	Elapsed Time: 3 microseconds
-	End of 'Date specific constructor'
-------------------------------
-	Start of 'get_date' @ Tue Oct  1 21:29:04 2024
-	Elapsed Time: 15 microseconds
-	End of 'get_date'
-------------------------------
-	Start of 'Date Constructor' @ Tue Oct  1 21:29:04 2024
-	Elapsed Time: 7 microseconds
-	End of 'Date Constructor'
-------------------------------
-	Start of 'get_date' @ Tue Oct  1 21:29:04 2024
-	Elapsed Time: 5 microseconds
-	End of 'get_date'
-------------------------------
-	Start of 'get_date' @ Tue Oct  1 21:29:04 2024
-	Elapsed Time: 5 microseconds
-	End of 'get_date'
-------------------------------
-	Start of 'Date Constructor' @ Tue Oct  1 21:29:04 2024
+Start of 'main' @ Tue Oct  1 21:36:56 2024
+	Start of 'Date Constructor' @ Tue Oct  1 21:36:56 2024
 	Elapsed Time: 6 microseconds
 	End of 'Date Constructor'
 ------------------------------
-	Start of 'date ComponentTest' @ Tue Oct  1 21:29:04 2024
+	Start of 'Date specific constructor' @ Tue Oct  1 21:36:56 2024
+	Elapsed Time: 2 microseconds
+	End of 'Date specific constructor'
+------------------------------
+	Start of 'Date Constructor' @ Tue Oct  1 21:36:56 2024
+	Elapsed Time: 4 microseconds
+	End of 'Date Constructor'
+------------------------------
+	Start of 'Date specific constructor' @ Tue Oct  1 21:36:56 2024
+	Elapsed Time: 2 microseconds
+	End of 'Date specific constructor'
+------------------------------
+	Start of 'get_date' @ Tue Oct  1 21:36:56 2024
+	Elapsed Time: 12 microseconds
+	End of 'get_date'
+------------------------------
+	Start of 'Date Constructor' @ Tue Oct  1 21:36:56 2024
+	Elapsed Time: 6 microseconds
+	End of 'Date Constructor'
+------------------------------
+	Start of 'get_date' @ Tue Oct  1 21:36:56 2024
+	Elapsed Time: 3 microseconds
+	End of 'get_date'
+------------------------------
+	Start of 'get_date' @ Tue Oct  1 21:36:56 2024
+	Elapsed Time: 4 microseconds
+	End of 'get_date'
+------------------------------
+	Start of 'Date Constructor' @ Tue Oct  1 21:36:56 2024
+	Elapsed Time: 5 microseconds
+	End of 'Date Constructor'
+------------------------------
+	Start of 'Date Constructor' @ Tue Oct  1 21:36:56 2024
+	Elapsed Time: 5 microseconds
+	End of 'Date Constructor'
+------------------------------
+	Start of 'Date Constructor' @ Tue Oct  1 21:36:56 2024
+	Elapsed Time: 5 microseconds
+	End of 'Date Constructor'
+------------------------------
+	Start of 'Date Constructor' @ Tue Oct  1 21:36:56 2024
+	Elapsed Time: 4 microseconds
+	End of 'Date Constructor'
+------------------------------
+	Start of 'Date Constructor' @ Tue Oct  1 21:36:56 2024
+	Elapsed Time: 5 microseconds
+	End of 'Date Constructor'
+------------------------------
+	Start of 'get_date' @ Tue Oct  1 21:36:56 2024
+	Elapsed Time: 4 microseconds
+	End of 'get_date'
+------------------------------
+	Start of 'get_date' @ Tue Oct  1 21:36:56 2024
+	Elapsed Time: 4 microseconds
+	End of 'get_date'
+------------------------------
+	Start of 'get_date' @ Tue Oct  1 21:36:56 2024
+	Elapsed Time: 4 microseconds
+	End of 'get_date'
+------------------------------
+	Start of 'get_date' @ Tue Oct  1 21:36:56 2024
+	Elapsed Time: 3 microseconds
+	End of 'get_date'
+------------------------------
+	Start of 'get_date' @ Tue Oct  1 21:36:56 2024
+	Elapsed Time: 3 microseconds
+	End of 'get_date'
+------------------------------
+	Start of 'Date Constructor' @ Tue Oct  1 21:36:56 2024
+	Elapsed Time: 5 microseconds
+	End of 'Date Constructor'
+------------------------------
+	Start of 'date ComponentTest' @ Tue Oct  1 21:36:56 2024
 	Elapsed Time: 9 microseconds
 	End of 'date ComponentTest'
 ------------------------------
-	Start of 'G_Array ComponentTest' @ Tue Oct  1 21:29:04 2024
-		Start of 'length' @ Tue Oct  1 21:29:04 2024
-		Elapsed Time: 4 microseconds
+	Start of 'G_Array ComponentTest' @ Tue Oct  1 21:36:56 2024
+		Start of 'length' @ Tue Oct  1 21:36:56 2024
+		Elapsed Time: 3 microseconds
 		End of 'length'
 ------------------------------
-		Start of 'add_element' @ Tue Oct  1 21:29:04 2024
+		Start of 'add_element' @ Tue Oct  1 21:36:56 2024
 		Elapsed Time: 4 microseconds
 		End of 'add_element'
 ------------------------------
-		Start of 'length' @ Tue Oct  1 21:29:04 2024
-		Elapsed Time: 4 microseconds
+		Start of 'length' @ Tue Oct  1 21:36:56 2024
+		Elapsed Time: 3 microseconds
 		End of 'length'
 ------------------------------
-		Start of 'remove_element' @ Tue Oct  1 21:29:04 2024
-		Elapsed Time: 4 microseconds
+		Start of 'remove_element' @ Tue Oct  1 21:36:56 2024
+		Elapsed Time: 5 microseconds
 		End of 'remove_element'
 ------------------------------
-		Start of 'length' @ Tue Oct  1 21:29:04 2024
-		Elapsed Time: 4 microseconds
+		Start of 'length' @ Tue Oct  1 21:36:56 2024
+		Elapsed Time: 3 microseconds
 		End of 'length'
 ------------------------------
-	Elapsed Time: 45 microseconds
+	Elapsed Time: 42 microseconds
 	End of 'G_Array ComponentTest'
 ------------------------------
-	Start of 'ProgramGreeting' @ Tue Oct  1 21:29:04 2024
-		Start of 'Date Constructor' @ Tue Oct  1 21:29:04 2024
-		Elapsed Time: 6 microseconds
+	Start of 'ProgramGreeting' @ Tue Oct  1 21:36:56 2024
+		Start of 'Date Constructor' @ Tue Oct  1 21:36:56 2024
+		Elapsed Time: 4 microseconds
 		End of 'Date Constructor'
 ------------------------------
-		Start of 'get_date' @ Tue Oct  1 21:29:04 2024
-		Elapsed Time: 8 microseconds
+		Start of 'get_date' @ Tue Oct  1 21:36:56 2024
+		Elapsed Time: 3 microseconds
 		End of 'get_date'
 ------------------------------
-	Elapsed Time: 46 microseconds
+	Elapsed Time: 26 microseconds
 	End of 'ProgramGreeting'
 ------------------------------
-	Start of 'file_exists' @ Tue Oct  1 21:29:04 2024
-	Elapsed Time: 14 microseconds
+	Start of 'file_exists' @ Tue Oct  1 21:36:56 2024
+	Elapsed Time: 18 microseconds
 	End of 'file_exists'
 ------------------------------
-	Start of 'validate_input' @ Tue Oct  1 21:29:36 2024
-	Elapsed Time: 84 microseconds
-	End of 'validate_input'
-------------------------------
-	Start of 'Date Constructor' @ Tue Oct  1 21:29:36 2024
-	Elapsed Time: 20 microseconds
+	Start of 'Date Constructor' @ Tue Oct  1 21:36:56 2024
+	Elapsed Time: 4 microseconds
 	End of 'Date Constructor'
 ------------------------------
-	Start of 'add_element' @ Tue Oct  1 21:29:36 2024
-		Start of 'Date Constructor' @ Tue Oct  1 21:29:36 2024
+	Start of 'Date specific constructor' @ Tue Oct  1 21:36:56 2024
+	Elapsed Time: 2 microseconds
+	End of 'Date specific constructor'
+------------------------------
+	Start of 'Date Constructor' @ Tue Oct  1 21:36:56 2024
+	Elapsed Time: 4 microseconds
+	End of 'Date Constructor'
+------------------------------
+	Start of 'date setDate' @ Tue Oct  1 21:36:56 2024
+	Elapsed Time: 3 microseconds
+	End of 'date setDate'
+------------------------------
+	Start of 'add_element' @ Tue Oct  1 21:36:56 2024
+		Start of 'Date Constructor' @ Tue Oct  1 21:36:56 2024
+		Elapsed Time: 3 microseconds
+		End of 'Date Constructor'
+------------------------------
+		Start of 'Date specific constructor' @ Tue Oct  1 21:36:56 2024
+		Elapsed Time: 2 microseconds
+		End of 'Date specific constructor'
+------------------------------
+	Elapsed Time: 10 microseconds
+	End of 'add_element'
+------------------------------
+	Start of 'Date Constructor' @ Tue Oct  1 21:36:56 2024
+	Elapsed Time: 4 microseconds
+	End of 'Date Constructor'
+------------------------------
+	Start of 'Date specific constructor' @ Tue Oct  1 21:36:56 2024
+	Elapsed Time: 2 microseconds
+	End of 'Date specific constructor'
+------------------------------
+	Start of 'Date Constructor' @ Tue Oct  1 21:36:56 2024
+	Elapsed Time: 4 microseconds
+	End of 'Date Constructor'
+------------------------------
+	Start of 'date setDate' @ Tue Oct  1 21:36:56 2024
+	Elapsed Time: 2 microseconds
+	End of 'date setDate'
+------------------------------
+	Start of 'add_element' @ Tue Oct  1 21:36:56 2024
+		Start of 'Date Constructor' @ Tue Oct  1 21:36:56 2024
 		Elapsed Time: 15 microseconds
 		End of 'Date Constructor'
 ------------------------------
-		Start of 'Date specific constructor' @ Tue Oct  1 21:29:36 2024
-		Elapsed Time: 10 microseconds
+		Start of 'Date specific constructor' @ Tue Oct  1 21:36:56 2024
+		Elapsed Time: 2 microseconds
 		End of 'Date specific constructor'
 ------------------------------
-	Elapsed Time: 43 microseconds
-	End of 'add_element'
-------------------------------
-	Start of 'validate_input' @ Tue Oct  1 21:29:38 2024
-	Elapsed Time: 58 microseconds
-	End of 'validate_input'
-------------------------------
-	Start of 'Date Constructor' @ Tue Oct  1 21:29:38 2024
-	Elapsed Time: 25 microseconds
-	End of 'Date Constructor'
-------------------------------
-	Start of 'add_element' @ Tue Oct  1 21:29:38 2024
-		Start of 'Date Constructor' @ Tue Oct  1 21:29:38 2024
-		Elapsed Time: 36 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'Date specific constructor' @ Tue Oct  1 21:29:38 2024
-		Elapsed Time: 9 microseconds
-		End of 'Date specific constructor'
-------------------------------
-		Start of 'Date Constructor' @ Tue Oct  1 21:29:38 2024
-		Elapsed Time: 17 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'Date specific constructor' @ Tue Oct  1 21:29:38 2024
-		Elapsed Time: 8 microseconds
-		End of 'Date specific constructor'
-------------------------------
-	Elapsed Time: 97 microseconds
-	End of 'add_element'
-------------------------------
-	Start of 'validate_input' @ Tue Oct  1 21:29:40 2024
-	Elapsed Time: 39 microseconds
-	End of 'validate_input'
-------------------------------
-	Start of 'Date Constructor' @ Tue Oct  1 21:29:40 2024
-	Elapsed Time: 10 microseconds
-	End of 'Date Constructor'
-------------------------------
-	Start of 'add_element' @ Tue Oct  1 21:29:40 2024
-		Start of 'Date Constructor' @ Tue Oct  1 21:29:40 2024
-		Elapsed Time: 5 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'Date specific constructor' @ Tue Oct  1 21:29:40 2024
+		Start of 'Date Constructor' @ Tue Oct  1 21:36:56 2024
 		Elapsed Time: 3 microseconds
-		End of 'Date specific constructor'
-------------------------------
-		Start of 'Date Constructor' @ Tue Oct  1 21:29:40 2024
-		Elapsed Time: 6 microseconds
 		End of 'Date Constructor'
 ------------------------------
-		Start of 'Date specific constructor' @ Tue Oct  1 21:29:40 2024
-		Elapsed Time: 3 microseconds
+		Start of 'Date specific constructor' @ Tue Oct  1 21:36:56 2024
+		Elapsed Time: 2 microseconds
 		End of 'Date specific constructor'
 ------------------------------
-		Start of 'Date Constructor' @ Tue Oct  1 21:29:40 2024
-		Elapsed Time: 5 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'Date specific constructor' @ Tue Oct  1 21:29:40 2024
-		Elapsed Time: 5 microseconds
-		End of 'Date specific constructor'
-------------------------------
-	Elapsed Time: 40 microseconds
+	Elapsed Time: 28 microseconds
 	End of 'add_element'
 ------------------------------
-	Start of 'validate_input' @ Tue Oct  1 21:29:42 2024
-	Elapsed Time: 52 microseconds
-	End of 'validate_input'
-------------------------------
-	Start of 'Date Constructor' @ Tue Oct  1 21:29:42 2024
-	Elapsed Time: 15 microseconds
+	Start of 'Date Constructor' @ Tue Oct  1 21:36:56 2024
+	Elapsed Time: 4 microseconds
 	End of 'Date Constructor'
 ------------------------------
-	Start of 'add_element' @ Tue Oct  1 21:29:42 2024
-		Start of 'Date Constructor' @ Tue Oct  1 21:29:42 2024
-		Elapsed Time: 12 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'Date specific constructor' @ Tue Oct  1 21:29:42 2024
-		Elapsed Time: 6 microseconds
-		End of 'Date specific constructor'
-------------------------------
-		Start of 'Date Constructor' @ Tue Oct  1 21:29:42 2024
-		Elapsed Time: 11 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'Date specific constructor' @ Tue Oct  1 21:29:42 2024
-		Elapsed Time: 6 microseconds
-		End of 'Date specific constructor'
-------------------------------
-		Start of 'Date Constructor' @ Tue Oct  1 21:29:42 2024
-		Elapsed Time: 12 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'Date specific constructor' @ Tue Oct  1 21:29:42 2024
-		Elapsed Time: 6 microseconds
-		End of 'Date specific constructor'
-------------------------------
-		Start of 'Date Constructor' @ Tue Oct  1 21:29:42 2024
-		Elapsed Time: 17 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'Date specific constructor' @ Tue Oct  1 21:29:42 2024
-		Elapsed Time: 9 microseconds
-		End of 'Date specific constructor'
-------------------------------
-	Elapsed Time: 110 microseconds
-	End of 'add_element'
-------------------------------
-	Start of 'validate_input' @ Tue Oct  1 21:29:46 2024
-	Elapsed Time: 55 microseconds
-	End of 'validate_input'
-------------------------------
-	Start of 'Date Constructor' @ Tue Oct  1 21:29:46 2024
-	Elapsed Time: 22 microseconds
-	End of 'Date Constructor'
-------------------------------
-	Start of 'add_element' @ Tue Oct  1 21:29:46 2024
-		Start of 'Date Constructor' @ Tue Oct  1 21:29:46 2024
-		Elapsed Time: 17 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'Date specific constructor' @ Tue Oct  1 21:29:46 2024
-		Elapsed Time: 91 microseconds
-		End of 'Date specific constructor'
-------------------------------
-		Start of 'Date Constructor' @ Tue Oct  1 21:29:46 2024
-		Elapsed Time: 17 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'Date specific constructor' @ Tue Oct  1 21:29:46 2024
-		Elapsed Time: 6 microseconds
-		End of 'Date specific constructor'
-------------------------------
-		Start of 'Date Constructor' @ Tue Oct  1 21:29:46 2024
-		Elapsed Time: 11 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'Date specific constructor' @ Tue Oct  1 21:29:46 2024
-		Elapsed Time: 6 microseconds
-		End of 'Date specific constructor'
-------------------------------
-		Start of 'Date Constructor' @ Tue Oct  1 21:29:46 2024
-		Elapsed Time: 11 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'Date specific constructor' @ Tue Oct  1 21:29:46 2024
-		Elapsed Time: 6 microseconds
-		End of 'Date specific constructor'
-------------------------------
-		Start of 'Date Constructor' @ Tue Oct  1 21:29:46 2024
-		Elapsed Time: 11 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'Date specific constructor' @ Tue Oct  1 21:29:46 2024
-		Elapsed Time: 6 microseconds
-		End of 'Date specific constructor'
-------------------------------
-	Elapsed Time: 215 microseconds
-	End of 'add_element'
-------------------------------
-	Start of 'validate_input' @ Tue Oct  1 21:29:48 2024
-	Elapsed Time: 63 microseconds
-	End of 'validate_input'
-------------------------------
-	Start of 'Date Constructor' @ Tue Oct  1 21:29:48 2024
-	Elapsed Time: 23 microseconds
-	End of 'Date Constructor'
-------------------------------
-	Start of 'add_element' @ Tue Oct  1 21:29:48 2024
-		Start of 'Date Constructor' @ Tue Oct  1 21:29:48 2024
-		Elapsed Time: 17 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'Date specific constructor' @ Tue Oct  1 21:29:48 2024
-		Elapsed Time: 9 microseconds
-		End of 'Date specific constructor'
-------------------------------
-		Start of 'Date Constructor' @ Tue Oct  1 21:29:48 2024
-		Elapsed Time: 16 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'Date specific constructor' @ Tue Oct  1 21:29:48 2024
-		Elapsed Time: 8 microseconds
-		End of 'Date specific constructor'
-------------------------------
-		Start of 'Date Constructor' @ Tue Oct  1 21:29:48 2024
-		Elapsed Time: 17 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'Date specific constructor' @ Tue Oct  1 21:29:48 2024
-		Elapsed Time: 9 microseconds
-		End of 'Date specific constructor'
-------------------------------
-		Start of 'Date Constructor' @ Tue Oct  1 21:29:48 2024
-		Elapsed Time: 17 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'Date specific constructor' @ Tue Oct  1 21:29:48 2024
-		Elapsed Time: 10 microseconds
-		End of 'Date specific constructor'
-------------------------------
-		Start of 'Date Constructor' @ Tue Oct  1 21:29:48 2024
-		Elapsed Time: 17 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'Date specific constructor' @ Tue Oct  1 21:29:48 2024
-		Elapsed Time: 9 microseconds
-		End of 'Date specific constructor'
-------------------------------
-		Start of 'Date Constructor' @ Tue Oct  1 21:29:48 2024
-		Elapsed Time: 16 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'Date specific constructor' @ Tue Oct  1 21:29:48 2024
-		Elapsed Time: 9 microseconds
-		End of 'Date specific constructor'
-------------------------------
-	Elapsed Time: 202 microseconds
-	End of 'add_element'
-------------------------------
-	Start of 'validate_input' @ Tue Oct  1 21:29:51 2024
-	Elapsed Time: 58 microseconds
-	End of 'validate_input'
-------------------------------
-	Start of 'Date Constructor' @ Tue Oct  1 21:29:51 2024
-	Elapsed Time: 23 microseconds
-	End of 'Date Constructor'
-------------------------------
-	Start of 'add_element' @ Tue Oct  1 21:29:51 2024
-		Start of 'Date Constructor' @ Tue Oct  1 21:29:51 2024
-		Elapsed Time: 16 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'Date specific constructor' @ Tue Oct  1 21:29:51 2024
-		Elapsed Time: 10 microseconds
-		End of 'Date specific constructor'
-------------------------------
-		Start of 'Date Constructor' @ Tue Oct  1 21:29:51 2024
-		Elapsed Time: 18 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'Date specific constructor' @ Tue Oct  1 21:29:51 2024
-		Elapsed Time: 9 microseconds
-		End of 'Date specific constructor'
-------------------------------
-		Start of 'Date Constructor' @ Tue Oct  1 21:29:51 2024
-		Elapsed Time: 15 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'Date specific constructor' @ Tue Oct  1 21:29:51 2024
-		Elapsed Time: 9 microseconds
-		End of 'Date specific constructor'
-------------------------------
-		Start of 'Date Constructor' @ Tue Oct  1 21:29:51 2024
-		Elapsed Time: 16 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'Date specific constructor' @ Tue Oct  1 21:29:51 2024
-		Elapsed Time: 9 microseconds
-		End of 'Date specific constructor'
-------------------------------
-		Start of 'Date Constructor' @ Tue Oct  1 21:29:51 2024
-		Elapsed Time: 16 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'Date specific constructor' @ Tue Oct  1 21:29:51 2024
-		Elapsed Time: 9 microseconds
-		End of 'Date specific constructor'
-------------------------------
-		Start of 'Date Constructor' @ Tue Oct  1 21:29:51 2024
-		Elapsed Time: 17 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'Date specific constructor' @ Tue Oct  1 21:29:51 2024
-		Elapsed Time: 6 microseconds
-		End of 'Date specific constructor'
-------------------------------
-		Start of 'Date Constructor' @ Tue Oct  1 21:29:51 2024
-		Elapsed Time: 11 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'Date specific constructor' @ Tue Oct  1 21:29:51 2024
-		Elapsed Time: 6 microseconds
-		End of 'Date specific constructor'
-------------------------------
-	Elapsed Time: 215 microseconds
-	End of 'add_element'
-------------------------------
-	Start of 'validate_input' @ Tue Oct  1 21:29:53 2024
-	Elapsed Time: 80 microseconds
-	End of 'validate_input'
-------------------------------
-	Start of 'validate_input' @ Tue Oct  1 21:30:06 2024
-	Elapsed Time: 67 microseconds
-	End of 'validate_input'
-------------------------------
-	Start of 'validate_input' @ Tue Oct  1 21:30:12 2024
-	Elapsed Time: 76 microseconds
-	End of 'validate_input'
-------------------------------
-	Start of 'validate_input' @ Tue Oct  1 21:30:14 2024
-	Elapsed Time: 51 microseconds
-	End of 'validate_input'
-------------------------------
-	Start of 'Date Constructor' @ Tue Oct  1 21:30:14 2024
-	Elapsed Time: 29 microseconds
-	End of 'Date Constructor'
-------------------------------
-	Start of 'add_element' @ Tue Oct  1 21:30:14 2024
-		Start of 'Date Constructor' @ Tue Oct  1 21:30:14 2024
-		Elapsed Time: 16 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'Date specific constructor' @ Tue Oct  1 21:30:14 2024
-		Elapsed Time: 9 microseconds
-		End of 'Date specific constructor'
-------------------------------
-		Start of 'Date Constructor' @ Tue Oct  1 21:30:14 2024
-		Elapsed Time: 17 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'Date specific constructor' @ Tue Oct  1 21:30:14 2024
-		Elapsed Time: 10 microseconds
-		End of 'Date specific constructor'
-------------------------------
-		Start of 'Date Constructor' @ Tue Oct  1 21:30:14 2024
-		Elapsed Time: 17 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'Date specific constructor' @ Tue Oct  1 21:30:14 2024
-		Elapsed Time: 10 microseconds
-		End of 'Date specific constructor'
-------------------------------
-		Start of 'Date Constructor' @ Tue Oct  1 21:30:14 2024
-		Elapsed Time: 18 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'Date specific constructor' @ Tue Oct  1 21:30:14 2024
-		Elapsed Time: 73 microseconds
-		End of 'Date specific constructor'
-------------------------------
-		Start of 'Date Constructor' @ Tue Oct  1 21:30:14 2024
-		Elapsed Time: 12 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'Date specific constructor' @ Tue Oct  1 21:30:14 2024
-		Elapsed Time: 6 microseconds
-		End of 'Date specific constructor'
-------------------------------
-		Start of 'Date Constructor' @ Tue Oct  1 21:30:14 2024
-		Elapsed Time: 10 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'Date specific constructor' @ Tue Oct  1 21:30:14 2024
-		Elapsed Time: 6 microseconds
-		End of 'Date specific constructor'
-------------------------------
-		Start of 'Date Constructor' @ Tue Oct  1 21:30:14 2024
-		Elapsed Time: 21 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'Date specific constructor' @ Tue Oct  1 21:30:14 2024
-		Elapsed Time: 6 microseconds
-		End of 'Date specific constructor'
-------------------------------
-		Start of 'Date Constructor' @ Tue Oct  1 21:30:14 2024
-		Elapsed Time: 10 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'Date specific constructor' @ Tue Oct  1 21:30:14 2024
-		Elapsed Time: 6 microseconds
-		End of 'Date specific constructor'
-------------------------------
-	Elapsed Time: 7446 microseconds
-	End of 'add_element'
-------------------------------
-	Start of 'validate_input' @ Tue Oct  1 21:30:17 2024
-	Elapsed Time: 49 microseconds
-	End of 'validate_input'
-------------------------------
-	Start of 'length' @ Tue Oct  1 21:30:17 2024
-	Elapsed Time: 13 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:17 2024
-	Elapsed Time: 9 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:17 2024
-	Elapsed Time: 8 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:17 2024
-	Elapsed Time: 9 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:17 2024
-	Elapsed Time: 10 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'get_date' @ Tue Oct  1 21:30:17 2024
-	Elapsed Time: 19 microseconds
-	End of 'get_date'
-------------------------------
-	Start of 'length' @ Tue Oct  1 21:30:17 2024
-	Elapsed Time: 11 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:17 2024
-	Elapsed Time: 9 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:17 2024
-	Elapsed Time: 9 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:17 2024
-	Elapsed Time: 9 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:17 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'get_date' @ Tue Oct  1 21:30:17 2024
-	Elapsed Time: 7 microseconds
-	End of 'get_date'
-------------------------------
-	Start of 'length' @ Tue Oct  1 21:30:17 2024
-	Elapsed Time: 6 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:17 2024
-	Elapsed Time: 5 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:17 2024
-	Elapsed Time: 5 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:17 2024
-	Elapsed Time: 5 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:17 2024
-	Elapsed Time: 5 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'get_date' @ Tue Oct  1 21:30:17 2024
-	Elapsed Time: 6 microseconds
-	End of 'get_date'
-------------------------------
-	Start of 'length' @ Tue Oct  1 21:30:17 2024
-	Elapsed Time: 6 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:17 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:17 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:17 2024
-	Elapsed Time: 5 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:17 2024
-	Elapsed Time: 5 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'get_date' @ Tue Oct  1 21:30:17 2024
-	Elapsed Time: 6 microseconds
-	End of 'get_date'
-------------------------------
-	Start of 'length' @ Tue Oct  1 21:30:17 2024
-	Elapsed Time: 6 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:17 2024
-	Elapsed Time: 5 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:17 2024
-	Elapsed Time: 5 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:17 2024
-	Elapsed Time: 5 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:17 2024
-	Elapsed Time: 5 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'get_date' @ Tue Oct  1 21:30:17 2024
-	Elapsed Time: 6 microseconds
-	End of 'get_date'
-------------------------------
-	Start of 'length' @ Tue Oct  1 21:30:17 2024
-	Elapsed Time: 5 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:17 2024
-	Elapsed Time: 5 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:17 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:17 2024
-	Elapsed Time: 5 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:17 2024
-	Elapsed Time: 5 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'get_date' @ Tue Oct  1 21:30:17 2024
-	Elapsed Time: 6 microseconds
-	End of 'get_date'
-------------------------------
-	Start of 'length' @ Tue Oct  1 21:30:17 2024
-	Elapsed Time: 5 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:17 2024
-	Elapsed Time: 5 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:17 2024
-	Elapsed Time: 5 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:17 2024
-	Elapsed Time: 5 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:17 2024
-	Elapsed Time: 5 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'get_date' @ Tue Oct  1 21:30:17 2024
-	Elapsed Time: 6 microseconds
-	End of 'get_date'
-------------------------------
-	Start of 'length' @ Tue Oct  1 21:30:17 2024
-	Elapsed Time: 6 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:17 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:17 2024
-	Elapsed Time: 5 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:17 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:17 2024
-	Elapsed Time: 5 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'get_date' @ Tue Oct  1 21:30:17 2024
-	Elapsed Time: 6 microseconds
-	End of 'get_date'
-------------------------------
-	Start of 'length' @ Tue Oct  1 21:30:17 2024
-	Elapsed Time: 6 microseconds
-	End of 'length'
-------------------------------
-	Start of 'validate_input' @ Tue Oct  1 21:30:22 2024
-	Elapsed Time: 69 microseconds
-	End of 'validate_input'
-------------------------------
-	Start of 'length' @ Tue Oct  1 21:30:22 2024
-	Elapsed Time: 27 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:22 2024
-	Elapsed Time: 13 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Tue Oct  1 21:30:22 2024
-	Elapsed Time: 13 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:22 2024
-	Elapsed Time: 7 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Tue Oct  1 21:30:22 2024
-	Elapsed Time: 7 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:22 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Tue Oct  1 21:30:22 2024
-	Elapsed Time: 7 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:22 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Tue Oct  1 21:30:22 2024
-	Elapsed Time: 7 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:22 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Tue Oct  1 21:30:22 2024
-	Elapsed Time: 6 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:22 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Tue Oct  1 21:30:22 2024
-	Elapsed Time: 6 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:22 2024
-	Elapsed Time: 7 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Tue Oct  1 21:30:22 2024
-	Elapsed Time: 7 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:22 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Tue Oct  1 21:30:22 2024
-	Elapsed Time: 6 microseconds
-	End of 'length'
-------------------------------
-	Start of 'Date specific constructor' @ Tue Oct  1 21:30:22 2024
-	Elapsed Time: 7 microseconds
+	Start of 'Date specific constructor' @ Tue Oct  1 21:36:56 2024
+	Elapsed Time: 2 microseconds
 	End of 'Date specific constructor'
 ------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:22 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'validate_input' @ Tue Oct  1 21:30:27 2024
-	Elapsed Time: 64 microseconds
-	End of 'validate_input'
-------------------------------
-	Start of 'length' @ Tue Oct  1 21:30:27 2024
-	Elapsed Time: 14 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:27 2024
-	Elapsed Time: 10 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Tue Oct  1 21:30:27 2024
-	Elapsed Time: 9 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:27 2024
-	Elapsed Time: 10 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Tue Oct  1 21:30:27 2024
-	Elapsed Time: 9 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:27 2024
-	Elapsed Time: 9 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Tue Oct  1 21:30:27 2024
-	Elapsed Time: 9 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:27 2024
-	Elapsed Time: 10 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Tue Oct  1 21:30:27 2024
-	Elapsed Time: 10 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:27 2024
-	Elapsed Time: 11 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Tue Oct  1 21:30:27 2024
-	Elapsed Time: 9 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:27 2024
-	Elapsed Time: 10 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Tue Oct  1 21:30:27 2024
-	Elapsed Time: 10 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:27 2024
-	Elapsed Time: 9 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Tue Oct  1 21:30:27 2024
-	Elapsed Time: 9 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:27 2024
-	Elapsed Time: 9 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Tue Oct  1 21:30:27 2024
-	Elapsed Time: 9 microseconds
-	End of 'length'
-------------------------------
-	Start of 'Date specific constructor' @ Tue Oct  1 21:30:27 2024
-	Elapsed Time: 10 microseconds
-	End of 'Date specific constructor'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:27 2024
-	Elapsed Time: 9 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'validate_input' @ Tue Oct  1 21:30:28 2024
-	Elapsed Time: 68 microseconds
-	End of 'validate_input'
-------------------------------
-	Start of 'length' @ Tue Oct  1 21:30:28 2024
-	Elapsed Time: 16 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:28 2024
-	Elapsed Time: 11 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:28 2024
-	Elapsed Time: 10 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:28 2024
-	Elapsed Time: 11 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:28 2024
-	Elapsed Time: 10 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'get_date' @ Tue Oct  1 21:30:28 2024
-	Elapsed Time: 21 microseconds
-	End of 'get_date'
-------------------------------
-	Start of 'length' @ Tue Oct  1 21:30:28 2024
-	Elapsed Time: 10 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:28 2024
-	Elapsed Time: 9 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:28 2024
-	Elapsed Time: 9 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:28 2024
-	Elapsed Time: 9 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:28 2024
-	Elapsed Time: 9 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'get_date' @ Tue Oct  1 21:30:28 2024
-	Elapsed Time: 12 microseconds
-	End of 'get_date'
-------------------------------
-	Start of 'length' @ Tue Oct  1 21:30:28 2024
-	Elapsed Time: 10 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:28 2024
-	Elapsed Time: 9 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:28 2024
-	Elapsed Time: 9 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:28 2024
-	Elapsed Time: 10 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:28 2024
-	Elapsed Time: 9 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'get_date' @ Tue Oct  1 21:30:28 2024
-	Elapsed Time: 11 microseconds
-	End of 'get_date'
-------------------------------
-	Start of 'length' @ Tue Oct  1 21:30:28 2024
-	Elapsed Time: 12 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:28 2024
-	Elapsed Time: 11 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Tue Oct  1 21:30:28 2024
-	Elapsed Time: 11 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:28 2024
-	Elapsed Time: 11 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:28 2024
-	Elapsed Time: 87 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:28 2024
-	Elapsed Time: 16 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:28 2024
-	Elapsed Time: 9 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'get_date' @ Tue Oct  1 21:30:28 2024
-	Elapsed Time: 14 microseconds
-	End of 'get_date'
-------------------------------
-	Start of 'length' @ Tue Oct  1 21:30:28 2024
-	Elapsed Time: 11 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:28 2024
-	Elapsed Time: 10 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:28 2024
-	Elapsed Time: 11 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:28 2024
-	Elapsed Time: 11 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:28 2024
-	Elapsed Time: 10 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'get_date' @ Tue Oct  1 21:30:28 2024
-	Elapsed Time: 13 microseconds
-	End of 'get_date'
-------------------------------
-	Start of 'length' @ Tue Oct  1 21:30:28 2024
-	Elapsed Time: 13 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:28 2024
-	Elapsed Time: 10 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:28 2024
-	Elapsed Time: 10 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:28 2024
-	Elapsed Time: 11 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:28 2024
-	Elapsed Time: 12 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'get_date' @ Tue Oct  1 21:30:28 2024
-	Elapsed Time: 9 microseconds
-	End of 'get_date'
-------------------------------
-	Start of 'length' @ Tue Oct  1 21:30:28 2024
-	Elapsed Time: 7 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:28 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Tue Oct  1 21:30:28 2024
-	Elapsed Time: 6 microseconds
-	End of 'length'
-------------------------------
-	Start of 'validate_input' @ Tue Oct  1 21:30:30 2024
-	Elapsed Time: 56 microseconds
-	End of 'validate_input'
-------------------------------
-	Start of 'length' @ Tue Oct  1 21:30:30 2024
-	Elapsed Time: 19 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:30 2024
-	Elapsed Time: 11 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:30 2024
-	Elapsed Time: 10 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:30 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'get_date' @ Tue Oct  1 21:30:30 2024
-	Elapsed Time: 16 microseconds
-	End of 'get_date'
-------------------------------
-	Start of 'length' @ Tue Oct  1 21:30:30 2024
-	Elapsed Time: 9 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:30 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:30 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:30 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'get_date' @ Tue Oct  1 21:30:30 2024
-	Elapsed Time: 7 microseconds
-	End of 'get_date'
-------------------------------
-	Start of 'length' @ Tue Oct  1 21:30:30 2024
-	Elapsed Time: 6 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:30 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:30 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:30 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'get_date' @ Tue Oct  1 21:30:30 2024
-	Elapsed Time: 7 microseconds
-	End of 'get_date'
-------------------------------
-	Start of 'length' @ Tue Oct  1 21:30:30 2024
-	Elapsed Time: 6 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:30 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Tue Oct  1 21:30:30 2024
-	Elapsed Time: 6 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:30 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:30 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:30 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'get_date' @ Tue Oct  1 21:30:30 2024
-	Elapsed Time: 6 microseconds
-	End of 'get_date'
-------------------------------
-	Start of 'length' @ Tue Oct  1 21:30:30 2024
-	Elapsed Time: 6 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:30 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:30 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:30 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'get_date' @ Tue Oct  1 21:30:30 2024
-	Elapsed Time: 6 microseconds
-	End of 'get_date'
-------------------------------
-	Start of 'length' @ Tue Oct  1 21:30:30 2024
-	Elapsed Time: 6 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:30 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:30 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:30 2024
-	Elapsed Time: 32 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'get_date' @ Tue Oct  1 21:30:30 2024
-	Elapsed Time: 8 microseconds
-	End of 'get_date'
-------------------------------
-	Start of 'length' @ Tue Oct  1 21:30:30 2024
-	Elapsed Time: 6 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Tue Oct  1 21:30:30 2024
-	Elapsed Time: 36 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Tue Oct  1 21:30:30 2024
-	Elapsed Time: 6 microseconds
-	End of 'length'
-------------------------------
-Elapsed Time: 85554946 microseconds
-End of 'main'
-------------------------------
+	Start of 'Date Constructor' @ Tue Oct  1 21:36:56 2024
+	Elapsed Time: 3 microseconds
+	End of 'Date Constructor'
+------------------------------
+	Start of 'date setDate' @ Tue Oct  1 21:36:56 2024
+	Elapsed Time: 2 microseconds
+	End of 'date setDate'
+------------------------------
+	Start of 'add_element' @ Tue Oct  1 21:36:56 2024
+		Start of 'Date Constructor' @ Tue Oct  1 21:36:56 2024
+		Elapsed Time: 3 microseconds
+		End of 'Date Constructor'
+------------------------------
+		Start of 'Date specific constructor' @ Tue Oct  1 21:36:56 2024
+		Elapsed Time: 2 microseconds
+		End of 'Date specific constructor'
+------------------------------
+		Start of 'Date Constructor' @ Tue Oct  1 21:36:56 2024
+		Elapsed Time: 4 microseconds
+		End of 'Date Constructor'
+------------------------------
+		Start of 'Date specific constructor' @ Tue Oct  1 21:36:56 2024
+		Elapsed Time: 2 microseconds
+		End of 'Date specific constructor'
+------------------------------
+		Start of 'Date Constructor' @ Tue Oct  1 21:36:56 2024
+		Elapsed Time: 3 microseconds
+		End of 'Date Constructor'
+------------------------------
+		Start of 'Date specific constructor' @ Tue Oct  1 21:36:56 2024
+		Elapsed Time: 2 microseconds
+		End of 'Date specific constructor'
+------------------------------
+	Elapsed Time: 23 microseconds
