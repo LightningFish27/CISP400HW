@@ -203,9 +203,10 @@ struct TODO {
     // Specification C1 - Overload <<
     friend std::ostream& operator<<(std::ostream& os, TODO& todo){
         os << todo.ID << '\t' << todo.description << '\t' << todo.dateAdded.get_date() ;
+        return os;
     }
     friend std::istream& operator>>(std::istream& os, TODO& todo){
-        
+
     }
 
     void ComponentTest(){
@@ -373,7 +374,7 @@ bool validate_input(std::string userInput){
         isValid = false;
         std::cout << "Start of command should be '+', '-', '?', or 'q'\n";
     }
-    if (userInput.length() > 15){
+    if (userInput.length() > 20){
         isValid = false;
         std::cout << "Entered command is too long.\n";
     }
