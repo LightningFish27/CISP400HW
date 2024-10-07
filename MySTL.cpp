@@ -13,6 +13,7 @@
 #include <iostream>
 #include <chrono>
 #include <string>
+#include <iomanip>
 class Logger
 {
 private:
@@ -113,41 +114,10 @@ public:
         std::cout << "Completed component test of G_Array\n\n";
     }
 };
-
-class Date{
-private:
-    int day, month, year;
-public:
-    Date(){
-        Logger l = Logger("Date Constructor");
-        // Initialize with System Date
-        // Get the system time as a time_point
-        auto now = std::chrono::system_clock::now();
-        // Convert the time_point to a time_t
-        std::time_t now_time_t = std::chrono::system_clock::to_time_t(now);
-        // Convert to local time
-        std::tm now_tm = *std::localtime(&now_time_t);
-        // Extract the day, month, and year
-        day = now_tm.tm_mday;
-        month = now_tm.tm_mon + 1; // tm_mon is 0-based
-        year = now_tm.tm_year + 1900; // tm_year is years since 1900
-    }
-    // Return the date as a string
-    std::string get_date(){
-        Logger l = Logger("get_date");
-        std::stringstream s;
-        s << day << '/' << month << '/' << year;
-        return s.str();
-    }
-
-    void ComponentTest(){
-        std::cout << "Comparing system-acquired year to developer-set year.\n";
-        std::cout << "Actual year: 2024 -- System year: " << year << ".\n";
-        if (year != 2024) std::cout << "Years do not match! Error.\n";
-        else std::cout << "Date Component testing successful.\n";
-    }
-};
-
+/*
+    A singleton random number generator that provides multiple methods for creating
+    randomness
+*/
 class RandNo {
 public:
     // Deleting the ability to copy instances or set instances equal to another
@@ -194,5 +164,100 @@ private:
     RandNo() {
         Logger l = Logger("RandNo Constructor");
         std::srand(static_cast<unsigned int>(std::time(0))); // Seed the random number generator
+    }
+};
+/*
+    A simple class which represents a date and provides methods for interacting with it.
+*/
+class Date{
+private:
+    int day, month, year;
+public:
+    // Initialize with System Date if none specified
+    Date(){
+        Logger l = Logger ("Date Constructor");
+        auto now = std::chrono::system_clock::now(); // Get the system time as a time_point
+        std::time_t now_time_t = std::chrono::system_clock::to_time_t(now); // Convert the time_point to a time_t
+        std::tm now_tm = *std::localtime(&now_time_t);// Convert to local time
+        // Extract the day, month, and year
+        day = now_tm.tm_mday;
+        month = now_tm.tm_mon + 1; // tm_mon is 0-based
+        year = now_tm.tm_year + 1900; // tm_year is years since 1900
+    }
+    // Initialize with specified date
+    Date(int day, int month, int year){
+        Logger l = Logger("SetDate");
+        day = day;
+        month = month;
+        year = year;
+    }
+    // Allow manual date overriding by passing the day, month, and year to this function
+    void set_date(int day, int month, int year){
+        Logger l = Logger("SetDate");
+        day = day;
+        month = month;
+        year = year;
+    }
+    // Return the date as a string
+    std::string get_date(){
+        Logger l = Logger("get_date");
+        std::stringstream s;
+        s << std::setfill('0');
+        s << std::setw(2) << day << '/' << std::setw(2) << month << '/' << year;
+        return s.str();
+    }
+    // Self-diagnostics of the time class's functionality
+    void CompTest(){
+        Logger l = Logger("CompTest");
+        std::cout << "Beginning CompTest initialization diagnostics.\n";
+        Date testDate;
+        std:: cout << "CompTest result: " << testDate.get_date() << "vs Self result: " << get_date() << '\n';
+        if (testDate.day != day)
+            std::cout << "Days are not equal.\n";
+        if (testDate.month != month)
+            std::cout << "Months are not equal.\n";
+        if (testDate.year != year)
+            std::cout << "Years are not equal.\n";
+        if (testDate.get_date() != get_date())
+            std::cout << "Formatting or components do not match.\n";
+
+        std::cout << "\nNow testing set_date functionality:\n";
+        testDate.SetDate(day, month, year);
+        std:: cout << "CompTest result: " << testDate.get_date() << "vs Self result: " << get_date() << '\n';
+        if (testDate.day != day)
+            std::cout << "Days are not equal.\n";
+        if (testDate.month != month)
+            std::cout << "Months are not equal.\n";
+        if (testDate.year != year)
+            std::cout << "Years are not equal.\n";
+        if (testDate.get_date() != get_date())
+            std::cout << "Formatting or components do not match.\n";
+        std::cout << "CompTest finished diagnosis. Program beginning.\n";
+    }
+};
+/*
+    A static class that prints colored text.
+*/
+class FancyText {
+private:
+    static const std::string RED = "\e[31m";
+    static const std::string GREEN = "\e[32m";
+    static const std::string YELLOW = "\e[33m";
+    static const std::string NORMAL = "\e[0m";
+public:
+    /*
+        Print the given text in a color provided by FancyText. Use the color's
+        name's first character to select a color. If a newline is needed after
+        what is being printed, pass a boolean true as the third parameter.
+        Newline defaults to false, color defaults to white.
+    */
+    static void print_colored(std::string text, char col = NORMAL, bool newline = false){
+        Logger l = Logger("print_colored");
+        std::string color;
+        if (col == 'r') color = RED;
+        else if (col == 'y') color = YELLOW;
+        else if (col == 'g') color = GREEN;
+        else color = NORMAL;
+        std::cout << color << text << NORMAL << newline ? '\n' : '';
     }
 };
