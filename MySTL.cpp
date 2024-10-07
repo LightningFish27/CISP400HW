@@ -81,11 +81,46 @@ public:
             pTmp[i] = array[i];
         }
         delete[] array;
-        array = new T[size];
+        array = pTmp;
+    }
+    // Remove a specified array element
+    // Returns false if removal was unsuccessful
+    bool remove_element(T target){
+        int targetIndex = -1;
         for (int i = 0; i < size; i++){
-            array[i] = pTmp[i];
+            if (array[i] == target) targetIndex = i;
         }
-        delete[] pTmp;
+        if (targetIndex == -1) return false;
+        // Following code executes if target is found:
+        G_Array tempArr;
+        for(int i = 0; i < size; i++){
+            if (i != targetIndex) tempArr.add_element(array[i]);
+        }
+        for (int i = 0; i < tempArr.length(); i++){
+            array[i] = tempArr[i];
+        }
+        size--;
+        return true;
+    }
+    // Removes a specified index from array
+    // Returns false if index out of bounds
+    bool remove_element(int index){
+        if (index < 0 || index > length()){
+            std::cout << "Attempted to remove index not within array.\n";
+            return false;
+        }
+        G_Array tempArr;
+        for(int i = 0; i < size; i++){
+            if (i != index) tempArr.add_element(array[i]);
+        }
+        for (int i = 0; i < tempArr.length(); i++){
+            array[i] = tempArr[i];
+        }
+        // it seems dumb to call remove_element within remove element,
+        // but it's a good way to avoid rewriting code already within that function.
+        // I may still change this later.
+        array.remove_element(); 
+        return true;
     }
     // Overloading the [] operator to allow G_Array[idx] calls, rather
     // than entire function calls written out. 
@@ -256,10 +291,10 @@ public:
 */
 class FancyText {
 private:
-    static const std::string RED = "\e[31m";
-    static const std::string GREEN = "\e[32m";
-    static const std::string YELLOW = "\e[33m";
-    static const std::string NORMAL = "\e[0m";
+    static inline std::string RED = "\e[31m";
+    static inline std::string GREEN = "\e[32m";
+    static inline std::string YELLOW = "\e[33m";
+    static inline std::string NORMAL = "\e[0m";
 public:
     /*
         Print the given text in a color provided by FancyText. Use the color's
@@ -267,13 +302,74 @@ public:
         what is being printed, pass a boolean true as the third parameter.
         Newline defaults to false, color defaults to white.
     */
-    static void print_colored(std::string text, char col = NORMAL, bool newline = false){
+    static void print_colored(std::string text, char col = '\0', bool newline = false){
         Logger l = Logger("print_colored");
         std::string color;
         if (col == 'r') color = RED;
         else if (col == 'y') color = YELLOW;
         else if (col == 'g') color = GREEN;
         else color = NORMAL;
-        std::cout << color << text << NORMAL << newline ? '\n' : '';
+        std::cout << color << text << NORMAL << newline ? '\n' : '\0';
+    }
+};
+
+/*
+    A basic implementation of a dictionary that supports key-value pairs between
+    a string (always) and another type. The second type is templated.
+*/
+template <typename T>
+class G_Dictionary {
+private:
+    // These are parallel arrays, and special attention is paid to them in order
+    // to avoid any indexing errors.
+    G_Array<std::string> keys;
+    G_Array<T> values;
+public:
+    // Overloading the [] operator to allow accessing a value in the style
+    // Dictionary[key] 
+    T& operator[](std::string key){
+        Logger l = Logger("[] operator within Dictionary");
+        int keyIndex = -1;
+        for (int i = 0; i < keys.length(); i++){
+            if (keys[i] == key) keyIndex = i;
+        }
+        if (keyIndex == -1){
+            std::cout << "Requested key not found within dictionary.\n";
+        }
+        else return values[keyIndex];
+    }
+
+    size_t length(){
+        Logger l = Logger("length");
+        return keys.length();
+    }
+
+    // Add pair
+    void add_pair(std::string key, T value){
+        keys.add_element(key);
+        values.add_element(value);
+    }
+
+    // Remove pair
+    void remove_pair(std::string key){
+        int keyIndex = -1;
+        for (int i = 0; i < keys.length(); i++){
+            if (keys[i] == key) keyIndex = i;
+        }
+        if (keyIndex == -1) {
+            std::cout << "Couldn't remove " << key << ": key not found.\n";
+        }
+        else {
+            keys.remove_element(keyIndex);
+            values.remove_element(keyIndex);
+            std::cout << "Removed " << key << '\n';
+        }
+    }
+
+    std::ostream& operator<<(std::ostream& os){
+        for (int i = 0; i < keys.length(); i++){
+            std::cout << keys[i] << ',' << values[i] << '\t';
+        }   
+        return os;
     }
 };
