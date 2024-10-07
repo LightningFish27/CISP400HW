@@ -7,6 +7,7 @@
 #include <sstream>
 #include <string> 
 #include <chrono>
+#include <iomanip>
 
 
 class Logger
@@ -153,7 +154,8 @@ public:
     std::string get_date(){
         Logger l = Logger("get_date");
         std::stringstream s;
-        s << day << '/' << month << '/' << year;
+        s << std::setfill('0');
+        s << std::setw(2) << day << '/' << std::setw(2) << month << '/' << year;
         return s.str();
     }
     // Specification A3 - Component Test Method in Date
