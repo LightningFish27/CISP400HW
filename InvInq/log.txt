@@ -1,0 +1,340 @@
+Start of 'main' @ Sun Oct  6 20:03:30 2024
+	Start of 'Date Constructor' @ Sun Oct  6 20:03:30 2024
+	Elapsed Time: 12 microseconds
+	End of 'Date Constructor'
+------------------------------
+	Start of 'CompTest' @ Sun Oct  6 20:03:30 2024
+		Start of 'Date Constructor' @ Sun Oct  6 20:03:30 2024
+		Elapsed Time: 7 microseconds
+		End of 'Date Constructor'
+------------------------------
+		Start of 'get_date' @ Sun Oct  6 20:03:30 2024
+		Elapsed Time: 12 microseconds
+		End of 'get_date'
+------------------------------
+		Start of 'get_date' @ Sun Oct  6 20:03:30 2024
+		Elapsed Time: 6 microseconds
+		End of 'get_date'
+------------------------------
+		Start of 'get_date' @ Sun Oct  6 20:03:30 2024
+		Elapsed Time: 5 microseconds
+		End of 'get_date'
+------------------------------
+		Start of 'get_date' @ Sun Oct  6 20:03:30 2024
+		Elapsed Time: 5 microseconds
+		End of 'get_date'
+------------------------------
+		Start of 'SetDate' @ Sun Oct  6 20:03:30 2024
+		Elapsed Time: 4 microseconds
+		End of 'SetDate'
+------------------------------
+		Start of 'get_date' @ Sun Oct  6 20:03:30 2024
+		Elapsed Time: 4 microseconds
+		End of 'get_date'
+------------------------------
+		Start of 'get_date' @ Sun Oct  6 20:03:30 2024
+		Elapsed Time: 4 microseconds
+		End of 'get_date'
+------------------------------
+		Start of 'get_date' @ Sun Oct  6 20:03:30 2024
+		Elapsed Time: 4 microseconds
+		End of 'get_date'
+------------------------------
+		Start of 'get_date' @ Sun Oct  6 20:03:30 2024
+		Elapsed Time: 4 microseconds
+		End of 'get_date'
+------------------------------
+	Elapsed Time: 95 microseconds
+	End of 'CompTest'
+------------------------------
+	Start of 'get_instance' @ Sun Oct  6 20:03:30 2024
+		Start of 'RandNo Constructor' @ Sun Oct  6 20:03:30 2024
+		Elapsed Time: 6 microseconds
+		End of 'RandNo Constructor'
+------------------------------
+	Elapsed Time: 12 microseconds
+	End of 'get_instance'
+------------------------------
+	Start of 'random_int' @ Sun Oct  6 20:03:30 2024
+	Elapsed Time: 4 microseconds
+	End of 'random_int'
+------------------------------
+	Start of 'random_float' @ Sun Oct  6 20:03:30 2024
+	Elapsed Time: 4 microseconds
+	End of 'random_float'
+------------------------------
+	Start of 'length' @ Sun Oct  6 20:03:30 2024
+	Elapsed Time: 7 microseconds
+	End of 'length'
+------------------------------
+	Start of 'add_element' @ Sun Oct  6 20:03:30 2024
+	Elapsed Time: 5 microseconds
+	End of 'add_element'
+------------------------------
+	Start of 'length' @ Sun Oct  6 20:03:30 2024
+	Elapsed Time: 5 microseconds
+	End of 'length'
+------------------------------
+	Start of 'remove_element' @ Sun Oct  6 20:03:30 2024
+	Elapsed Time: 5 microseconds
+	End of 'remove_element'
+------------------------------
+	Start of 'length' @ Sun Oct  6 20:03:30 2024
+	Elapsed Time: 4 microseconds
+	End of 'length'
+------------------------------
+	Start of 'Date Constructor' @ Sun Oct  6 20:03:30 2024
+	Elapsed Time: 8 microseconds
+	End of 'Date Constructor'
+------------------------------
+	Start of 'Item default constructor' @ Sun Oct  6 20:03:30 2024
+	Elapsed Time: 4 microseconds
+	End of 'Item default constructor'
+------------------------------
+	Start of 'Date Constructor' @ Sun Oct  6 20:03:30 2024
+	Elapsed Time: 8 microseconds
+	End of 'Date Constructor'
+------------------------------
+	Start of 'Item Constructor' @ Sun Oct  6 20:03:30 2024
+		Start of 'get_instance' @ Sun Oct  6 20:03:30 2024
+		Elapsed Time: 4 microseconds
+		End of 'get_instance'
+------------------------------
+		Start of 'random_float' @ Sun Oct  6 20:03:30 2024
+		Elapsed Time: 5 microseconds
+		End of 'random_float'
+------------------------------
+		Start of 'Date Constructor' @ Sun Oct  6 20:03:30 2024
+		Elapsed Time: 8 microseconds
+		End of 'Date Constructor'
+------------------------------
+	Elapsed Time: 26 microseconds
+	End of 'Item Constructor'
+------------------------------
+	Start of 'get_date' @ Sun Oct  6 20:03:30 2024
+	Elapsed Time: 7 microseconds
+	End of 'get_date'
+------------------------------
+	Start of 'ProgramGreeting' @ Sun Oct  6 20:03:30 2024
+	Elapsed Time: 11 microseconds
+	End of 'ProgramGreeting'
+------------------------------
+	Start of 'get_menu_choice' @ Sun Oct  6 20:03:30 2024
+		Start of 'display_menu' @ Sun Oct  6 20:03:30 2024
+		Elapsed Time: 15 microseconds
+		End of 'display_menu'
+------------------------------
+	Elapsed Time: 18089140 microseconds
+	End of 'get_menu_choice'
+------------------------------
+	Start of 'InVal' @ Sun Oct  6 20:03:48 2024
+	Elapsed Time: 6964447 microseconds
+	End of 'InVal'
+------------------------------
+	Start of 'Date Constructor' @ Sun Oct  6 20:03:55 2024
+	Elapsed Time: 56 microseconds
+	End of 'Date Constructor'
+------------------------------
+	Start of 'Item Constructor' @ Sun Oct  6 20:03:55 2024
+		Start of 'get_instance' @ Sun Oct  6 20:03:55 2024
+		Elapsed Time: 6 microseconds
+		End of 'get_instance'
+------------------------------
+		Start of 'random_float' @ Sun Oct  6 20:03:55 2024
+		Elapsed Time: 7 microseconds
+		End of 'random_float'
+------------------------------
+		Start of 'Date Constructor' @ Sun Oct  6 20:03:55 2024
+		Elapsed Time: 11 microseconds
+		End of 'Date Constructor'
+------------------------------
+	Elapsed Time: 37 microseconds
+	End of 'Item Constructor'
+------------------------------
+	Start of 'add_element' @ Sun Oct  6 20:03:55 2024
+		Start of 'Date Constructor' @ Sun Oct  6 20:03:55 2024
+		Elapsed Time: 11 microseconds
+		End of 'Date Constructor'
+------------------------------
+		Start of 'Item default constructor' @ Sun Oct  6 20:03:55 2024
+		Elapsed Time: 6 microseconds
+		End of 'Item default constructor'
+------------------------------
+	Elapsed Time: 27 microseconds
+	End of 'add_element'
+------------------------------
+	Start of 'get_menu_choice' @ Sun Oct  6 20:03:55 2024
+		Start of 'display_menu' @ Sun Oct  6 20:03:55 2024
+		Elapsed Time: 21 microseconds
+		End of 'display_menu'
+------------------------------
+	Elapsed Time: 3262464 microseconds
+	End of 'get_menu_choice'
+------------------------------
+	Start of 'length' @ Sun Oct  6 20:03:58 2024
+	Elapsed Time: 41 microseconds
+	End of 'length'
+------------------------------
+	Start of '[] operator' @ Sun Oct  6 20:03:58 2024
+	Elapsed Time: 7 microseconds
+	End of '[] operator'
+------------------------------
+	Start of 'get_date' @ Sun Oct  6 20:03:58 2024
+	Elapsed Time: 15 microseconds
+	End of 'get_date'
+------------------------------
+	Start of 'length' @ Sun Oct  6 20:03:58 2024
+	Elapsed Time: 11 microseconds
+	End of 'length'
+------------------------------
+	Start of 'get_menu_choice' @ Sun Oct  6 20:03:58 2024
+		Start of 'display_menu' @ Sun Oct  6 20:03:58 2024
+		Elapsed Time: 29 microseconds
+		End of 'display_menu'
+------------------------------
+	Elapsed Time: 47 microseconds
+	End of 'get_menu_choice'
+------------------------------
+	Start of 'length' @ Sun Oct  6 20:03:58 2024
+	Elapsed Time: 11 microseconds
+	End of 'length'
+------------------------------
+	Start of '[] operator' @ Sun Oct  6 20:03:58 2024
+	Elapsed Time: 6 microseconds
+	End of '[] operator'
+------------------------------
+	Start of 'get_date' @ Sun Oct  6 20:03:58 2024
+	Elapsed Time: 8 microseconds
+	End of 'get_date'
+------------------------------
+	Start of 'length' @ Sun Oct  6 20:03:58 2024
+	Elapsed Time: 11 microseconds
+	End of 'length'
+------------------------------
+	Start of 'get_menu_choice' @ Sun Oct  6 20:03:58 2024
+		Start of 'display_menu' @ Sun Oct  6 20:03:58 2024
+		Elapsed Time: 61 microseconds
+		End of 'display_menu'
+------------------------------
+	Elapsed Time: 4892202 microseconds
+	End of 'get_menu_choice'
+------------------------------
+	Start of 'length' @ Sun Oct  6 20:04:05 2024
+	Elapsed Time: 56 microseconds
+	End of 'length'
+------------------------------
+	Start of '[] operator' @ Sun Oct  6 20:04:05 2024
+	Elapsed Time: 12 microseconds
+	End of '[] operator'
+------------------------------
+	Start of 'length' @ Sun Oct  6 20:04:05 2024
+	Elapsed Time: 10 microseconds
+	End of 'length'
+------------------------------
+	Start of 'get_menu_choice' @ Sun Oct  6 20:04:05 2024
+		Start of 'display_menu' @ Sun Oct  6 20:04:05 2024
+		Elapsed Time: 33 microseconds
+		End of 'display_menu'
+------------------------------
+	Elapsed Time: 3608528 microseconds
+	End of 'get_menu_choice'
+------------------------------
+	Start of 'length' @ Sun Oct  6 20:04:09 2024
+	Elapsed Time: 55 microseconds
+	End of 'length'
+------------------------------
+	Start of '[] operator' @ Sun Oct  6 20:04:09 2024
+	Elapsed Time: 15 microseconds
+	End of '[] operator'
+------------------------------
+	Start of 'get_date' @ Sun Oct  6 20:04:09 2024
+	Elapsed Time: 25 microseconds
+	End of 'get_date'
+------------------------------
+	Start of 'length' @ Sun Oct  6 20:04:09 2024
+	Elapsed Time: 12 microseconds
+	End of 'length'
+------------------------------
+	Start of 'get_menu_choice' @ Sun Oct  6 20:04:09 2024
+		Start of 'display_menu' @ Sun Oct  6 20:04:09 2024
+		Elapsed Time: 26 microseconds
+		End of 'display_menu'
+------------------------------
+	Elapsed Time: 2233255 microseconds
+	End of 'get_menu_choice'
+------------------------------
+	Start of 'length' @ Sun Oct  6 20:04:13 2024
+	Elapsed Time: 35 microseconds
+	End of 'length'
+------------------------------
+	Start of '[] operator' @ Sun Oct  6 20:04:13 2024
+	Elapsed Time: 4 microseconds
+	End of '[] operator'
+------------------------------
+	Start of 'length' @ Sun Oct  6 20:04:13 2024
+	Elapsed Time: 3 microseconds
+	End of 'length'
+------------------------------
+	Start of 'InVal' @ Sun Oct  6 20:04:13 2024
+	Elapsed Time: 7266943 microseconds
+	End of 'InVal'
+------------------------------
+	Start of 'Date Constructor' @ Sun Oct  6 20:04:20 2024
+	Elapsed Time: 47 microseconds
+	End of 'Date Constructor'
+------------------------------
+	Start of 'Item Constructor' @ Sun Oct  6 20:04:20 2024
+		Start of 'get_instance' @ Sun Oct  6 20:04:20 2024
+		Elapsed Time: 7 microseconds
+		End of 'get_instance'
+------------------------------
+		Start of 'random_float' @ Sun Oct  6 20:04:20 2024
+		Elapsed Time: 8 microseconds
+		End of 'random_float'
+------------------------------
+		Start of 'Date Constructor' @ Sun Oct  6 20:04:20 2024
+		Elapsed Time: 13 microseconds
+		End of 'Date Constructor'
+------------------------------
+	Elapsed Time: 43 microseconds
+	End of 'Item Constructor'
+------------------------------
+	Start of '[] operator' @ Sun Oct  6 20:04:20 2024
+	Elapsed Time: 11 microseconds
+	End of '[] operator'
+------------------------------
+	Start of 'get_menu_choice' @ Sun Oct  6 20:04:20 2024
+		Start of 'display_menu' @ Sun Oct  6 20:04:20 2024
+		Elapsed Time: 40 microseconds
+		End of 'display_menu'
+------------------------------
+	Elapsed Time: 1620160 microseconds
+	End of 'get_menu_choice'
+------------------------------
+	Start of 'length' @ Sun Oct  6 20:04:21 2024
+	Elapsed Time: 37 microseconds
+	End of 'length'
+------------------------------
+	Start of '[] operator' @ Sun Oct  6 20:04:21 2024
+	Elapsed Time: 9 microseconds
+	End of '[] operator'
+------------------------------
+	Start of 'get_date' @ Sun Oct  6 20:04:21 2024
+	Elapsed Time: 21 microseconds
+	End of 'get_date'
+------------------------------
+	Start of 'length' @ Sun Oct  6 20:04:21 2024
+	Elapsed Time: 11 microseconds
+	End of 'length'
+------------------------------
+	Start of 'get_menu_choice' @ Sun Oct  6 20:04:21 2024
+		Start of 'display_menu' @ Sun Oct  6 20:04:21 2024
+		Elapsed Time: 35 microseconds
+		End of 'display_menu'
+------------------------------
+	Elapsed Time: 4361787 microseconds
+	End of 'get_menu_choice'
+------------------------------
+Elapsed Time: 55816400 microseconds
+End of 'main'
+------------------------------

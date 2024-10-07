@@ -198,6 +198,18 @@ public:
         month = month;
         year = year;
     }
+    // Allow setting the date with a formatted string split at '/' characters.
+    void setDate(std::string inputDate){
+        Logger l = Logger ("date setDate");
+        std::istringstream dateStream(inputDate);
+        std::string dayIn, monthIn, yearIn;
+        std::getline(dateStream, dayIn, '/');
+        std::getline(dateStream, monthIn, '/');
+        std::getline(dateStream, yearIn, '/');
+        day = std::stoi(dayIn);
+        month = std::stoi(monthIn);
+        year = std::stoi(yearIn);
+    }
     // Return the date as a string
     std::string get_date(){
         Logger l = Logger("get_date");
@@ -222,7 +234,7 @@ public:
             std::cout << "Formatting or components do not match.\n";
 
         std::cout << "\nNow testing set_date functionality:\n";
-        testDate.SetDate(day, month, year);
+        testDate.set_date(day, month, year);
         std:: cout << "CompTest result: " << testDate.get_date() << "vs Self result: " << get_date() << '\n';
         if (testDate.day != day)
             std::cout << "Days are not equal.\n";
@@ -233,6 +245,10 @@ public:
         if (testDate.get_date() != get_date())
             std::cout << "Formatting or components do not match.\n";
         std::cout << "CompTest finished diagnosis. Program beginning.\n";
+
+        std::cout << "Finally, testing year accuracy.\n";
+        if (year != 2024) std::cout << "Year is inaccurate!\n";
+        else std::cout << "Year is accurate.\n";
     }
 };
 /*

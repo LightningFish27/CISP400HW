@@ -7,6 +7,7 @@
 #include <fstream>
 #include <sstream>
 #include <chrono>
+#include <iomanip>
 
 void ProgramGreeting();
 bool file_exists(std::string);
@@ -123,39 +124,40 @@ public:
     }
 };
 
+/*
+    A simple class which represents a date and provides methods for interacting with it.
+*/
 class Date{
 private:
     int day, month, year;
 public:
+    // Initialize with System Date if none specified
     Date(){
-        Logger l = Logger("Date Constructor");
-        // Initialize with System Date
-        // Get the system time as a time_point
-        auto now = std::chrono::system_clock::now();
-        // Convert the time_point to a time_t
-        std::time_t now_time_t = std::chrono::system_clock::to_time_t(now);
-        // Convert to local time
-        std::tm now_tm = *std::localtime(&now_time_t);
+        Logger l = Logger ("Date Constructor");
+        auto now = std::chrono::system_clock::now(); // Get the system time as a time_point
+        std::time_t now_time_t = std::chrono::system_clock::to_time_t(now); // Convert the time_point to a time_t
+        std::tm now_tm = *std::localtime(&now_time_t);// Convert to local time
         // Extract the day, month, and year
         day = now_tm.tm_mday;
         month = now_tm.tm_mon + 1; // tm_mon is 0-based
         year = now_tm.tm_year + 1900; // tm_year is years since 1900
     }
-    // Constructor for specified dates. Used for "null TODOs"
-    Date(int d, int m, int y){
-        Logger l = Logger ("Date specific constructor");
-        day = d;
-        month = m;
-        year = y;
+    // Initialize with specified date
+    Date(int day, int month, int year){
+        Logger l = Logger("SetDate");
+        day = day;
+        month = month;
+        year = year;
     }
-    // Return the date as a string
-    std::string get_date(){
-        Logger l = Logger("get_date");
-        std::stringstream s;
-        s << day << '/' << month << '/' << year;
-        return s.str();
+    // Allow manual date overriding by passing the day, month, and year to this function
+    void set_date(int day, int month, int year){
+        Logger l = Logger("SetDate");
+        day = day;
+        month = month;
+        year = year;
     }
-    void setDate(std::string inputDate){
+    // Allow setting the date with a formatted string split at '/' characters.
+    void set_date(std::string inputDate){
         Logger l = Logger ("date setDate");
         std::istringstream dateStream(inputDate);
         std::string dayIn, monthIn, yearIn;
@@ -166,13 +168,45 @@ public:
         month = std::stoi(monthIn);
         year = std::stoi(yearIn);
     }
+    // Return the date as a string
+    std::string get_date(){
+        Logger l = Logger("get_date");
+        std::stringstream s;
+        s << std::setfill('0');
+        s << std::setw(2) << day << '/' << std::setw(2) << month << '/' << year;
+        return s.str();
+    }
+    // Self-diagnostics of the time class's functionality
+    void CompTest(){
+        Logger l = Logger("CompTest");
+        std::cout << "Beginning CompTest initialization diagnostics.\n";
+        Date testDate;
+        std:: cout << "CompTest result: " << testDate.get_date() << "vs Self result: " << get_date() << '\n';
+        if (testDate.day != day)
+            std::cout << "Days are not equal.\n";
+        if (testDate.month != month)
+            std::cout << "Months are not equal.\n";
+        if (testDate.year != year)
+            std::cout << "Years are not equal.\n";
+        if (testDate.get_date() != get_date())
+            std::cout << "Formatting or components do not match.\n";
 
-    void ComponentTest(){
-        Logger l = Logger("date ComponentTest");
-        std::cout << "Comparing system-acquired year to developer-set year.\n";
-        std::cout << "Actual year: 2024 -- System year: " << year << ".\n";
-        if (year != 2024) std::cout << "Years do not match! Error.\n";
-        else std::cout << "Date Component testing successful.\n";
+        std::cout << "\nNow testing set_date functionality:\n";
+        testDate.set_date(day, month, year);
+        std:: cout << "CompTest result: " << testDate.get_date() << "vs Self result: " << get_date() << '\n';
+        if (testDate.day != day)
+            std::cout << "Days are not equal.\n";
+        if (testDate.month != month)
+            std::cout << "Months are not equal.\n";
+        if (testDate.year != year)
+            std::cout << "Years are not equal.\n";
+        if (testDate.get_date() != get_date())
+            std::cout << "Formatting or components do not match.\n";
+        std::cout << "CompTest finished diagnosis. Program beginning.\n";
+
+        std::cout << "Finally, testing year accuracy.\n";
+        if (year != 2024) std::cout << "Year is inaccurate!\n";
+        else std::cout << "Year is accurate.\n";
     }
 };
 
@@ -270,7 +304,7 @@ int main(){
             std::getline(stream, dateAdded, '~'); // Split at tildes into dateAdded
 
             Date newDate = Date();
-            newDate.setDate(dateAdded);
+            newDate.set_date(dateAdded);
 
             //newTODO.ID = std::stoi(idstr); // Convert ID into int and store in newTODO
             newTODO.ID = TODOsAdded;
@@ -425,7 +459,7 @@ void unit_test(){
     testTODO.ComponentTest();
 
     Date testDate = Date();
-    testDate.ComponentTest();
+    testDate.CompTest();
 
     G_Array<int> testArr = G_Array<int>();
     testArr.ComponentTest();

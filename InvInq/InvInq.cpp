@@ -133,37 +133,77 @@ public:
 };
 
 // Specification B1 - Date class
+/*
+    A simple class which represents a date and provides methods for interacting with it.
+*/
 class Date{
 private:
     int day, month, year;
 public:
+    // Initialize with System Date if none specified
     Date(){
-        Logger l = Logger("Date Constructor");
-        // Initialize with System Date
-        // Get the system time as a time_point
-        auto now = std::chrono::system_clock::now();
-        // Convert the time_point to a time_t
-        std::time_t now_time_t = std::chrono::system_clock::to_time_t(now);
-        // Convert to local time
-        std::tm now_tm = *std::localtime(&now_time_t);
+        Logger l = Logger ("Date Constructor");
+        auto now = std::chrono::system_clock::now(); // Get the system time as a time_point
+        std::time_t now_time_t = std::chrono::system_clock::to_time_t(now); // Convert the time_point to a time_t
+        std::tm now_tm = *std::localtime(&now_time_t);// Convert to local time
         // Extract the day, month, and year
         day = now_tm.tm_mday;
         month = now_tm.tm_mon + 1; // tm_mon is 0-based
         year = now_tm.tm_year + 1900; // tm_year is years since 1900
     }
+    // Initialize with specified date
+    Date(int day, int month, int year){
+        Logger l = Logger("SetDate");
+        day = day;
+        month = month;
+        year = year;
+    }
+    // Allow manual date overriding by passing the day, month, and year to this function
+    void set_date(int day, int month, int year){
+        Logger l = Logger("SetDate");
+        day = day;
+        month = month;
+        year = year;
+    }
     // Return the date as a string
     std::string get_date(){
         Logger l = Logger("get_date");
         std::stringstream s;
-        s << day << '/' << month << '/' << year;
+        s << std::setfill('0');
+        s << std::setw(2) << day << '/' << std::setw(2) << month << '/' << year;
         return s.str();
     }
+    // Self-diagnostics of the time class's functionality
+    void CompTest(){
+        Logger l = Logger("CompTest");
+        std::cout << "Beginning CompTest initialization diagnostics.\n";
+        Date testDate;
+        std:: cout << "CompTest result: " << testDate.get_date() << "vs Self result: " << get_date() << '\n';
+        if (testDate.day != day)
+            std::cout << "Days are not equal.\n";
+        if (testDate.month != month)
+            std::cout << "Months are not equal.\n";
+        if (testDate.year != year)
+            std::cout << "Years are not equal.\n";
+        if (testDate.get_date() != get_date())
+            std::cout << "Formatting or components do not match.\n";
 
-    void ComponentTest(){
-        std::cout << "Comparing system-acquired year to developer-set year.\n";
-        std::cout << "Actual year: 2024 -- System year: " << year << ".\n";
-        if (year != 2024) std::cout << "Years do not match! Error.\n";
-        else std::cout << "Date Component testing successful.\n";
+        std::cout << "\nNow testing set_date functionality:\n";
+        testDate.set_date(day, month, year);
+        std:: cout << "CompTest result: " << testDate.get_date() << "vs Self result: " << get_date() << '\n';
+        if (testDate.day != day)
+            std::cout << "Days are not equal.\n";
+        if (testDate.month != month)
+            std::cout << "Months are not equal.\n";
+        if (testDate.year != year)
+            std::cout << "Years are not equal.\n";
+        if (testDate.get_date() != get_date())
+            std::cout << "Formatting or components do not match.\n";
+        std::cout << "CompTest finished diagnosis. Program beginning.\n";
+
+        std::cout << "Finally, testing year accuracy.\n";
+        if (year != 2024) std::cout << "Year is inaccurate!\n";
+        else std::cout << "Year is accurate.\n";
     }
 };
 
@@ -409,7 +449,7 @@ void display_menu(){
 
 void UnitTest(){
     Date date = Date();
-    date.ComponentTest();
+    date.CompTest();
     RandNo::get_instance().ComponentTest();
     G_Array<int> testArr;
     testArr.ComponentTest();

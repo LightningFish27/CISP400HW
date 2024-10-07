@@ -1,6 +1,4 @@
-do hw~1/10/2024
-do laundry~1/10/2024
-do dishes~1/10/2024
-clean room~1/10/2024
-clean car~1/10/2024
-wash car~1/10/2024
+do hw~01/10/2024
+help~06/10/2024
+mom~06/10/2024
+dad~06/10/2024
