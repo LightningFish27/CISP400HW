@@ -316,6 +316,7 @@ public:
 /*
     A basic implementation of a dictionary that supports key-value pairs between
     a string (always) and another type. The second type is templated.
+    I may eventually support non-string keys, but I don't want to implement that yet.
 */
 template <typename T>
 class G_Dictionary {
@@ -369,7 +370,141 @@ public:
     std::ostream& operator<<(std::ostream& os){
         for (int i = 0; i < keys.length(); i++){
             std::cout << keys[i] << ',' << values[i] << '\t';
-        }   
+        }
         return os;
+    }
+};
+
+template<typename T>
+struct Node {
+    T data;
+    Node* next;
+};
+template<typename T>
+class G_List{
+    Node<T>* head;
+    int length = 0;
+public:
+    G_List() : head(NULL){}
+
+    // Insert a node at beginning of list
+    void push_front(T value){
+        Node<T>* newNode = new Node<T>();
+        newNode->data = value;
+        newNode->next = head;
+        head = newNode;
+        length++;
+    }
+
+    // Insert a node at end of list
+    void push_back(T value){
+        Node<T>* newNode = new Node<T>();
+        newNode->data = value;
+        newNode->next = NULL;
+        if (!head) { // Set new node as head if list is empty
+            head = newNode;
+            return;
+        }
+        // Traverse to find current last node
+        Node<T>* temp = head;
+        while (temp->next){
+            temp = temp->next;
+        }
+        temp->next = newNode; // Set new node following current last node
+        length++;
+    }
+    
+    // Insert at a specified position
+    void insert(T value, int position){
+        if (position < 1){
+            std::cout << "Position should be >= 1.\n";
+            return;
+        }
+        if (position == 1){
+            this.push_front(value);
+            return;
+        }
+
+        Node<T>* newNode = new Node<T>();
+        newNode->data = value;
+        // Traverse to specified position
+        Node<T>* temp = head;
+        for (int i = 1; i < position - 1 && temp; ++i) {
+            temp = temp->next;
+        }
+        // Return an error if specified position is beyond the end of the list.
+        if (!temp) {
+            std::cout << "Position out of range.\n";
+            delete newNode;
+            return;
+        }
+        // Insert the new node at the desired position
+        newNode->next = temp->next;
+        temp->next = newNode;
+        length++;
+    }
+    // Return a pointer to the head of the list and remove that node from the list
+    T pop_front(){
+        if (length < 1) {
+            std::cout << "List is empty.\n";
+            return;
+        }
+
+        Node<T>* temp = head; 
+        head = head->next; 
+        return temp; 
+        length--;
+    }
+    // Returns a pointer to last element in list and removes it from the list
+    T pop(){
+        if (length < 1) {
+            std::cout << "List is empty.\n";
+            return;
+        }
+        if (!head->next) {
+            delete head;   
+            head = NULL;   
+            return;
+        }
+        // Traverse to the second-to-last node
+        Node<T>* temp = head;
+        while (temp->next->next) {
+            temp = temp->next;
+        }
+        return temp->next; 
+        temp->next = NULL; 
+        length--;
+    }
+    // Removes the last element of the list from the list.
+    void delete_back(){
+        if (length < 1) {
+            std::cout << "List is empty.\n";
+            return;
+        }
+        if (!head->next) {
+            delete head;   
+            head = NULL;   
+            return;
+        }
+        // Traverse to the second-to-last node
+        Node<T>* temp = head;
+        while (temp->next->next) {
+            temp = temp->next;
+        }
+        delete temp->next; 
+        temp->next = NULL; 
+        length--;
+    }
+    // Delete the head of the list
+    void delete_front() {
+        if (!head) {
+            std::cout << "List is empty.\n";
+            return;
+        }
+
+        Node<T>* temp = head; 
+        head = head->next; 
+        delete temp;
+        length--;  
     }
 };
