@@ -1,3248 +1,772 @@
-Start of 'main' @ Sun Oct  6 20:07:47 2024
-	Start of 'Date Constructor' @ Sun Oct  6 20:07:47 2024
+Start of 'main' @ Sun Nov 10 17:00:16 2024
+	Start of 'Date Constructor' @ Sun Nov 10 17:00:16 2024
+	Elapsed Time: 54 microseconds
+	End of 'Date Constructor'
+------------------------------
+	Start of 'SetDate' @ Sun Nov 10 17:00:16 2024
 	Elapsed Time: 12 microseconds
-	End of 'Date Constructor'
-------------------------------
-	Start of 'SetDate' @ Sun Oct  6 20:07:47 2024
-	Elapsed Time: 5 microseconds
 	End of 'SetDate'
 ------------------------------
-	Start of 'Date Constructor' @ Sun Oct  6 20:07:47 2024
-	Elapsed Time: 8 microseconds
+	Start of 'Date Constructor' @ Sun Nov 10 17:00:16 2024
+	Elapsed Time: 17 microseconds
 	End of 'Date Constructor'
 ------------------------------
-	Start of 'SetDate' @ Sun Oct  6 20:07:47 2024
-	Elapsed Time: 4 microseconds
-	End of 'SetDate'
-------------------------------
-	Start of 'get_date' @ Sun Oct  6 20:07:47 2024
-	Elapsed Time: 22 microseconds
-	End of 'get_date'
-------------------------------
-	Start of 'Date Constructor' @ Sun Oct  6 20:07:47 2024
+	Start of 'SetDate' @ Sun Nov 10 17:00:16 2024
 	Elapsed Time: 9 microseconds
-	End of 'Date Constructor'
+	End of 'SetDate'
 ------------------------------
-	Start of 'get_date' @ Sun Oct  6 20:07:47 2024
-	Elapsed Time: 7 microseconds
+	Start of 'get_date' @ Sun Nov 10 17:00:16 2024
+	Elapsed Time: 44 microseconds
 	End of 'get_date'
 ------------------------------
-	Start of 'get_date' @ Sun Oct  6 20:07:47 2024
-	Elapsed Time: 6 microseconds
-	End of 'get_date'
-------------------------------
-	Start of 'Date Constructor' @ Sun Oct  6 20:07:47 2024
-	Elapsed Time: 8 microseconds
+	Start of 'Date Constructor' @ Sun Nov 10 17:00:16 2024
+	Elapsed Time: 18 microseconds
 	End of 'Date Constructor'
 ------------------------------
-	Start of 'Date Constructor' @ Sun Oct  6 20:07:47 2024
-	Elapsed Time: 7 microseconds
-	End of 'Date Constructor'
-------------------------------
-	Start of 'Date Constructor' @ Sun Oct  6 20:07:47 2024
-	Elapsed Time: 6 microseconds
-	End of 'Date Constructor'
-------------------------------
-	Start of 'Date Constructor' @ Sun Oct  6 20:07:47 2024
-	Elapsed Time: 7 microseconds
-	End of 'Date Constructor'
-------------------------------
-	Start of 'Date Constructor' @ Sun Oct  6 20:07:47 2024
-	Elapsed Time: 7 microseconds
-	End of 'Date Constructor'
-------------------------------
-	Start of 'get_date' @ Sun Oct  6 20:07:47 2024
-	Elapsed Time: 5 microseconds
+	Start of 'get_date' @ Sun Nov 10 17:00:16 2024
+	Elapsed Time: 11 microseconds
 	End of 'get_date'
 ------------------------------
-	Start of 'get_date' @ Sun Oct  6 20:07:47 2024
-	Elapsed Time: 5 microseconds
+	Start of 'get_date' @ Sun Nov 10 17:00:16 2024
+	Elapsed Time: 13 microseconds
 	End of 'get_date'
 ------------------------------
-	Start of 'get_date' @ Sun Oct  6 20:07:47 2024
-	Elapsed Time: 5 microseconds
-	End of 'get_date'
-------------------------------
-	Start of 'get_date' @ Sun Oct  6 20:07:47 2024
-	Elapsed Time: 4 microseconds
-	End of 'get_date'
-------------------------------
-	Start of 'get_date' @ Sun Oct  6 20:07:47 2024
-	Elapsed Time: 4 microseconds
-	End of 'get_date'
-------------------------------
-	Start of 'Date Constructor' @ Sun Oct  6 20:07:47 2024
-	Elapsed Time: 7 microseconds
+	Start of 'Date Constructor' @ Sun Nov 10 17:00:16 2024
+	Elapsed Time: 17 microseconds
 	End of 'Date Constructor'
 ------------------------------
-	Start of 'CompTest' @ Sun Oct  6 20:07:47 2024
-		Start of 'Date Constructor' @ Sun Oct  6 20:07:47 2024
-		Elapsed Time: 5 microseconds
+	Start of 'Date Constructor' @ Sun Nov 10 17:00:16 2024
+	Elapsed Time: 16 microseconds
+	End of 'Date Constructor'
+------------------------------
+	Start of 'Date Constructor' @ Sun Nov 10 17:00:16 2024
+	Elapsed Time: 17 microseconds
+	End of 'Date Constructor'
+------------------------------
+	Start of 'Date Constructor' @ Sun Nov 10 17:00:16 2024
+	Elapsed Time: 17 microseconds
+	End of 'Date Constructor'
+------------------------------
+	Start of 'Date Constructor' @ Sun Nov 10 17:00:16 2024
+	Elapsed Time: 17 microseconds
+	End of 'Date Constructor'
+------------------------------
+	Start of 'get_date' @ Sun Nov 10 17:00:16 2024
+	Elapsed Time: 11 microseconds
+	End of 'get_date'
+------------------------------
+	Start of 'get_date' @ Sun Nov 10 17:00:16 2024
+	Elapsed Time: 12 microseconds
+	End of 'get_date'
+------------------------------
+	Start of 'get_date' @ Sun Nov 10 17:00:16 2024
+	Elapsed Time: 11 microseconds
+	End of 'get_date'
+------------------------------
+	Start of 'get_date' @ Sun Nov 10 17:00:16 2024
+	Elapsed Time: 12 microseconds
+	End of 'get_date'
+------------------------------
+	Start of 'get_date' @ Sun Nov 10 17:00:16 2024
+	Elapsed Time: 12 microseconds
+	End of 'get_date'
+------------------------------
+	Start of 'Date Constructor' @ Sun Nov 10 17:00:16 2024
+	Elapsed Time: 18 microseconds
+	End of 'Date Constructor'
+------------------------------
+	Start of 'CompTest' @ Sun Nov 10 17:00:16 2024
+		Start of 'Date Constructor' @ Sun Nov 10 17:00:16 2024
+		Elapsed Time: 14 microseconds
 		End of 'Date Constructor'
 ------------------------------
-		Start of 'get_date' @ Sun Oct  6 20:07:47 2024
-		Elapsed Time: 3 microseconds
+		Start of 'get_date' @ Sun Nov 10 17:00:16 2024
+		Elapsed Time: 10 microseconds
 		End of 'get_date'
 ------------------------------
-		Start of 'get_date' @ Sun Oct  6 20:07:47 2024
-		Elapsed Time: 2 microseconds
+		Start of 'get_date' @ Sun Nov 10 17:00:16 2024
+		Elapsed Time: 11 microseconds
 		End of 'get_date'
 ------------------------------
-		Start of 'get_date' @ Sun Oct  6 20:07:47 2024
-		Elapsed Time: 3 microseconds
+		Start of 'get_date' @ Sun Nov 10 17:00:16 2024
+		Elapsed Time: 10 microseconds
 		End of 'get_date'
 ------------------------------
-		Start of 'get_date' @ Sun Oct  6 20:07:47 2024
-		Elapsed Time: 2 microseconds
+		Start of 'get_date' @ Sun Nov 10 17:00:16 2024
+		Elapsed Time: 10 microseconds
 		End of 'get_date'
 ------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:07:47 2024
-		Elapsed Time: 2 microseconds
+		Start of 'SetDate' @ Sun Nov 10 17:00:16 2024
+		Elapsed Time: 10 microseconds
 		End of 'SetDate'
 ------------------------------
-		Start of 'get_date' @ Sun Oct  6 20:07:47 2024
-		Elapsed Time: 2 microseconds
+		Start of 'get_date' @ Sun Nov 10 17:00:16 2024
+		Elapsed Time: 10 microseconds
 		End of 'get_date'
 ------------------------------
-		Start of 'get_date' @ Sun Oct  6 20:07:47 2024
-		Elapsed Time: 2 microseconds
+		Start of 'get_date' @ Sun Nov 10 17:00:16 2024
+		Elapsed Time: 10 microseconds
 		End of 'get_date'
 ------------------------------
-		Start of 'get_date' @ Sun Oct  6 20:07:47 2024
-		Elapsed Time: 3 microseconds
+		Start of 'get_date' @ Sun Nov 10 17:00:16 2024
+		Elapsed Time: 11 microseconds
 		End of 'get_date'
 ------------------------------
-		Start of 'get_date' @ Sun Oct  6 20:07:47 2024
-		Elapsed Time: 2 microseconds
+		Start of 'get_date' @ Sun Nov 10 17:00:16 2024
+		Elapsed Time: 11 microseconds
 		End of 'get_date'
 ------------------------------
-	Elapsed Time: 56 microseconds
+	Elapsed Time: 177 microseconds
 	End of 'CompTest'
 ------------------------------
-	Start of 'G_Array ComponentTest' @ Sun Oct  6 20:07:47 2024
-		Start of 'length' @ Sun Oct  6 20:07:47 2024
-		Elapsed Time: 2 microseconds
+	Start of 'G_Array ComponentTest' @ Sun Nov 10 17:00:16 2024
+		Start of 'length' @ Sun Nov 10 17:00:16 2024
+		Elapsed Time: 10 microseconds
 		End of 'length'
 ------------------------------
-		Start of 'add_element' @ Sun Oct  6 20:07:47 2024
-		Elapsed Time: 2 microseconds
+		Start of 'add_element' @ Sun Nov 10 17:00:16 2024
+		Elapsed Time: 22 microseconds
 		End of 'add_element'
 ------------------------------
-		Start of 'length' @ Sun Oct  6 20:07:47 2024
-		Elapsed Time: 2 microseconds
+		Start of 'length' @ Sun Nov 10 17:00:16 2024
+		Elapsed Time: 10 microseconds
 		End of 'length'
 ------------------------------
-		Start of 'remove_element' @ Sun Oct  6 20:07:47 2024
-		Elapsed Time: 28 microseconds
+		Start of 'remove_element' @ Sun Nov 10 17:00:16 2024
+		Elapsed Time: 11 microseconds
 		End of 'remove_element'
 ------------------------------
-		Start of 'length' @ Sun Oct  6 20:07:47 2024
-		Elapsed Time: 2 microseconds
+		Start of 'length' @ Sun Nov 10 17:00:16 2024
+		Elapsed Time: 8 microseconds
 		End of 'length'
 ------------------------------
-	Elapsed Time: 57 microseconds
+	Elapsed Time: 164 microseconds
 	End of 'G_Array ComponentTest'
 ------------------------------
-	Start of 'ProgramGreeting' @ Sun Oct  6 20:07:47 2024
-		Start of 'Date Constructor' @ Sun Oct  6 20:07:47 2024
-		Elapsed Time: 4 microseconds
+	Start of 'ProgramGreeting' @ Sun Nov 10 17:00:16 2024
+		Start of 'Date Constructor' @ Sun Nov 10 17:00:16 2024
+		Elapsed Time: 13 microseconds
 		End of 'Date Constructor'
 ------------------------------
-		Start of 'get_date' @ Sun Oct  6 20:07:47 2024
-		Elapsed Time: 3 microseconds
+		Start of 'get_date' @ Sun Nov 10 17:00:16 2024
+		Elapsed Time: 19 microseconds
 		End of 'get_date'
 ------------------------------
-	Elapsed Time: 29 microseconds
+	Elapsed Time: 100 microseconds
 	End of 'ProgramGreeting'
 ------------------------------
-	Start of 'file_exists' @ Sun Oct  6 20:07:47 2024
-	Elapsed Time: 20 microseconds
+	Start of 'file_exists' @ Sun Nov 10 17:00:16 2024
+	Elapsed Time: 72 microseconds
 	End of 'file_exists'
 ------------------------------
-	Start of 'Date Constructor' @ Sun Oct  6 20:07:47 2024
-	Elapsed Time: 6 microseconds
+	Start of 'Date Constructor' @ Sun Nov 10 17:00:16 2024
+	Elapsed Time: 34 microseconds
 	End of 'Date Constructor'
 ------------------------------
-	Start of 'SetDate' @ Sun Oct  6 20:07:47 2024
-	Elapsed Time: 2 microseconds
+	Start of 'SetDate' @ Sun Nov 10 17:00:16 2024
+	Elapsed Time: 9 microseconds
 	End of 'SetDate'
 ------------------------------
-	Start of 'Date Constructor' @ Sun Oct  6 20:07:47 2024
-	Elapsed Time: 4 microseconds
+	Start of 'Date Constructor' @ Sun Nov 10 17:00:16 2024
+	Elapsed Time: 16 microseconds
 	End of 'Date Constructor'
 ------------------------------
-	Start of 'date setDate' @ Sun Oct  6 20:07:47 2024
-	Elapsed Time: 4 microseconds
+	Start of 'date setDate' @ Sun Nov 10 17:00:16 2024
+	Elapsed Time: 14 microseconds
 	End of 'date setDate'
 ------------------------------
-	Start of 'add_element' @ Sun Oct  6 20:07:47 2024
-		Start of 'Date Constructor' @ Sun Oct  6 20:07:47 2024
-		Elapsed Time: 4 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:07:47 2024
-		Elapsed Time: 2 microseconds
-		End of 'SetDate'
-------------------------------
-	Elapsed Time: 11 microseconds
-	End of 'add_element'
-------------------------------
-	Start of 'Date Constructor' @ Sun Oct  6 20:07:47 2024
-	Elapsed Time: 4 microseconds
-	End of 'Date Constructor'
-------------------------------
-	Start of 'SetDate' @ Sun Oct  6 20:07:47 2024
-	Elapsed Time: 2 microseconds
-	End of 'SetDate'
-------------------------------
-	Start of 'Date Constructor' @ Sun Oct  6 20:07:47 2024
-	Elapsed Time: 4 microseconds
-	End of 'Date Constructor'
-------------------------------
-	Start of 'date setDate' @ Sun Oct  6 20:07:47 2024
-	Elapsed Time: 3 microseconds
-	End of 'date setDate'
-------------------------------
-	Start of 'add_element' @ Sun Oct  6 20:07:47 2024
-		Start of 'Date Constructor' @ Sun Oct  6 20:07:47 2024
-		Elapsed Time: 4 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:07:47 2024
-		Elapsed Time: 2 microseconds
-		End of 'SetDate'
-------------------------------
-		Start of 'Date Constructor' @ Sun Oct  6 20:07:47 2024
-		Elapsed Time: 4 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:07:47 2024
-		Elapsed Time: 2 microseconds
-		End of 'SetDate'
-------------------------------
-	Elapsed Time: 20 microseconds
-	End of 'add_element'
-------------------------------
-	Start of 'Date Constructor' @ Sun Oct  6 20:07:47 2024
-	Elapsed Time: 4 microseconds
-	End of 'Date Constructor'
-------------------------------
-	Start of 'SetDate' @ Sun Oct  6 20:07:47 2024
-	Elapsed Time: 2 microseconds
-	End of 'SetDate'
-------------------------------
-	Start of 'Date Constructor' @ Sun Oct  6 20:07:47 2024
-	Elapsed Time: 4 microseconds
-	End of 'Date Constructor'
-------------------------------
-	Start of 'date setDate' @ Sun Oct  6 20:07:47 2024
-	Elapsed Time: 3 microseconds
-	End of 'date setDate'
-------------------------------
-	Start of 'add_element' @ Sun Oct  6 20:07:47 2024
-		Start of 'Date Constructor' @ Sun Oct  6 20:07:47 2024
-		Elapsed Time: 5 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:07:47 2024
-		Elapsed Time: 2 microseconds
-		End of 'SetDate'
-------------------------------
-		Start of 'Date Constructor' @ Sun Oct  6 20:07:47 2024
-		Elapsed Time: 4 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:07:47 2024
-		Elapsed Time: 2 microseconds
-		End of 'SetDate'
-------------------------------
-		Start of 'Date Constructor' @ Sun Oct  6 20:07:47 2024
-		Elapsed Time: 4 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:07:47 2024
-		Elapsed Time: 2 microseconds
-		End of 'SetDate'
-------------------------------
-	Elapsed Time: 56 microseconds
-	End of 'add_element'
-------------------------------
-	Start of 'Date Constructor' @ Sun Oct  6 20:07:47 2024
-	Elapsed Time: 4 microseconds
-	End of 'Date Constructor'
-------------------------------
-	Start of 'SetDate' @ Sun Oct  6 20:07:47 2024
-	Elapsed Time: 2 microseconds
-	End of 'SetDate'
-------------------------------
-	Start of 'Date Constructor' @ Sun Oct  6 20:07:47 2024
-	Elapsed Time: 5 microseconds
-	End of 'Date Constructor'
-------------------------------
-	Start of 'date setDate' @ Sun Oct  6 20:07:47 2024
-	Elapsed Time: 3 microseconds
-	End of 'date setDate'
-------------------------------
-	Start of 'add_element' @ Sun Oct  6 20:07:47 2024
-		Start of 'Date Constructor' @ Sun Oct  6 20:07:47 2024
-		Elapsed Time: 4 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:07:47 2024
-		Elapsed Time: 2 microseconds
-		End of 'SetDate'
-------------------------------
-		Start of 'Date Constructor' @ Sun Oct  6 20:07:47 2024
-		Elapsed Time: 4 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:07:47 2024
-		Elapsed Time: 2 microseconds
-		End of 'SetDate'
-------------------------------
-		Start of 'Date Constructor' @ Sun Oct  6 20:07:47 2024
-		Elapsed Time: 4 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:07:47 2024
-		Elapsed Time: 2 microseconds
-		End of 'SetDate'
-------------------------------
-		Start of 'Date Constructor' @ Sun Oct  6 20:07:47 2024
-		Elapsed Time: 4 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:07:47 2024
-		Elapsed Time: 2 microseconds
-		End of 'SetDate'
-------------------------------
-	Elapsed Time: 37 microseconds
-	End of 'add_element'
-------------------------------
-	Start of 'Date Constructor' @ Sun Oct  6 20:07:47 2024
-	Elapsed Time: 4 microseconds
-	End of 'Date Constructor'
-------------------------------
-	Start of 'SetDate' @ Sun Oct  6 20:07:47 2024
-	Elapsed Time: 2 microseconds
-	End of 'SetDate'
-------------------------------
-	Start of 'Date Constructor' @ Sun Oct  6 20:07:47 2024
-	Elapsed Time: 4 microseconds
-	End of 'Date Constructor'
-------------------------------
-	Start of 'date setDate' @ Sun Oct  6 20:07:47 2024
-	Elapsed Time: 3 microseconds
-	End of 'date setDate'
-------------------------------
-	Start of 'add_element' @ Sun Oct  6 20:07:47 2024
-		Start of 'Date Constructor' @ Sun Oct  6 20:07:47 2024
-		Elapsed Time: 4 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:07:47 2024
-		Elapsed Time: 2 microseconds
-		End of 'SetDate'
-------------------------------
-		Start of 'Date Constructor' @ Sun Oct  6 20:07:47 2024
-		Elapsed Time: 4 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:07:47 2024
-		Elapsed Time: 2 microseconds
-		End of 'SetDate'
-------------------------------
-		Start of 'Date Constructor' @ Sun Oct  6 20:07:47 2024
-		Elapsed Time: 4 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:07:47 2024
-		Elapsed Time: 2 microseconds
-		End of 'SetDate'
-------------------------------
-		Start of 'Date Constructor' @ Sun Oct  6 20:07:47 2024
-		Elapsed Time: 4 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:07:47 2024
-		Elapsed Time: 2 microseconds
-		End of 'SetDate'
-------------------------------
-		Start of 'Date Constructor' @ Sun Oct  6 20:07:47 2024
-		Elapsed Time: 4 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:07:47 2024
-		Elapsed Time: 2 microseconds
-		End of 'SetDate'
-------------------------------
-	Elapsed Time: 45 microseconds
-	End of 'add_element'
-------------------------------
-	Start of 'Date Constructor' @ Sun Oct  6 20:07:47 2024
-	Elapsed Time: 4 microseconds
-	End of 'Date Constructor'
-------------------------------
-	Start of 'SetDate' @ Sun Oct  6 20:07:47 2024
-	Elapsed Time: 2 microseconds
-	End of 'SetDate'
-------------------------------
-	Start of 'Date Constructor' @ Sun Oct  6 20:07:47 2024
-	Elapsed Time: 4 microseconds
-	End of 'Date Constructor'
-------------------------------
-	Start of 'date setDate' @ Sun Oct  6 20:07:47 2024
-	Elapsed Time: 3 microseconds
-	End of 'date setDate'
-------------------------------
-	Start of 'add_element' @ Sun Oct  6 20:07:47 2024
-		Start of 'Date Constructor' @ Sun Oct  6 20:07:47 2024
-		Elapsed Time: 4 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:07:47 2024
-		Elapsed Time: 2 microseconds
-		End of 'SetDate'
-------------------------------
-		Start of 'Date Constructor' @ Sun Oct  6 20:07:47 2024
-		Elapsed Time: 11 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:07:47 2024
-		Elapsed Time: 2 microseconds
-		End of 'SetDate'
-------------------------------
-		Start of 'Date Constructor' @ Sun Oct  6 20:07:47 2024
-		Elapsed Time: 4 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:07:47 2024
-		Elapsed Time: 2 microseconds
-		End of 'SetDate'
-------------------------------
-		Start of 'Date Constructor' @ Sun Oct  6 20:07:47 2024
-		Elapsed Time: 4 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:07:47 2024
-		Elapsed Time: 2 microseconds
-		End of 'SetDate'
-------------------------------
-		Start of 'Date Constructor' @ Sun Oct  6 20:07:47 2024
-		Elapsed Time: 4 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:07:47 2024
-		Elapsed Time: 2 microseconds
-		End of 'SetDate'
-------------------------------
-		Start of 'Date Constructor' @ Sun Oct  6 20:07:47 2024
-		Elapsed Time: 4 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:07:47 2024
-		Elapsed Time: 2 microseconds
-		End of 'SetDate'
-------------------------------
-	Elapsed Time: 61 microseconds
-	End of 'add_element'
-------------------------------
-	Start of 'validate_input' @ Sun Oct  6 20:07:50 2024
-	Elapsed Time: 67 microseconds
-	End of 'validate_input'
-------------------------------
-	Start of 'validate_input' @ Sun Oct  6 20:07:53 2024
-	Elapsed Time: 64 microseconds
-	End of 'validate_input'
-------------------------------
-	Start of 'Date Constructor' @ Sun Oct  6 20:07:53 2024
-	Elapsed Time: 23 microseconds
-	End of 'Date Constructor'
-------------------------------
-	Start of 'add_element' @ Sun Oct  6 20:07:53 2024
-		Start of 'Date Constructor' @ Sun Oct  6 20:07:53 2024
-		Elapsed Time: 20 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:07:53 2024
-		Elapsed Time: 11 microseconds
-		End of 'SetDate'
-------------------------------
-		Start of 'Date Constructor' @ Sun Oct  6 20:07:53 2024
-		Elapsed Time: 12 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:07:53 2024
-		Elapsed Time: 6 microseconds
-		End of 'SetDate'
-------------------------------
-		Start of 'Date Constructor' @ Sun Oct  6 20:07:53 2024
-		Elapsed Time: 105 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:07:53 2024
-		Elapsed Time: 10 microseconds
-		End of 'SetDate'
-------------------------------
-		Start of 'Date Constructor' @ Sun Oct  6 20:07:53 2024
-		Elapsed Time: 18 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:07:53 2024
-		Elapsed Time: 9 microseconds
-		End of 'SetDate'
-------------------------------
-		Start of 'Date Constructor' @ Sun Oct  6 20:07:53 2024
-		Elapsed Time: 17 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:07:53 2024
-		Elapsed Time: 10 microseconds
-		End of 'SetDate'
-------------------------------
-		Start of 'Date Constructor' @ Sun Oct  6 20:07:53 2024
-		Elapsed Time: 21 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:07:53 2024
-		Elapsed Time: 10 microseconds
-		End of 'SetDate'
-------------------------------
-		Start of 'Date Constructor' @ Sun Oct  6 20:07:53 2024
-		Elapsed Time: 41 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:07:53 2024
-		Elapsed Time: 11 microseconds
-		End of 'SetDate'
-------------------------------
-	Elapsed Time: 357 microseconds
-	End of 'add_element'
-------------------------------
-	Start of 'validate_input' @ Sun Oct  6 20:07:55 2024
-	Elapsed Time: 58 microseconds
-	End of 'validate_input'
-------------------------------
-	Start of 'Date Constructor' @ Sun Oct  6 20:07:55 2024
-	Elapsed Time: 23 microseconds
-	End of 'Date Constructor'
-------------------------------
-	Start of 'add_element' @ Sun Oct  6 20:07:55 2024
-		Start of 'Date Constructor' @ Sun Oct  6 20:07:55 2024
-		Elapsed Time: 19 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:07:55 2024
-		Elapsed Time: 11 microseconds
-		End of 'SetDate'
-------------------------------
-		Start of 'Date Constructor' @ Sun Oct  6 20:07:55 2024
-		Elapsed Time: 19 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:07:55 2024
-		Elapsed Time: 10 microseconds
-		End of 'SetDate'
-------------------------------
-		Start of 'Date Constructor' @ Sun Oct  6 20:07:55 2024
-		Elapsed Time: 44 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:07:55 2024
-		Elapsed Time: 11 microseconds
-		End of 'SetDate'
-------------------------------
-		Start of 'Date Constructor' @ Sun Oct  6 20:07:55 2024
-		Elapsed Time: 18 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:07:55 2024
-		Elapsed Time: 11 microseconds
-		End of 'SetDate'
-------------------------------
-		Start of 'Date Constructor' @ Sun Oct  6 20:07:55 2024
-		Elapsed Time: 20 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:07:55 2024
-		Elapsed Time: 9 microseconds
-		End of 'SetDate'
-------------------------------
-		Start of 'Date Constructor' @ Sun Oct  6 20:07:55 2024
-		Elapsed Time: 12 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:07:55 2024
-		Elapsed Time: 7 microseconds
-		End of 'SetDate'
-------------------------------
-		Start of 'Date Constructor' @ Sun Oct  6 20:07:55 2024
-		Elapsed Time: 12 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:07:55 2024
-		Elapsed Time: 7 microseconds
-		End of 'SetDate'
-------------------------------
-		Start of 'Date Constructor' @ Sun Oct  6 20:07:55 2024
-		Elapsed Time: 12 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:07:55 2024
-		Elapsed Time: 7 microseconds
-		End of 'SetDate'
-------------------------------
-	Elapsed Time: 283 microseconds
-	End of 'add_element'
-------------------------------
-	Start of 'validate_input' @ Sun Oct  6 20:07:57 2024
-	Elapsed Time: 54 microseconds
-	End of 'validate_input'
-------------------------------
-	Start of 'Date Constructor' @ Sun Oct  6 20:07:57 2024
-	Elapsed Time: 20 microseconds
-	End of 'Date Constructor'
-------------------------------
-	Start of 'add_element' @ Sun Oct  6 20:07:57 2024
-		Start of 'Date Constructor' @ Sun Oct  6 20:07:57 2024
-		Elapsed Time: 11 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:07:57 2024
-		Elapsed Time: 9 microseconds
-		End of 'SetDate'
-------------------------------
-		Start of 'Date Constructor' @ Sun Oct  6 20:07:57 2024
-		Elapsed Time: 15 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:07:57 2024
-		Elapsed Time: 10 microseconds
-		End of 'SetDate'
-------------------------------
-		Start of 'Date Constructor' @ Sun Oct  6 20:07:57 2024
-		Elapsed Time: 18 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:07:57 2024
-		Elapsed Time: 10 microseconds
-		End of 'SetDate'
-------------------------------
-		Start of 'Date Constructor' @ Sun Oct  6 20:07:57 2024
-		Elapsed Time: 17 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:07:57 2024
-		Elapsed Time: 10 microseconds
-		End of 'SetDate'
-------------------------------
-		Start of 'Date Constructor' @ Sun Oct  6 20:07:57 2024
-		Elapsed Time: 18 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:07:57 2024
-		Elapsed Time: 13 microseconds
-		End of 'SetDate'
-------------------------------
-		Start of 'Date Constructor' @ Sun Oct  6 20:07:57 2024
-		Elapsed Time: 17 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:07:57 2024
-		Elapsed Time: 10 microseconds
-		End of 'SetDate'
-------------------------------
-		Start of 'Date Constructor' @ Sun Oct  6 20:07:57 2024
-		Elapsed Time: 11 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:07:57 2024
-		Elapsed Time: 6 microseconds
-		End of 'SetDate'
-------------------------------
-		Start of 'Date Constructor' @ Sun Oct  6 20:07:57 2024
-		Elapsed Time: 15 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:07:57 2024
-		Elapsed Time: 10 microseconds
-		End of 'SetDate'
-------------------------------
-		Start of 'Date Constructor' @ Sun Oct  6 20:07:57 2024
-		Elapsed Time: 11 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:07:57 2024
-		Elapsed Time: 6 microseconds
-		End of 'SetDate'
-------------------------------
-	Elapsed Time: 273 microseconds
-	End of 'add_element'
-------------------------------
-	Start of 'validate_input' @ Sun Oct  6 20:07:59 2024
-	Elapsed Time: 61 microseconds
-	End of 'validate_input'
-------------------------------
-	Start of 'Date Constructor' @ Sun Oct  6 20:07:59 2024
-	Elapsed Time: 22 microseconds
-	End of 'Date Constructor'
-------------------------------
-	Start of 'SetDate' @ Sun Oct  6 20:07:59 2024
-	Elapsed Time: 11 microseconds
-	End of 'SetDate'
-------------------------------
-	Start of 'add_element' @ Sun Oct  6 20:07:59 2024
-		Start of 'Date Constructor' @ Sun Oct  6 20:07:59 2024
-		Elapsed Time: 22 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:07:59 2024
-		Elapsed Time: 12 microseconds
-		End of 'SetDate'
-------------------------------
-		Start of 'Date Constructor' @ Sun Oct  6 20:07:59 2024
-		Elapsed Time: 19 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:07:59 2024
-		Elapsed Time: 7 microseconds
-		End of 'SetDate'
-------------------------------
-		Start of 'Date Constructor' @ Sun Oct  6 20:07:59 2024
-		Elapsed Time: 12 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:07:59 2024
-		Elapsed Time: 16 microseconds
-		End of 'SetDate'
-------------------------------
-		Start of 'Date Constructor' @ Sun Oct  6 20:07:59 2024
-		Elapsed Time: 17 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:07:59 2024
-		Elapsed Time: 10 microseconds
-		End of 'SetDate'
-------------------------------
-		Start of 'Date Constructor' @ Sun Oct  6 20:07:59 2024
-		Elapsed Time: 17 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:07:59 2024
-		Elapsed Time: 10 microseconds
-		End of 'SetDate'
-------------------------------
-		Start of 'Date Constructor' @ Sun Oct  6 20:07:59 2024
-		Elapsed Time: 19 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:07:59 2024
-		Elapsed Time: 13 microseconds
-		End of 'SetDate'
-------------------------------
-		Start of 'Date Constructor' @ Sun Oct  6 20:07:59 2024
-		Elapsed Time: 15 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:07:59 2024
-		Elapsed Time: 6 microseconds
-		End of 'SetDate'
-------------------------------
-		Start of 'Date Constructor' @ Sun Oct  6 20:07:59 2024
-		Elapsed Time: 12 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:07:59 2024
-		Elapsed Time: 6 microseconds
-		End of 'SetDate'
-------------------------------
-		Start of 'Date Constructor' @ Sun Oct  6 20:07:59 2024
-		Elapsed Time: 12 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:07:59 2024
-		Elapsed Time: 6 microseconds
-		End of 'SetDate'
-------------------------------
-		Start of 'Date Constructor' @ Sun Oct  6 20:07:59 2024
-		Elapsed Time: 12 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:07:59 2024
-		Elapsed Time: 6 microseconds
-		End of 'SetDate'
-------------------------------
-	Elapsed Time: 437 microseconds
-	End of 'add_element'
-------------------------------
-	Start of 'validate_input' @ Sun Oct  6 20:08:01 2024
-	Elapsed Time: 85 microseconds
-	End of 'validate_input'
-------------------------------
-	Start of 'Date Constructor' @ Sun Oct  6 20:08:01 2024
-	Elapsed Time: 23 microseconds
-	End of 'Date Constructor'
-------------------------------
-	Start of 'SetDate' @ Sun Oct  6 20:08:01 2024
-	Elapsed Time: 10 microseconds
-	End of 'SetDate'
-------------------------------
-	Start of 'add_element' @ Sun Oct  6 20:08:01 2024
-		Start of 'Date Constructor' @ Sun Oct  6 20:08:01 2024
-		Elapsed Time: 17 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:08:01 2024
-		Elapsed Time: 9 microseconds
-		End of 'SetDate'
-------------------------------
-		Start of 'Date Constructor' @ Sun Oct  6 20:08:01 2024
+	Start of 'add_element' @ Sun Nov 10 17:00:16 2024
+		Start of 'Date Constructor' @ Sun Nov 10 17:00:16 2024
 		Elapsed Time: 16 microseconds
 		End of 'Date Constructor'
 ------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:08:01 2024
-		Elapsed Time: 9 microseconds
-		End of 'SetDate'
-------------------------------
-		Start of 'Date Constructor' @ Sun Oct  6 20:08:01 2024
-		Elapsed Time: 18 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:08:01 2024
+		Start of 'SetDate' @ Sun Nov 10 17:00:16 2024
 		Elapsed Time: 10 microseconds
 		End of 'SetDate'
 ------------------------------
-		Start of 'Date Constructor' @ Sun Oct  6 20:08:01 2024
-		Elapsed Time: 15 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:08:01 2024
-		Elapsed Time: 9 microseconds
-		End of 'SetDate'
-------------------------------
-		Start of 'Date Constructor' @ Sun Oct  6 20:08:01 2024
-		Elapsed Time: 16 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:08:01 2024
-		Elapsed Time: 9 microseconds
-		End of 'SetDate'
-------------------------------
-		Start of 'Date Constructor' @ Sun Oct  6 20:08:01 2024
-		Elapsed Time: 16 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:08:01 2024
-		Elapsed Time: 10 microseconds
-		End of 'SetDate'
-------------------------------
-		Start of 'Date Constructor' @ Sun Oct  6 20:08:01 2024
-		Elapsed Time: 18 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:08:01 2024
-		Elapsed Time: 7 microseconds
-		End of 'SetDate'
-------------------------------
-		Start of 'Date Constructor' @ Sun Oct  6 20:08:01 2024
-		Elapsed Time: 11 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:08:01 2024
-		Elapsed Time: 6 microseconds
-		End of 'SetDate'
-------------------------------
-		Start of 'Date Constructor' @ Sun Oct  6 20:08:01 2024
-		Elapsed Time: 11 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:08:01 2024
-		Elapsed Time: 10 microseconds
-		End of 'SetDate'
-------------------------------
-		Start of 'Date Constructor' @ Sun Oct  6 20:08:01 2024
-		Elapsed Time: 16 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:08:01 2024
-		Elapsed Time: 9 microseconds
-		End of 'SetDate'
-------------------------------
-		Start of 'Date Constructor' @ Sun Oct  6 20:08:01 2024
-		Elapsed Time: 18 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:08:01 2024
-		Elapsed Time: 10 microseconds
-		End of 'SetDate'
-------------------------------
-	Elapsed Time: 343 microseconds
-	End of 'add_element'
-------------------------------
-	Start of 'validate_input' @ Sun Oct  6 20:08:02 2024
-	Elapsed Time: 63 microseconds
-	End of 'validate_input'
-------------------------------
-	Start of 'Date Constructor' @ Sun Oct  6 20:08:02 2024
-	Elapsed Time: 24 microseconds
-	End of 'Date Constructor'
-------------------------------
-	Start of 'add_element' @ Sun Oct  6 20:08:02 2024
-		Start of 'Date Constructor' @ Sun Oct  6 20:08:02 2024
-		Elapsed Time: 18 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:08:02 2024
-		Elapsed Time: 11 microseconds
-		End of 'SetDate'
-------------------------------
-		Start of 'Date Constructor' @ Sun Oct  6 20:08:02 2024
-		Elapsed Time: 18 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:08:02 2024
-		Elapsed Time: 10 microseconds
-		End of 'SetDate'
-------------------------------
-		Start of 'Date Constructor' @ Sun Oct  6 20:08:02 2024
-		Elapsed Time: 18 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:08:02 2024
-		Elapsed Time: 10 microseconds
-		End of 'SetDate'
-------------------------------
-		Start of 'Date Constructor' @ Sun Oct  6 20:08:02 2024
-		Elapsed Time: 42 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:08:02 2024
-		Elapsed Time: 12 microseconds
-		End of 'SetDate'
-------------------------------
-		Start of 'Date Constructor' @ Sun Oct  6 20:08:02 2024
-		Elapsed Time: 21 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:08:02 2024
-		Elapsed Time: 11 microseconds
-		End of 'SetDate'
-------------------------------
-		Start of 'Date Constructor' @ Sun Oct  6 20:08:02 2024
-		Elapsed Time: 36 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:08:02 2024
-		Elapsed Time: 10 microseconds
-		End of 'SetDate'
-------------------------------
-		Start of 'Date Constructor' @ Sun Oct  6 20:08:02 2024
-		Elapsed Time: 17 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:08:02 2024
-		Elapsed Time: 9 microseconds
-		End of 'SetDate'
-------------------------------
-		Start of 'Date Constructor' @ Sun Oct  6 20:08:02 2024
-		Elapsed Time: 18 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:08:02 2024
-		Elapsed Time: 104 microseconds
-		End of 'SetDate'
-------------------------------
-		Start of 'Date Constructor' @ Sun Oct  6 20:08:02 2024
-		Elapsed Time: 19 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:08:02 2024
-		Elapsed Time: 10 microseconds
-		End of 'SetDate'
-------------------------------
-		Start of 'Date Constructor' @ Sun Oct  6 20:08:02 2024
-		Elapsed Time: 21 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:08:02 2024
-		Elapsed Time: 12 microseconds
-		End of 'SetDate'
-------------------------------
-		Start of 'Date Constructor' @ Sun Oct  6 20:08:02 2024
-		Elapsed Time: 12 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:08:02 2024
-		Elapsed Time: 7 microseconds
-		End of 'SetDate'
-------------------------------
-		Start of 'Date Constructor' @ Sun Oct  6 20:08:02 2024
-		Elapsed Time: 12 microseconds
-		End of 'Date Constructor'
-------------------------------
-		Start of 'SetDate' @ Sun Oct  6 20:08:02 2024
-		Elapsed Time: 7 microseconds
-		End of 'SetDate'
-------------------------------
-	Elapsed Time: 574 microseconds
-	End of 'add_element'
-------------------------------
-	Start of 'validate_input' @ Sun Oct  6 20:08:06 2024
-	Elapsed Time: 47 microseconds
-	End of 'validate_input'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:06 2024
-	Elapsed Time: 9 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:06 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:06 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:06 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:06 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'get_date' @ Sun Oct  6 20:08:06 2024
-	Elapsed Time: 16 microseconds
-	End of 'get_date'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:06 2024
-	Elapsed Time: 7 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:06 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:06 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:06 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:06 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'get_date' @ Sun Oct  6 20:08:06 2024
-	Elapsed Time: 7 microseconds
-	End of 'get_date'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:06 2024
-	Elapsed Time: 6 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:06 2024
-	Elapsed Time: 30 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:06 2024
-	Elapsed Time: 7 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:06 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:06 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'get_date' @ Sun Oct  6 20:08:06 2024
-	Elapsed Time: 7 microseconds
-	End of 'get_date'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:06 2024
-	Elapsed Time: 6 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:06 2024
-	Elapsed Time: 10 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:06 2024
-	Elapsed Time: 9 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:06 2024
-	Elapsed Time: 9 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:06 2024
-	Elapsed Time: 9 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'get_date' @ Sun Oct  6 20:08:06 2024
-	Elapsed Time: 12 microseconds
-	End of 'get_date'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:06 2024
-	Elapsed Time: 11 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:06 2024
-	Elapsed Time: 10 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:06 2024
-	Elapsed Time: 8 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:06 2024
-	Elapsed Time: 9 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:06 2024
-	Elapsed Time: 9 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'get_date' @ Sun Oct  6 20:08:06 2024
-	Elapsed Time: 10 microseconds
-	End of 'get_date'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:06 2024
-	Elapsed Time: 10 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:06 2024
-	Elapsed Time: 10 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:06 2024
-	Elapsed Time: 8 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:06 2024
-	Elapsed Time: 8 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:06 2024
-	Elapsed Time: 9 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'get_date' @ Sun Oct  6 20:08:06 2024
-	Elapsed Time: 11 microseconds
-	End of 'get_date'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:06 2024
-	Elapsed Time: 10 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:06 2024
-	Elapsed Time: 10 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:06 2024
-	Elapsed Time: 10 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:06 2024
-	Elapsed Time: 30 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:06 2024
-	Elapsed Time: 10 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'get_date' @ Sun Oct  6 20:08:06 2024
-	Elapsed Time: 13 microseconds
-	End of 'get_date'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:06 2024
-	Elapsed Time: 9 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:06 2024
-	Elapsed Time: 9 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:06 2024
-	Elapsed Time: 9 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:06 2024
-	Elapsed Time: 9 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:06 2024
-	Elapsed Time: 9 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'get_date' @ Sun Oct  6 20:08:06 2024
-	Elapsed Time: 12 microseconds
-	End of 'get_date'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:06 2024
-	Elapsed Time: 11 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:06 2024
-	Elapsed Time: 9 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:06 2024
-	Elapsed Time: 10 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:06 2024
-	Elapsed Time: 7120 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:06 2024
-	Elapsed Time: 17 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'get_date' @ Sun Oct  6 20:08:06 2024
-	Elapsed Time: 24 microseconds
-	End of 'get_date'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:06 2024
-	Elapsed Time: 13 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:06 2024
-	Elapsed Time: 11 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:06 2024
-	Elapsed Time: 11 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:06 2024
-	Elapsed Time: 10 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:06 2024
-	Elapsed Time: 10 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'get_date' @ Sun Oct  6 20:08:06 2024
-	Elapsed Time: 15 microseconds
-	End of 'get_date'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:06 2024
-	Elapsed Time: 11 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:06 2024
-	Elapsed Time: 10 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:06 2024
-	Elapsed Time: 10 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:06 2024
-	Elapsed Time: 11 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:06 2024
-	Elapsed Time: 11 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'get_date' @ Sun Oct  6 20:08:06 2024
-	Elapsed Time: 9 microseconds
-	End of 'get_date'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:06 2024
-	Elapsed Time: 7 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:06 2024
-	Elapsed Time: 7 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:06 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:06 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:06 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'get_date' @ Sun Oct  6 20:08:06 2024
-	Elapsed Time: 8 microseconds
-	End of 'get_date'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:06 2024
-	Elapsed Time: 7 microseconds
-	End of 'length'
-------------------------------
-	Start of 'validate_input' @ Sun Oct  6 20:08:11 2024
-	Elapsed Time: 69 microseconds
-	End of 'validate_input'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:11 2024
-	Elapsed Time: 14 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:11 2024
-	Elapsed Time: 11 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:11 2024
-	Elapsed Time: 10 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:11 2024
-	Elapsed Time: 9 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:11 2024
-	Elapsed Time: 10 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:11 2024
-	Elapsed Time: 8 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:11 2024
-	Elapsed Time: 9 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:11 2024
-	Elapsed Time: 10 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:11 2024
-	Elapsed Time: 9 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:11 2024
-	Elapsed Time: 11 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:11 2024
-	Elapsed Time: 10 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:11 2024
-	Elapsed Time: 10 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:11 2024
-	Elapsed Time: 10 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:11 2024
-	Elapsed Time: 9 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:11 2024
-	Elapsed Time: 10 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:11 2024
-	Elapsed Time: 10 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:11 2024
-	Elapsed Time: 10 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:11 2024
-	Elapsed Time: 10 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:11 2024
-	Elapsed Time: 9 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:11 2024
-	Elapsed Time: 9 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:11 2024
-	Elapsed Time: 9 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:11 2024
-	Elapsed Time: 9 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:11 2024
-	Elapsed Time: 9 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:11 2024
-	Elapsed Time: 29 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:11 2024
-	Elapsed Time: 9 microseconds
-	End of 'length'
-------------------------------
-	Start of 'SetDate' @ Sun Oct  6 20:08:11 2024
-	Elapsed Time: 16 microseconds
-	End of 'SetDate'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:11 2024
-	Elapsed Time: 13 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'validate_input' @ Sun Oct  6 20:08:16 2024
-	Elapsed Time: 65 microseconds
-	End of 'validate_input'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:16 2024
-	Elapsed Time: 16 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:16 2024
-	Elapsed Time: 10 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:16 2024
-	Elapsed Time: 30 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:16 2024
-	Elapsed Time: 12 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:16 2024
-	Elapsed Time: 12 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:16 2024
-	Elapsed Time: 11 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:16 2024
-	Elapsed Time: 7 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:16 2024
-	Elapsed Time: 7 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:16 2024
-	Elapsed Time: 7 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:16 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:16 2024
-	Elapsed Time: 6 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:16 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:16 2024
-	Elapsed Time: 17 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:16 2024
-	Elapsed Time: 11 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:16 2024
-	Elapsed Time: 12 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:16 2024
-	Elapsed Time: 10 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:16 2024
-	Elapsed Time: 12 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:16 2024
-	Elapsed Time: 12 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:16 2024
-	Elapsed Time: 13 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:16 2024
-	Elapsed Time: 12 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:16 2024
-	Elapsed Time: 12 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:16 2024
-	Elapsed Time: 12 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:16 2024
-	Elapsed Time: 12 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:16 2024
-	Elapsed Time: 12 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:16 2024
-	Elapsed Time: 12 microseconds
-	End of 'length'
-------------------------------
-	Start of 'SetDate' @ Sun Oct  6 20:08:16 2024
-	Elapsed Time: 14 microseconds
-	End of 'SetDate'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:16 2024
-	Elapsed Time: 11 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'validate_input' @ Sun Oct  6 20:08:18 2024
-	Elapsed Time: 81 microseconds
-	End of 'validate_input'
-------------------------------
-	Start of 'validate_input' @ Sun Oct  6 20:08:19 2024
-	Elapsed Time: 59 microseconds
-	End of 'validate_input'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:19 2024
-	Elapsed Time: 17 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:19 2024
-	Elapsed Time: 7 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:19 2024
-	Elapsed Time: 7 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:19 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:19 2024
-	Elapsed Time: 7 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'get_date' @ Sun Oct  6 20:08:19 2024
-	Elapsed Time: 17 microseconds
-	End of 'get_date'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:19 2024
-	Elapsed Time: 12 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:19 2024
-	Elapsed Time: 8 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:19 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:19 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:19 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'get_date' @ Sun Oct  6 20:08:19 2024
-	Elapsed Time: 8 microseconds
-	End of 'get_date'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:19 2024
-	Elapsed Time: 12 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:19 2024
-	Elapsed Time: 8 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:19 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:19 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:19 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'get_date' @ Sun Oct  6 20:08:19 2024
-	Elapsed Time: 8 microseconds
-	End of 'get_date'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:19 2024
-	Elapsed Time: 12 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:19 2024
-	Elapsed Time: 7 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:19 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:19 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:19 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'get_date' @ Sun Oct  6 20:08:19 2024
-	Elapsed Time: 7 microseconds
-	End of 'get_date'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:19 2024
-	Elapsed Time: 12 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:19 2024
-	Elapsed Time: 8 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:19 2024
-	Elapsed Time: 7 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:19 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:19 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'get_date' @ Sun Oct  6 20:08:19 2024
-	Elapsed Time: 7 microseconds
-	End of 'get_date'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:19 2024
-	Elapsed Time: 13 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:19 2024
-	Elapsed Time: 7 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:19 2024
-	Elapsed Time: 7 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:19 2024
-	Elapsed Time: 7 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:19 2024
-	Elapsed Time: 7 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'get_date' @ Sun Oct  6 20:08:19 2024
-	Elapsed Time: 8 microseconds
-	End of 'get_date'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:19 2024
-	Elapsed Time: 11 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:19 2024
-	Elapsed Time: 7 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:19 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:19 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:19 2024
-	Elapsed Time: 7 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'get_date' @ Sun Oct  6 20:08:19 2024
-	Elapsed Time: 7 microseconds
-	End of 'get_date'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:19 2024
-	Elapsed Time: 11 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:19 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:19 2024
-	Elapsed Time: 7 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:19 2024
-	Elapsed Time: 81 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:19 2024
-	Elapsed Time: 16 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'get_date' @ Sun Oct  6 20:08:19 2024
-	Elapsed Time: 14 microseconds
-	End of 'get_date'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:19 2024
-	Elapsed Time: 14 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:19 2024
-	Elapsed Time: 12 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:19 2024
-	Elapsed Time: 12 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:19 2024
-	Elapsed Time: 12 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:19 2024
-	Elapsed Time: 12 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'get_date' @ Sun Oct  6 20:08:19 2024
-	Elapsed Time: 16 microseconds
-	End of 'get_date'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:19 2024
-	Elapsed Time: 13 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:19 2024
-	Elapsed Time: 11 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:19 2024
-	Elapsed Time: 12 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:19 2024
-	Elapsed Time: 11 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:19 2024
-	Elapsed Time: 7 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'get_date' @ Sun Oct  6 20:08:19 2024
-	Elapsed Time: 11 microseconds
-	End of 'get_date'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:19 2024
-	Elapsed Time: 7 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:19 2024
-	Elapsed Time: 7 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:19 2024
-	Elapsed Time: 6 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:19 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:19 2024
-	Elapsed Time: 6 microseconds
-	End of 'length'
-------------------------------
-	Start of 'validate_input' @ Sun Oct  6 20:08:23 2024
-	Elapsed Time: 61 microseconds
-	End of 'validate_input'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:23 2024
-	Elapsed Time: 11 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:23 2024
-	Elapsed Time: 7 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:23 2024
-	Elapsed Time: 6 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:23 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:23 2024
-	Elapsed Time: 7 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:23 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:23 2024
-	Elapsed Time: 7 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:23 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:23 2024
-	Elapsed Time: 6 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:23 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:23 2024
-	Elapsed Time: 7 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:23 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:23 2024
-	Elapsed Time: 7 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:23 2024
-	Elapsed Time: 7 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:23 2024
-	Elapsed Time: 6 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:23 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:23 2024
-	Elapsed Time: 7 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:23 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:23 2024
-	Elapsed Time: 6 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:23 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:23 2024
-	Elapsed Time: 7 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:23 2024
-	Elapsed Time: 7 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:23 2024
-	Elapsed Time: 29 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:23 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:23 2024
-	Elapsed Time: 6 microseconds
-	End of 'length'
-------------------------------
-	Start of 'SetDate' @ Sun Oct  6 20:08:23 2024
-	Elapsed Time: 8 microseconds
-	End of 'SetDate'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:23 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'validate_input' @ Sun Oct  6 20:08:24 2024
-	Elapsed Time: 58 microseconds
-	End of 'validate_input'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:24 2024
-	Elapsed Time: 36 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:24 2024
-	Elapsed Time: 7 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:24 2024
-	Elapsed Time: 7 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:24 2024
-	Elapsed Time: 7 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:24 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'get_date' @ Sun Oct  6 20:08:24 2024
-	Elapsed Time: 16 microseconds
-	End of 'get_date'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:24 2024
-	Elapsed Time: 12 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:24 2024
-	Elapsed Time: 7 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:24 2024
-	Elapsed Time: 11 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:24 2024
-	Elapsed Time: 10 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:24 2024
-	Elapsed Time: 10 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'get_date' @ Sun Oct  6 20:08:24 2024
-	Elapsed Time: 13 microseconds
-	End of 'get_date'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:24 2024
-	Elapsed Time: 30 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:24 2024
-	Elapsed Time: 7 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:24 2024
-	Elapsed Time: 7061 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:24 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:24 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'get_date' @ Sun Oct  6 20:08:24 2024
-	Elapsed Time: 14 microseconds
-	End of 'get_date'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:24 2024
-	Elapsed Time: 10 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:24 2024
-	Elapsed Time: 10 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:24 2024
-	Elapsed Time: 10 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:24 2024
-	Elapsed Time: 11 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:24 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'get_date' @ Sun Oct  6 20:08:24 2024
-	Elapsed Time: 8 microseconds
-	End of 'get_date'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:24 2024
-	Elapsed Time: 10 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:24 2024
-	Elapsed Time: 9 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:24 2024
-	Elapsed Time: 9 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:24 2024
-	Elapsed Time: 10 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:24 2024
-	Elapsed Time: 10 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'get_date' @ Sun Oct  6 20:08:24 2024
-	Elapsed Time: 11 microseconds
-	End of 'get_date'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:24 2024
-	Elapsed Time: 9 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:24 2024
-	Elapsed Time: 9 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:24 2024
-	Elapsed Time: 9 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:24 2024
-	Elapsed Time: 9 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:24 2024
-	Elapsed Time: 9 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'get_date' @ Sun Oct  6 20:08:24 2024
-	Elapsed Time: 11 microseconds
-	End of 'get_date'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:24 2024
-	Elapsed Time: 11 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:24 2024
-	Elapsed Time: 9 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:24 2024
-	Elapsed Time: 10 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:24 2024
-	Elapsed Time: 10 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:24 2024
-	Elapsed Time: 10 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'get_date' @ Sun Oct  6 20:08:24 2024
-	Elapsed Time: 14 microseconds
-	End of 'get_date'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:24 2024
 	Elapsed Time: 42 microseconds
-	End of 'length'
+	End of 'add_element'
 ------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:24 2024
+	Start of 'Date Constructor' @ Sun Nov 10 17:00:16 2024
+	Elapsed Time: 15 microseconds
+	End of 'Date Constructor'
+------------------------------
+	Start of 'SetDate' @ Sun Nov 10 17:00:16 2024
+	Elapsed Time: 9 microseconds
+	End of 'SetDate'
+------------------------------
+	Start of 'Date Constructor' @ Sun Nov 10 17:00:16 2024
+	Elapsed Time: 14 microseconds
+	End of 'Date Constructor'
+------------------------------
+	Start of 'date setDate' @ Sun Nov 10 17:00:16 2024
 	Elapsed Time: 11 microseconds
-	End of '[] operator'
+	End of 'date setDate'
 ------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:24 2024
+	Start of 'add_element' @ Sun Nov 10 17:00:16 2024
+		Start of 'Date Constructor' @ Sun Nov 10 17:00:16 2024
+		Elapsed Time: 15 microseconds
+		End of 'Date Constructor'
+------------------------------
+		Start of 'SetDate' @ Sun Nov 10 17:00:16 2024
+		Elapsed Time: 9 microseconds
+		End of 'SetDate'
+------------------------------
+		Start of 'Date Constructor' @ Sun Nov 10 17:00:16 2024
+		Elapsed Time: 33 microseconds
+		End of 'Date Constructor'
+------------------------------
+		Start of 'SetDate' @ Sun Nov 10 17:00:16 2024
+		Elapsed Time: 6 microseconds
+		End of 'SetDate'
+------------------------------
+	Elapsed Time: 83 microseconds
+	End of 'add_element'
+------------------------------
+	Start of 'Date Constructor' @ Sun Nov 10 17:00:16 2024
 	Elapsed Time: 10 microseconds
-	End of '[] operator'
+	End of 'Date Constructor'
 ------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:24 2024
+	Start of 'SetDate' @ Sun Nov 10 17:00:16 2024
+	Elapsed Time: 5 microseconds
+	End of 'SetDate'
+------------------------------
+	Start of 'Date Constructor' @ Sun Nov 10 17:00:16 2024
 	Elapsed Time: 10 microseconds
-	End of '[] operator'
+	End of 'Date Constructor'
 ------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:24 2024
+	Start of 'date setDate' @ Sun Nov 10 17:00:16 2024
 	Elapsed Time: 7 microseconds
+	End of 'date setDate'
+------------------------------
+	Start of 'add_element' @ Sun Nov 10 17:00:16 2024
+		Start of 'Date Constructor' @ Sun Nov 10 17:00:16 2024
+		Elapsed Time: 10 microseconds
+		End of 'Date Constructor'
+------------------------------
+		Start of 'SetDate' @ Sun Nov 10 17:00:16 2024
+		Elapsed Time: 5 microseconds
+		End of 'SetDate'
+------------------------------
+		Start of 'Date Constructor' @ Sun Nov 10 17:00:16 2024
+		Elapsed Time: 10 microseconds
+		End of 'Date Constructor'
+------------------------------
+		Start of 'SetDate' @ Sun Nov 10 17:00:16 2024
+		Elapsed Time: 5 microseconds
+		End of 'SetDate'
+------------------------------
+		Start of 'Date Constructor' @ Sun Nov 10 17:00:16 2024
+		Elapsed Time: 10 microseconds
+		End of 'Date Constructor'
+------------------------------
+		Start of 'SetDate' @ Sun Nov 10 17:00:16 2024
+		Elapsed Time: 5 microseconds
+		End of 'SetDate'
+------------------------------
+	Elapsed Time: 66 microseconds
+	End of 'add_element'
+------------------------------
+	Start of 'Date Constructor' @ Sun Nov 10 17:00:16 2024
+	Elapsed Time: 10 microseconds
+	End of 'Date Constructor'
+------------------------------
+	Start of 'SetDate' @ Sun Nov 10 17:00:16 2024
+	Elapsed Time: 5 microseconds
+	End of 'SetDate'
+------------------------------
+	Start of 'Date Constructor' @ Sun Nov 10 17:00:16 2024
+	Elapsed Time: 10 microseconds
+	End of 'Date Constructor'
+------------------------------
+	Start of 'date setDate' @ Sun Nov 10 17:00:16 2024
+	Elapsed Time: 6 microseconds
+	End of 'date setDate'
+------------------------------
+	Start of 'add_element' @ Sun Nov 10 17:00:16 2024
+		Start of 'Date Constructor' @ Sun Nov 10 17:00:16 2024
+		Elapsed Time: 10 microseconds
+		End of 'Date Constructor'
+------------------------------
+		Start of 'SetDate' @ Sun Nov 10 17:00:16 2024
+		Elapsed Time: 5 microseconds
+		End of 'SetDate'
+------------------------------
+		Start of 'Date Constructor' @ Sun Nov 10 17:00:16 2024
+		Elapsed Time: 10 microseconds
+		End of 'Date Constructor'
+------------------------------
+		Start of 'SetDate' @ Sun Nov 10 17:00:16 2024
+		Elapsed Time: 6 microseconds
+		End of 'SetDate'
+------------------------------
+		Start of 'Date Constructor' @ Sun Nov 10 17:00:16 2024
+		Elapsed Time: 10 microseconds
+		End of 'Date Constructor'
+------------------------------
+		Start of 'SetDate' @ Sun Nov 10 17:00:16 2024
+		Elapsed Time: 5 microseconds
+		End of 'SetDate'
+------------------------------
+		Start of 'Date Constructor' @ Sun Nov 10 17:00:16 2024
+		Elapsed Time: 10 microseconds
+		End of 'Date Constructor'
+------------------------------
+		Start of 'SetDate' @ Sun Nov 10 17:00:16 2024
+		Elapsed Time: 5 microseconds
+		End of 'SetDate'
+------------------------------
+	Elapsed Time: 79 microseconds
+	End of 'add_element'
+------------------------------
+	Start of 'validate_input' @ Sun Nov 10 17:00:20 2024
+	Elapsed Time: 46 microseconds
+	End of 'validate_input'
+------------------------------
+	Start of 'length' @ Sun Nov 10 17:00:20 2024
+	Elapsed Time: 11 microseconds
+	End of 'length'
+------------------------------
+	Start of '[] operator' @ Sun Nov 10 17:00:20 2024
+	Elapsed Time: 9 microseconds
 	End of '[] operator'
 ------------------------------
-	Start of 'get_date' @ Sun Oct  6 20:08:24 2024
+	Start of '[] operator' @ Sun Nov 10 17:00:20 2024
 	Elapsed Time: 8 microseconds
+	End of '[] operator'
+------------------------------
+	Start of '[] operator' @ Sun Nov 10 17:00:20 2024
+	Elapsed Time: 9 microseconds
+	End of '[] operator'
+------------------------------
+	Start of '[] operator' @ Sun Nov 10 17:00:20 2024
+	Elapsed Time: 8 microseconds
+	End of '[] operator'
+------------------------------
+	Start of 'get_date' @ Sun Nov 10 17:00:20 2024
+	Elapsed Time: 24 microseconds
 	End of 'get_date'
 ------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:24 2024
+	Start of 'length' @ Sun Nov 10 17:00:20 2024
 	Elapsed Time: 10 microseconds
 	End of 'length'
 ------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:24 2024
-	Elapsed Time: 9 microseconds
+	Start of '[] operator' @ Sun Nov 10 17:00:20 2024
+	Elapsed Time: 8 microseconds
 	End of '[] operator'
 ------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:24 2024
-	Elapsed Time: 11 microseconds
+	Start of '[] operator' @ Sun Nov 10 17:00:20 2024
+	Elapsed Time: 8 microseconds
 	End of '[] operator'
 ------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:24 2024
-	Elapsed Time: 9 microseconds
+	Start of '[] operator' @ Sun Nov 10 17:00:20 2024
+	Elapsed Time: 8 microseconds
 	End of '[] operator'
 ------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:24 2024
-	Elapsed Time: 9 microseconds
+	Start of '[] operator' @ Sun Nov 10 17:00:20 2024
+	Elapsed Time: 8 microseconds
 	End of '[] operator'
 ------------------------------
-	Start of 'get_date' @ Sun Oct  6 20:08:24 2024
+	Start of 'get_date' @ Sun Nov 10 17:00:20 2024
 	Elapsed Time: 12 microseconds
 	End of 'get_date'
 ------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:24 2024
-	Elapsed Time: 12 microseconds
+	Start of 'length' @ Sun Nov 10 17:00:20 2024
+	Elapsed Time: 20 microseconds
 	End of 'length'
 ------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:24 2024
-	Elapsed Time: 11 microseconds
+	Start of '[] operator' @ Sun Nov 10 17:00:20 2024
+	Elapsed Time: 9 microseconds
 	End of '[] operator'
 ------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:24 2024
+	Start of '[] operator' @ Sun Nov 10 17:00:20 2024
+	Elapsed Time: 8 microseconds
+	End of '[] operator'
+------------------------------
+	Start of '[] operator' @ Sun Nov 10 17:00:20 2024
+	Elapsed Time: 9 microseconds
+	End of '[] operator'
+------------------------------
+	Start of '[] operator' @ Sun Nov 10 17:00:20 2024
+	Elapsed Time: 9 microseconds
+	End of '[] operator'
+------------------------------
+	Start of 'get_date' @ Sun Nov 10 17:00:20 2024
+	Elapsed Time: 13 microseconds
+	End of 'get_date'
+------------------------------
+	Start of 'length' @ Sun Nov 10 17:00:20 2024
+	Elapsed Time: 8 microseconds
+	End of 'length'
+------------------------------
+	Start of '[] operator' @ Sun Nov 10 17:00:20 2024
+	Elapsed Time: 8 microseconds
+	End of '[] operator'
+------------------------------
+	Start of '[] operator' @ Sun Nov 10 17:00:20 2024
+	Elapsed Time: 8 microseconds
+	End of '[] operator'
+------------------------------
+	Start of '[] operator' @ Sun Nov 10 17:00:20 2024
+	Elapsed Time: 8 microseconds
+	End of '[] operator'
+------------------------------
+	Start of '[] operator' @ Sun Nov 10 17:00:20 2024
+	Elapsed Time: 9 microseconds
+	End of '[] operator'
+------------------------------
+	Start of 'get_date' @ Sun Nov 10 17:00:20 2024
+	Elapsed Time: 10 microseconds
+	End of 'get_date'
+------------------------------
+	Start of 'length' @ Sun Nov 10 17:00:20 2024
 	Elapsed Time: 9 microseconds
 	End of 'length'
 ------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:24 2024
-	Elapsed Time: 10 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:24 2024
-	Elapsed Time: 9 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:24 2024
-	Elapsed Time: 10 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:24 2024
-	Elapsed Time: 10 microseconds
-	End of 'length'
-------------------------------
-	Start of 'validate_input' @ Sun Oct  6 20:08:28 2024
+	Start of 'validate_input' @ Sun Nov 10 17:00:29 2024
 	Elapsed Time: 48 microseconds
 	End of 'validate_input'
 ------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:28 2024
-	Elapsed Time: 16 microseconds
+	Start of 'Date Constructor' @ Sun Nov 10 17:00:29 2024
+	Elapsed Time: 18 microseconds
+	End of 'Date Constructor'
+------------------------------
+	Start of 'add_element' @ Sun Nov 10 17:00:29 2024
+		Start of 'Date Constructor' @ Sun Nov 10 17:00:29 2024
+		Elapsed Time: 15 microseconds
+		End of 'Date Constructor'
+------------------------------
+		Start of 'SetDate' @ Sun Nov 10 17:00:29 2024
+		Elapsed Time: 9 microseconds
+		End of 'SetDate'
+------------------------------
+		Start of 'Date Constructor' @ Sun Nov 10 17:00:29 2024
+		Elapsed Time: 15 microseconds
+		End of 'Date Constructor'
+------------------------------
+		Start of 'SetDate' @ Sun Nov 10 17:00:29 2024
+		Elapsed Time: 9 microseconds
+		End of 'SetDate'
+------------------------------
+		Start of 'Date Constructor' @ Sun Nov 10 17:00:29 2024
+		Elapsed Time: 15 microseconds
+		End of 'Date Constructor'
+------------------------------
+		Start of 'SetDate' @ Sun Nov 10 17:00:29 2024
+		Elapsed Time: 8 microseconds
+		End of 'SetDate'
+------------------------------
+		Start of 'Date Constructor' @ Sun Nov 10 17:00:29 2024
+		Elapsed Time: 15 microseconds
+		End of 'Date Constructor'
+------------------------------
+		Start of 'SetDate' @ Sun Nov 10 17:00:29 2024
+		Elapsed Time: 8 microseconds
+		End of 'SetDate'
+------------------------------
+		Start of 'Date Constructor' @ Sun Nov 10 17:00:29 2024
+		Elapsed Time: 15 microseconds
+		End of 'Date Constructor'
+------------------------------
+		Start of 'SetDate' @ Sun Nov 10 17:00:29 2024
+		Elapsed Time: 8 microseconds
+		End of 'SetDate'
+------------------------------
+	Elapsed Time: 156 microseconds
+	End of 'add_element'
+------------------------------
+	Start of 'validate_input' @ Sun Nov 10 17:00:31 2024
+	Elapsed Time: 48 microseconds
+	End of 'validate_input'
+------------------------------
+	Start of 'length' @ Sun Nov 10 17:00:31 2024
+	Elapsed Time: 183 microseconds
 	End of 'length'
 ------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:28 2024
-	Elapsed Time: 7 microseconds
+	Start of '[] operator' @ Sun Nov 10 17:00:31 2024
+	Elapsed Time: 9 microseconds
 	End of '[] operator'
 ------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:28 2024
-	Elapsed Time: 7 microseconds
+	Start of 'length' @ Sun Nov 10 17:00:31 2024
+	Elapsed Time: 9 microseconds
 	End of 'length'
 ------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:28 2024
-	Elapsed Time: 6 microseconds
+	Start of '[] operator' @ Sun Nov 10 17:00:31 2024
+	Elapsed Time: 8 microseconds
 	End of '[] operator'
 ------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:28 2024
+	Start of 'length' @ Sun Nov 10 17:00:31 2024
+	Elapsed Time: 8 microseconds
+	End of 'length'
+------------------------------
+	Start of '[] operator' @ Sun Nov 10 17:00:31 2024
+	Elapsed Time: 8 microseconds
+	End of '[] operator'
+------------------------------
+	Start of 'length' @ Sun Nov 10 17:00:31 2024
+	Elapsed Time: 8 microseconds
+	End of 'length'
+------------------------------
+	Start of '[] operator' @ Sun Nov 10 17:00:31 2024
+	Elapsed Time: 8 microseconds
+	End of '[] operator'
+------------------------------
+	Start of 'length' @ Sun Nov 10 17:00:31 2024
+	Elapsed Time: 8 microseconds
+	End of 'length'
+------------------------------
+	Start of '[] operator' @ Sun Nov 10 17:00:31 2024
+	Elapsed Time: 8 microseconds
+	End of '[] operator'
+------------------------------
+	Start of 'length' @ Sun Nov 10 17:00:31 2024
+	Elapsed Time: 8 microseconds
+	End of 'length'
+------------------------------
+	Start of 'SetDate' @ Sun Nov 10 17:00:31 2024
+	Elapsed Time: 9 microseconds
+	End of 'SetDate'
+------------------------------
+	Start of '[] operator' @ Sun Nov 10 17:00:31 2024
 	Elapsed Time: 26 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:28 2024
-	Elapsed Time: 7 microseconds
 	End of '[] operator'
 ------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:28 2024
-	Elapsed Time: 6 microseconds
-	End of 'length'
+	Start of 'validate_input' @ Sun Nov 10 17:00:33 2024
+	Elapsed Time: 48 microseconds
+	End of 'validate_input'
 ------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:28 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:28 2024
-	Elapsed Time: 6 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:28 2024
-	Elapsed Time: 7 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:28 2024
-	Elapsed Time: 6 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:28 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:28 2024
+	Start of 'length' @ Sun Nov 10 17:00:33 2024
 	Elapsed Time: 10 microseconds
 	End of 'length'
 ------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:28 2024
-	Elapsed Time: 10 microseconds
+	Start of '[] operator' @ Sun Nov 10 17:00:33 2024
+	Elapsed Time: 9 microseconds
 	End of '[] operator'
 ------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:28 2024
-	Elapsed Time: 10 microseconds
+	Start of 'length' @ Sun Nov 10 17:00:33 2024
+	Elapsed Time: 8 microseconds
 	End of 'length'
 ------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:28 2024
-	Elapsed Time: 36 microseconds
+	Start of '[] operator' @ Sun Nov 10 17:00:33 2024
+	Elapsed Time: 8 microseconds
 	End of '[] operator'
 ------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:28 2024
-	Elapsed Time: 7 microseconds
+	Start of 'length' @ Sun Nov 10 17:00:33 2024
+	Elapsed Time: 9 microseconds
 	End of 'length'
 ------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:28 2024
-	Elapsed Time: 6 microseconds
+	Start of '[] operator' @ Sun Nov 10 17:00:33 2024
+	Elapsed Time: 8 microseconds
 	End of '[] operator'
 ------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:28 2024
-	Elapsed Time: 6 microseconds
+	Start of 'length' @ Sun Nov 10 17:00:33 2024
+	Elapsed Time: 8 microseconds
 	End of 'length'
 ------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:28 2024
-	Elapsed Time: 6 microseconds
+	Start of '[] operator' @ Sun Nov 10 17:00:33 2024
+	Elapsed Time: 8 microseconds
 	End of '[] operator'
 ------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:28 2024
-	Elapsed Time: 6 microseconds
+	Start of 'length' @ Sun Nov 10 17:00:33 2024
+	Elapsed Time: 8 microseconds
 	End of 'length'
 ------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:28 2024
-	Elapsed Time: 6 microseconds
+	Start of '[] operator' @ Sun Nov 10 17:00:33 2024
+	Elapsed Time: 8 microseconds
 	End of '[] operator'
 ------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:28 2024
-	Elapsed Time: 6 microseconds
+	Start of 'length' @ Sun Nov 10 17:00:33 2024
+	Elapsed Time: 8 microseconds
 	End of 'length'
 ------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:28 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:28 2024
-	Elapsed Time: 6 microseconds
-	End of 'length'
-------------------------------
-	Start of 'SetDate' @ Sun Oct  6 20:08:28 2024
-	Elapsed Time: 7 microseconds
+	Start of 'SetDate' @ Sun Nov 10 17:00:33 2024
+	Elapsed Time: 8 microseconds
 	End of 'SetDate'
 ------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:28 2024
-	Elapsed Time: 6 microseconds
+	Start of '[] operator' @ Sun Nov 10 17:00:33 2024
+	Elapsed Time: 8 microseconds
 	End of '[] operator'
 ------------------------------
-	Start of 'validate_input' @ Sun Oct  6 20:08:31 2024
-	Elapsed Time: 70 microseconds
+	Start of 'validate_input' @ Sun Nov 10 17:00:34 2024
+	Elapsed Time: 46 microseconds
 	End of 'validate_input'
 ------------------------------
-	Start of 'validate_input' @ Sun Oct  6 20:08:33 2024
-	Elapsed Time: 72 microseconds
-	End of 'validate_input'
-------------------------------
-	Start of 'validate_input' @ Sun Oct  6 20:08:35 2024
-	Elapsed Time: 82 microseconds
-	End of 'validate_input'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:35 2024
-	Elapsed Time: 14 microseconds
+	Start of 'length' @ Sun Nov 10 17:00:34 2024
+	Elapsed Time: 23 microseconds
 	End of 'length'
 ------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:35 2024
+	Start of '[] operator' @ Sun Nov 10 17:00:34 2024
+	Elapsed Time: 9 microseconds
+	End of '[] operator'
+------------------------------
+	Start of '[] operator' @ Sun Nov 10 17:00:34 2024
 	Elapsed Time: 8 microseconds
 	End of '[] operator'
 ------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:35 2024
-	Elapsed Time: 9 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:35 2024
-	Elapsed Time: 9 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:35 2024
-	Elapsed Time: 9 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:35 2024
-	Elapsed Time: 9 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:35 2024
-	Elapsed Time: 9 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:35 2024
-	Elapsed Time: 10 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:35 2024
-	Elapsed Time: 19 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:35 2024
-	Elapsed Time: 9 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:35 2024
-	Elapsed Time: 9 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:35 2024
-	Elapsed Time: 10 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:35 2024
-	Elapsed Time: 10 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:35 2024
-	Elapsed Time: 10 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:35 2024
-	Elapsed Time: 9 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:35 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:35 2024
-	Elapsed Time: 6 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:35 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:35 2024
-	Elapsed Time: 6 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:35 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:35 2024
-	Elapsed Time: 6 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:35 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:35 2024
-	Elapsed Time: 6 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:35 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:35 2024
-	Elapsed Time: 6 microseconds
-	End of 'length'
-------------------------------
-	Start of 'SetDate' @ Sun Oct  6 20:08:35 2024
-	Elapsed Time: 7 microseconds
-	End of 'SetDate'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:35 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'validate_input' @ Sun Oct  6 20:08:37 2024
-	Elapsed Time: 58 microseconds
-	End of 'validate_input'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:37 2024
-	Elapsed Time: 17 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:37 2024
-	Elapsed Time: 9 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:37 2024
-	Elapsed Time: 7 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:37 2024
-	Elapsed Time: 7 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:37 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'get_date' @ Sun Oct  6 20:08:37 2024
-	Elapsed Time: 17 microseconds
-	End of 'get_date'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:37 2024
-	Elapsed Time: 7 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:37 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:37 2024
-	Elapsed Time: 6 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:37 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:37 2024
-	Elapsed Time: 7 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:37 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:37 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:37 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:37 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'get_date' @ Sun Oct  6 20:08:37 2024
-	Elapsed Time: 7 microseconds
-	End of 'get_date'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:37 2024
-	Elapsed Time: 7 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:37 2024
-	Elapsed Time: 7 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:37 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:37 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:37 2024
-	Elapsed Time: 9 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'get_date' @ Sun Oct  6 20:08:37 2024
-	Elapsed Time: 8 microseconds
-	End of 'get_date'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:37 2024
-	Elapsed Time: 11 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:37 2024
-	Elapsed Time: 12 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:37 2024
-	Elapsed Time: 25 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:37 2024
-	Elapsed Time: 7 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:37 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'get_date' @ Sun Oct  6 20:08:37 2024
-	Elapsed Time: 8 microseconds
-	End of 'get_date'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:37 2024
-	Elapsed Time: 13 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:37 2024
-	Elapsed Time: 9 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:37 2024
-	Elapsed Time: 7 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:37 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:37 2024
-	Elapsed Time: 7 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'get_date' @ Sun Oct  6 20:08:37 2024
-	Elapsed Time: 9 microseconds
-	End of 'get_date'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:37 2024
-	Elapsed Time: 13 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:37 2024
-	Elapsed Time: 11 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:37 2024
-	Elapsed Time: 7 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:37 2024
-	Elapsed Time: 7 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:37 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'get_date' @ Sun Oct  6 20:08:37 2024
-	Elapsed Time: 8 microseconds
-	End of 'get_date'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:37 2024
-	Elapsed Time: 12 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:37 2024
-	Elapsed Time: 10 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:37 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:37 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:37 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'get_date' @ Sun Oct  6 20:08:37 2024
-	Elapsed Time: 8 microseconds
-	End of 'get_date'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:37 2024
-	Elapsed Time: 12 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:37 2024
-	Elapsed Time: 7 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:37 2024
-	Elapsed Time: 6 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:37 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:37 2024
-	Elapsed Time: 6 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:37 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:37 2024
-	Elapsed Time: 6 microseconds
-	End of 'length'
-------------------------------
-	Start of 'validate_input' @ Sun Oct  6 20:08:40 2024
-	Elapsed Time: 78 microseconds
-	End of 'validate_input'
-------------------------------
-	Start of 'validate_input' @ Sun Oct  6 20:08:42 2024
-	Elapsed Time: 59 microseconds
-	End of 'validate_input'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:42 2024
-	Elapsed Time: 13 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:42 2024
-	Elapsed Time: 9 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:42 2024
-	Elapsed Time: 8 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:42 2024
-	Elapsed Time: 9 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:42 2024
-	Elapsed Time: 31 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:42 2024
-	Elapsed Time: 9 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:42 2024
-	Elapsed Time: 9 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:42 2024
-	Elapsed Time: 9 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:42 2024
-	Elapsed Time: 9 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:42 2024
-	Elapsed Time: 9 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:42 2024
-	Elapsed Time: 8 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:42 2024
+	Start of '[] operator' @ Sun Nov 10 17:00:34 2024
 	Elapsed Time: 8 microseconds
 	End of '[] operator'
 ------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:42 2024
-	Elapsed Time: 10 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:42 2024
+	Start of '[] operator' @ Sun Nov 10 17:00:34 2024
 	Elapsed Time: 8 microseconds
 	End of '[] operator'
 ------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:42 2024
-	Elapsed Time: 9 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:42 2024
-	Elapsed Time: 8 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:42 2024
-	Elapsed Time: 8 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:42 2024
-	Elapsed Time: 9 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:42 2024
-	Elapsed Time: 9 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:42 2024
-	Elapsed Time: 9 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:42 2024
-	Elapsed Time: 9 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:42 2024
-	Elapsed Time: 9 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:42 2024
-	Elapsed Time: 9 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:42 2024
-	Elapsed Time: 8 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:42 2024
-	Elapsed Time: 6 microseconds
-	End of 'length'
-------------------------------
-	Start of 'SetDate' @ Sun Oct  6 20:08:42 2024
-	Elapsed Time: 7 microseconds
-	End of 'SetDate'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:42 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'validate_input' @ Sun Oct  6 20:08:46 2024
-	Elapsed Time: 7099 microseconds
-	End of 'validate_input'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:46 2024
-	Elapsed Time: 36 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:46 2024
-	Elapsed Time: 10 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:46 2024
-	Elapsed Time: 9 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:46 2024
-	Elapsed Time: 8 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:46 2024
-	Elapsed Time: 8 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:46 2024
-	Elapsed Time: 8 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:46 2024
-	Elapsed Time: 8 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:46 2024
-	Elapsed Time: 9 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:46 2024
-	Elapsed Time: 10 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:46 2024
-	Elapsed Time: 8 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:46 2024
-	Elapsed Time: 8 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:46 2024
-	Elapsed Time: 9 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:46 2024
-	Elapsed Time: 10 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:46 2024
-	Elapsed Time: 7 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:46 2024
-	Elapsed Time: 6 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:46 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:46 2024
-	Elapsed Time: 6 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:46 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:46 2024
-	Elapsed Time: 6 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:46 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:46 2024
-	Elapsed Time: 6 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:46 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:46 2024
-	Elapsed Time: 6 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:46 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:46 2024
-	Elapsed Time: 6 microseconds
-	End of 'length'
-------------------------------
-	Start of 'SetDate' @ Sun Oct  6 20:08:46 2024
-	Elapsed Time: 7 microseconds
-	End of 'SetDate'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:46 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'validate_input' @ Sun Oct  6 20:08:48 2024
-	Elapsed Time: 87 microseconds
-	End of 'validate_input'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:48 2024
-	Elapsed Time: 16 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:48 2024
-	Elapsed Time: 11 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:48 2024
-	Elapsed Time: 10 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:48 2024
-	Elapsed Time: 11 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:48 2024
-	Elapsed Time: 11 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:48 2024
-	Elapsed Time: 10 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:48 2024
-	Elapsed Time: 11 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:48 2024
-	Elapsed Time: 10 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:48 2024
-	Elapsed Time: 11 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:48 2024
-	Elapsed Time: 10 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:48 2024
-	Elapsed Time: 11 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:48 2024
-	Elapsed Time: 12 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:48 2024
-	Elapsed Time: 12 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:48 2024
-	Elapsed Time: 11 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:48 2024
-	Elapsed Time: 12 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:48 2024
-	Elapsed Time: 10 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:48 2024
-	Elapsed Time: 10 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:48 2024
-	Elapsed Time: 27 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:48 2024
-	Elapsed Time: 11 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:48 2024
-	Elapsed Time: 11 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:48 2024
-	Elapsed Time: 12 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:48 2024
-	Elapsed Time: 12 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:48 2024
-	Elapsed Time: 11 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:48 2024
-	Elapsed Time: 12 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:48 2024
-	Elapsed Time: 11 microseconds
-	End of 'length'
-------------------------------
-	Start of 'SetDate' @ Sun Oct  6 20:08:48 2024
-	Elapsed Time: 13 microseconds
-	End of 'SetDate'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:48 2024
-	Elapsed Time: 12 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'validate_input' @ Sun Oct  6 20:08:49 2024
-	Elapsed Time: 47 microseconds
-	End of 'validate_input'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:49 2024
-	Elapsed Time: 9 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:49 2024
-	Elapsed Time: 7 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:49 2024
-	Elapsed Time: 7 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:49 2024
-	Elapsed Time: 7 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:49 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'get_date' @ Sun Oct  6 20:08:49 2024
-	Elapsed Time: 17 microseconds
-	End of 'get_date'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:49 2024
-	Elapsed Time: 74 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:49 2024
-	Elapsed Time: 9 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:49 2024
-	Elapsed Time: 7 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:49 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:49 2024
-	Elapsed Time: 6 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:49 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:49 2024
-	Elapsed Time: 6 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:49 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:49 2024
-	Elapsed Time: 6 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:49 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:49 2024
-	Elapsed Time: 8 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:49 2024
-	Elapsed Time: 11 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:49 2024
-	Elapsed Time: 10 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:49 2024
-	Elapsed Time: 10 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:49 2024
-	Elapsed Time: 12 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'get_date' @ Sun Oct  6 20:08:49 2024
-	Elapsed Time: 17 microseconds
-	End of 'get_date'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:49 2024
-	Elapsed Time: 13 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:49 2024
-	Elapsed Time: 10 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:49 2024
-	Elapsed Time: 12 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:49 2024
-	Elapsed Time: 7 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:49 2024
-	Elapsed Time: 7 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'get_date' @ Sun Oct  6 20:08:49 2024
-	Elapsed Time: 8 microseconds
-	End of 'get_date'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:49 2024
-	Elapsed Time: 7 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:49 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:49 2024
-	Elapsed Time: 22 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:49 2024
-	Elapsed Time: 11 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:49 2024
-	Elapsed Time: 12 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'get_date' @ Sun Oct  6 20:08:49 2024
-	Elapsed Time: 11 microseconds
-	End of 'get_date'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:49 2024
-	Elapsed Time: 7 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:49 2024
-	Elapsed Time: 7 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:49 2024
-	Elapsed Time: 11 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:49 2024
-	Elapsed Time: 10 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:49 2024
-	Elapsed Time: 12 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:49 2024
-	Elapsed Time: 7 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:49 2024
-	Elapsed Time: 7 microseconds
-	End of 'length'
-------------------------------
-	Start of 'validate_input' @ Sun Oct  6 20:08:53 2024
-	Elapsed Time: 57 microseconds
-	End of 'validate_input'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:53 2024
-	Elapsed Time: 24 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:53 2024
-	Elapsed Time: 11 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:53 2024
-	Elapsed Time: 10 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:53 2024
-	Elapsed Time: 9 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'get_date' @ Sun Oct  6 20:08:53 2024
+	Start of 'get_date' @ Sun Nov 10 17:00:34 2024
 	Elapsed Time: 19 microseconds
 	End of 'get_date'
 ------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:53 2024
-	Elapsed Time: 10 microseconds
+	Start of 'length' @ Sun Nov 10 17:00:34 2024
+	Elapsed Time: 9 microseconds
 	End of 'length'
 ------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:53 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:53 2024
-	Elapsed Time: 6 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:53 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:53 2024
-	Elapsed Time: 6 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:53 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:53 2024
-	Elapsed Time: 6 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:53 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:53 2024
-	Elapsed Time: 6 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:53 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:53 2024
-	Elapsed Time: 6 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:53 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:53 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:53 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'get_date' @ Sun Oct  6 20:08:53 2024
-	Elapsed Time: 27 microseconds
-	End of 'get_date'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:53 2024
-	Elapsed Time: 7 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:53 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:53 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:53 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of 'get_date' @ Sun Oct  6 20:08:53 2024
-	Elapsed Time: 7 microseconds
-	End of 'get_date'
-------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:53 2024
-	Elapsed Time: 6 microseconds
-	End of 'length'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:53 2024
-	Elapsed Time: 6 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:53 2024
-	Elapsed Time: 7124 microseconds
-	End of '[] operator'
-------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:53 2024
+	Start of '[] operator' @ Sun Nov 10 17:00:34 2024
 	Elapsed Time: 8 microseconds
 	End of '[] operator'
 ------------------------------
-	Start of 'get_date' @ Sun Oct  6 20:08:53 2024
-	Elapsed Time: 16 microseconds
+	Start of '[] operator' @ Sun Nov 10 17:00:34 2024
+	Elapsed Time: 8 microseconds
+	End of '[] operator'
+------------------------------
+	Start of '[] operator' @ Sun Nov 10 17:00:34 2024
+	Elapsed Time: 8 microseconds
+	End of '[] operator'
+------------------------------
+	Start of '[] operator' @ Sun Nov 10 17:00:34 2024
+	Elapsed Time: 8 microseconds
+	End of '[] operator'
+------------------------------
+	Start of 'get_date' @ Sun Nov 10 17:00:34 2024
+	Elapsed Time: 10 microseconds
 	End of 'get_date'
 ------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:53 2024
-	Elapsed Time: 6 microseconds
+	Start of 'length' @ Sun Nov 10 17:00:34 2024
+	Elapsed Time: 9 microseconds
 	End of 'length'
 ------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:53 2024
-	Elapsed Time: 6 microseconds
+	Start of '[] operator' @ Sun Nov 10 17:00:34 2024
+	Elapsed Time: 8 microseconds
 	End of '[] operator'
 ------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:53 2024
-	Elapsed Time: 6 microseconds
+	Start of 'length' @ Sun Nov 10 17:00:34 2024
+	Elapsed Time: 8 microseconds
 	End of 'length'
 ------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:53 2024
-	Elapsed Time: 6 microseconds
+	Start of '[] operator' @ Sun Nov 10 17:00:34 2024
+	Elapsed Time: 8 microseconds
 	End of '[] operator'
 ------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:53 2024
-	Elapsed Time: 6 microseconds
+	Start of 'length' @ Sun Nov 10 17:00:34 2024
+	Elapsed Time: 8 microseconds
 	End of 'length'
 ------------------------------
-	Start of '[] operator' @ Sun Oct  6 20:08:53 2024
-	Elapsed Time: 6 microseconds
+	Start of '[] operator' @ Sun Nov 10 17:00:34 2024
+	Elapsed Time: 8 microseconds
 	End of '[] operator'
 ------------------------------
-	Start of 'length' @ Sun Oct  6 20:08:53 2024
-	Elapsed Time: 6 microseconds
+	Start of '[] operator' @ Sun Nov 10 17:00:34 2024
+	Elapsed Time: 8 microseconds
+	End of '[] operator'
+------------------------------
+	Start of '[] operator' @ Sun Nov 10 17:00:34 2024
+	Elapsed Time: 8 microseconds
+	End of '[] operator'
+------------------------------
+	Start of '[] operator' @ Sun Nov 10 17:00:34 2024
+	Elapsed Time: 9 microseconds
+	End of '[] operator'
+------------------------------
+	Start of 'get_date' @ Sun Nov 10 17:00:34 2024
+	Elapsed Time: 10 microseconds
+	End of 'get_date'
+------------------------------
+	Start of 'length' @ Sun Nov 10 17:00:34 2024
+	Elapsed Time: 8 microseconds
 	End of 'length'
 ------------------------------
-Elapsed Time: 66228375 microseconds
+	Start of 'validate_input' @ Sun Nov 10 17:00:37 2024
+	Elapsed Time: 45 microseconds
+	End of 'validate_input'
+------------------------------
+	Start of 'length' @ Sun Nov 10 17:00:37 2024
+	Elapsed Time: 13 microseconds
+	End of 'length'
+------------------------------
+	Start of '[] operator' @ Sun Nov 10 17:00:37 2024
+	Elapsed Time: 9 microseconds
+	End of '[] operator'
+------------------------------
+	Start of '[] operator' @ Sun Nov 10 17:00:37 2024
+	Elapsed Time: 9 microseconds
+	End of '[] operator'
+------------------------------
+	Start of '[] operator' @ Sun Nov 10 17:00:37 2024
+	Elapsed Time: 8 microseconds
+	End of '[] operator'
+------------------------------
+	Start of 'get_date' @ Sun Nov 10 17:00:37 2024
+	Elapsed Time: 15 microseconds
+	End of 'get_date'
+------------------------------
+	Start of 'length' @ Sun Nov 10 17:00:37 2024
+	Elapsed Time: 9 microseconds
+	End of 'length'
+------------------------------
+	Start of '[] operator' @ Sun Nov 10 17:00:37 2024
+	Elapsed Time: 8 microseconds
+	End of '[] operator'
+------------------------------
+	Start of '[] operator' @ Sun Nov 10 17:00:37 2024
+	Elapsed Time: 8 microseconds
+	End of '[] operator'
+------------------------------
+	Start of '[] operator' @ Sun Nov 10 17:00:37 2024
+	Elapsed Time: 8 microseconds
+	End of '[] operator'
+------------------------------
+	Start of 'get_date' @ Sun Nov 10 17:00:37 2024
+	Elapsed Time: 10 microseconds
+	End of 'get_date'
+------------------------------
+	Start of 'length' @ Sun Nov 10 17:00:37 2024
+	Elapsed Time: 8 microseconds
+	End of 'length'
+------------------------------
+	Start of '[] operator' @ Sun Nov 10 17:00:37 2024
+	Elapsed Time: 11 microseconds
+	End of '[] operator'
+------------------------------
+	Start of 'length' @ Sun Nov 10 17:00:37 2024
+	Elapsed Time: 9 microseconds
+	End of 'length'
+------------------------------
+	Start of '[] operator' @ Sun Nov 10 17:00:37 2024
+	Elapsed Time: 8 microseconds
+	End of '[] operator'
+------------------------------
+	Start of 'length' @ Sun Nov 10 17:00:37 2024
+	Elapsed Time: 8 microseconds
+	End of 'length'
+------------------------------
+	Start of '[] operator' @ Sun Nov 10 17:00:37 2024
+	Elapsed Time: 8 microseconds
+	End of '[] operator'
+------------------------------
+	Start of '[] operator' @ Sun Nov 10 17:00:37 2024
+	Elapsed Time: 9 microseconds
+	End of '[] operator'
+------------------------------
+	Start of '[] operator' @ Sun Nov 10 17:00:37 2024
+	Elapsed Time: 8 microseconds
+	End of '[] operator'
+------------------------------
+	Start of 'get_date' @ Sun Nov 10 17:00:37 2024
+	Elapsed Time: 11 microseconds
+	End of 'get_date'
+------------------------------
+	Start of 'length' @ Sun Nov 10 17:00:37 2024
+	Elapsed Time: 9 microseconds
+	End of 'length'
+------------------------------
+Elapsed Time: 21455234 microseconds
 End of 'main'
 ------------------------------
