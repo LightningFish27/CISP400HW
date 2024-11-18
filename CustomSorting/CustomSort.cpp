@@ -26,7 +26,7 @@ public:
     void add_element(T newElement){
         size++;
         T* pTmp = new T[size];
-        for (int i = 0; i < size; i++){
+        for (int i = 0; i < size - 1; i++){
             pTmp[i] = array[i];
         }
         pTmp[size - 1] = newElement;
@@ -52,7 +52,7 @@ public:
         }
         if (targetIndex == -1) return false;
         // Following code executes if target is found:
-        G_Array tempArr;
+        G_Array<T> tempArr;
         for(int i = 0; i < size; i++){
             if (i != targetIndex) tempArr.add_element(array[i]);
         }
@@ -74,6 +74,12 @@ public:
     }
     size_t length(){
         return size;
+    }
+
+    void display(){
+        for (int i = 0; i < size; i++){
+            std::cout << array[i] << ' ';
+        }
     }
 
     // Sort function using a functor for comparison
@@ -99,71 +105,55 @@ public:
     the absolute values of the inputs, not the true values. AKA it sorts by 
     "intensity"
 */
+template <typename T>
 struct Ascending{
     // Overloading () to make this struct a functor
-    bool operator()(int a, int b) const {
+    bool operator()(T a, T b) const {
         return a > b; // For descending order, essentially returning true IF a is greater than b
     }
 };
 
+template <typename T>
 struct Descending{
     // Overloading () to make this struct a functor
-    bool operator()(int a, int b) const {
+    bool operator()(T a, T b) const {
         return b > a; // For ascending, true IF b greater than a
     }
 };
 
+template <typename T>
 struct AbsoluteValueComparison{
     // overloading () to make this a functor
-    bool operator()(int a, int b) const {
-        return std::abs(a) > std::abs(b); // return true IF abs(a) greater than abs(b)
+    bool operator()(T a, T b) const {
+        return std::abs(a) < std::abs(b); // return true IF abs(a) greater than abs(b)
     }
 };
 
-
-
-
-
 int main(){
-    G_Array<int> fauxVec;
-    fauxVec.add_element(5);
-    fauxVec.add_element(-10);
-    fauxVec.add_element(3);
-    fauxVec.add_element(2);
-    fauxVec.add_element(-7);
+    G_Array<int> numbers;
+    numbers.add_element(5);
+    numbers.add_element(-10);
+    numbers.add_element(3);
+    numbers.add_element(2);
+    numbers.add_element(-7);
 
     std::cout << "Unsorted: ";
-
-    for (int i = 0; i < fauxVec.length(); i++){
-        std::cout << fauxVec[i] << ' ';
-    }
+    numbers.display();
     std::cout << "\n";
 
-    fauxVec.sort(Ascending());
-
+    numbers.sort(Ascending<int>());
     std::cout << "Sorted Ascending: ";
-
-    for (int i = 0; i < fauxVec.length(); i++){
-        std::cout << fauxVec[i] << ' ';
-    }
+    numbers.display();
     std::cout << "\n";
 
-    fauxVec.sort(Descending());
-
+    numbers.sort(Descending<int>());
     std::cout << "Sorted Descending: ";
-
-    for (int i = 0; i < fauxVec.length(); i++){
-        std::cout << fauxVec[i] << ' ';
-    }
+    numbers.display();
     std::cout << "\n";
 
-    fauxVec.sort(AbsoluteValueComparison());
-
+    numbers.sort(AbsoluteValueComparison<int>());
     std::cout << "Sorted Absolute Ascending: ";
-
-    for (int i = 0; i < fauxVec.length(); i++){
-        std::cout << fauxVec[i] << ' ';
-    }
+    numbers.display();
     std::cout << "\n";
 
     return 0;

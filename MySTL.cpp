@@ -52,20 +52,29 @@ int Logger::depth = 0; // Init depth
     G_Array is a templated array that automatically resizes to fit data added, 
     and can scale down when elements are removed (only supports removal from
     last indice).
+
+    November 17: Added the sort method, fixed an off-by-one error in add_element.
 */
 template <typename T>
 class G_Array{
 private:
     T* array = new T[0];
     size_t size = 0;
+
+    // Helper function to swap elements
+    void swap(T& a, T& b) {
+        T temp = a;
+        a = b;
+        b = temp;
+    }
+
 public:
     // Adding to the array is done through the add_element function, which
     // abstracts away all the resizing done.
     void add_element(T newElement){
-        Logger l = Logger("add_element");
         size++;
         T* pTmp = new T[size];
-        for (int i = 0; i < size; i++){
+        for (int i = 0; i < size - 1; i++){
             pTmp[i] = array[i];
         }
         pTmp[size - 1] = newElement;
@@ -74,7 +83,6 @@ public:
     }
     // Remove the last element of the array
     void remove_element(){
-        Logger l = Logger("remove_element");
         size--;
         T* pTmp = new T[size];
         for (int i = 0; i < size; i++){
@@ -92,7 +100,7 @@ public:
         }
         if (targetIndex == -1) return false;
         // Following code executes if target is found:
-        G_Array tempArr;
+        G_Array<T> tempArr;
         for(int i = 0; i < size; i++){
             if (i != targetIndex) tempArr.add_element(array[i]);
         }
@@ -102,30 +110,9 @@ public:
         size--;
         return true;
     }
-    // Removes a specified index from array
-    // Returns false if index out of bounds
-    bool remove_element(int index){
-        if (index < 0 || index > length()){
-            std::cout << "Attempted to remove index not within array.\n";
-            return false;
-        }
-        G_Array tempArr;
-        for(int i = 0; i < size; i++){
-            if (i != index) tempArr.add_element(array[i]);
-        }
-        for (int i = 0; i < tempArr.length(); i++){
-            array[i] = tempArr[i];
-        }
-        // it seems dumb to call remove_element within remove element,
-        // but it's a good way to avoid rewriting code already within that function.
-        // I may still change this later.
-        array.remove_element(); 
-        return true;
-    }
     // Overloading the [] operator to allow G_Array[idx] calls, rather
     // than entire function calls written out. 
     T& operator[](size_t index){
-        Logger l = Logger("[] operator");
         if (index >= size){
             std::cout << "Attempting to access an out of bounds indice.\n";
             exit(0);
@@ -134,19 +121,59 @@ public:
             return array[index];
     }
     size_t length(){
-        Logger l = Logger("length");
         return size;
     }
-    void ComponentTest(){
-        std::cout << "Beginning Component testing of G_Array class template.\n";
-        std::cout << "Length: " << length() << '\n';
-        std::cout << "Adding element.\n";
-        add_element(T());
-        std::cout << "Length: " << length() << '\n';
-        std::cout << "Removing element.\n";
-        remove_element();
-        std::cout << "Length: " << length() << '\n';
-        std::cout << "Completed component test of G_Array\n\n";
+
+    void display(){
+        for (int i = 0; i < size; i++){
+            std::cout << array[i] << ' ';
+        }
+    }
+
+    // Sort function using a functor for comparison
+    // Time complexity O(n^2)? Not great...
+    template <typename Compare>
+    void sort(Compare comp) {
+        if (size > 1) {
+            for (size_t i = 0; i < size - 1; i++) {
+                for (size_t j = 0; j < size - i - 1; j++) {
+                    if (!comp(array[j], array[j + 1])) {
+                        swap(array[j], array[j + 1]);
+                    }
+                }
+            }
+        }
+    }
+};
+
+/*
+    The following three functors define three sorting methods-- ascending, descending,
+    and absolute ascending. Ascending sorts from least to greatest, descending from 
+    greatest to least. Absolute Ascending sorts from least to greatest, but considers
+    the absolute values of the inputs, not the true values. AKA it sorts by 
+    "intensity"
+*/
+template <typename T>
+struct Ascending{
+    // Overloading () to make this struct a functor
+    bool operator()(T a, T b) const {
+        return a > b; // For descending order, essentially returning true IF a is greater than b
+    }
+};
+
+template <typename T>
+struct Descending{
+    // Overloading () to make this struct a functor
+    bool operator()(T a, T b) const {
+        return b > a; // For ascending, true IF b greater than a
+    }
+};
+
+template <typename T>
+struct AbsoluteValueComparison{
+    // overloading () to make this a functor
+    bool operator()(T a, T b) const {
+        return std::abs(a) < std::abs(b); // return true IF abs(a) greater than abs(b)
     }
 };
 /*
