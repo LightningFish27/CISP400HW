@@ -8,6 +8,15 @@
 #include <iomanip>
 #include <chrono>
 #include <iomanip>
+
+// Constants for RNG
+const int BOREDOM_MIN_REDUCTION = 4;
+const int BOREDOM_MAX_REDUCTION = 8;
+const int MAX_BOREDOM = 20;
+const int HUNGER_MIN_REDUCTION = 3;
+const int HUNGER_MAX_REDUCTION = 6;
+const int MIN_HUNGER = 0;
+
 /*
     MY STL IMPLEMENTATION COPIED INTO THE HEADER
     The following classes are not assignment-specific.
@@ -54,9 +63,16 @@ int Logger::depth = 0; // Init depth
 template <typename T>
 class G_Array{
 private:
-    T* array = new T[0];
-    size_t size = 0;
+    T* array;
+    int size;
 public:
+    // Constructor initializes an array of size 0 and a size tracker.
+    G_Array() : array(new T[0]), size(0) {}
+    // Destructor to free array on leaving scope.
+    ~G_Array() {
+        delete[] array;
+    }
+
     // Adding to the array is done through the add_element function, which
     // abstracts away all the resizing done.
     void add_element(T newElement){
@@ -71,8 +87,9 @@ public:
         array = pTmp;
     }
     // Remove the last element of the array
-    void remove_element(){
+    bool remove_last(){
         Logger l = Logger("remove_element");
+        if (size == 0) return false;
         size--;
         T* pTmp = new T[size];
         for (int i = 0; i < size; i++){
@@ -80,44 +97,39 @@ public:
         }
         delete[] array;
         array = pTmp;
+        return true;
     }
     // Remove a specified array element
     // Returns false if removal was unsuccessful
-    bool remove_element(T target){
+    bool remove_element(const T& target){
         int targetIndex = -1;
         for (int i = 0; i < size; i++){
-            if (array[i] == target) targetIndex = i;
+            if (array[i] == target) {
+                targetIndex = i;
+                break;
+            }
         }
         if (targetIndex == -1) return false;
-        // Following code executes if target is found:
-        G_Array tempArr;
-        for(int i = 0; i < size; i++){
-            if (i != targetIndex) tempArr.add_element(array[i]);
-        }
-        for (int i = 0; i < tempArr.length(); i++){
-            array[i] = tempArr[i];
-        }
-        size--;
+        remove_element_at(targetIndex);
         return true;
     }
     // Removes a specified index from array
     // Returns false if index out of bounds
-    bool remove_element(int index){
-        if (index < 0 || index > length()){
+    bool remove_element_at(int index){
+        Logger l = Logger("remove_element_at");
+        if (index < 0 || static_cast<size_t>(index) > size){
             std::cout << "Attempted to remove index not within array.\n";
             return false;
         }
-        G_Array tempArr;
-        for(int i = 0; i < size; i++){
-            if (i != index) tempArr.add_element(array[i]);
+        size--;
+        T* pTmp = new T[size];
+        for (size_t i = 0, j = 0; i < size + 1; i++) {
+            if (i != index) {
+                pTmp[j++] = array[i];
+            }
         }
-        for (int i = 0; i < tempArr.length(); i++){
-            array[i] = tempArr[i];
-        }
-        // it seems dumb to call remove_element within remove element,
-        // but it's a good way to avoid rewriting code already within that function.
-        // I may still change this later.
-        array.remove_element(); 
+        delete[] array;
+        array = pTmp;
         return true;
     }
     // Overloading the [] operator to allow G_Array[idx] calls, rather
@@ -156,7 +168,6 @@ public:
     // Deleting the ability to copy instances or set instances equal to another
     RandNo(const RandNo&) = delete;
     RandNo& operator=(const RandNo&) = delete;
-    // Specification A3 - Overload operator»
     // Overriding stream insertion operator to set seed
     friend std::istream& operator>>(std::istream& is, RandNo& rng) {
         int seed;
@@ -199,354 +210,169 @@ private:
         std::srand(static_cast<unsigned int>(std::time(0))); // Seed the random number generator
     }
 };
-/*
-    A simple class which represents a date and provides methods for interacting with it.
-*/
-class Date{
-private:
-    int day, month, year;
-public:
-    // Initialize with System Date if none specified
-    Date(){
-        Logger l = Logger ("Date Constructor");
-        auto now = std::chrono::system_clock::now(); // Get the system time as a time_point
-        std::time_t now_time_t = std::chrono::system_clock::to_time_t(now); // Convert the time_point to a time_t
-        std::tm now_tm = *std::localtime(&now_time_t);// Convert to local time
-        // Extract the day, month, and year
-        day = now_tm.tm_mday;
-        month = now_tm.tm_mon + 1; // tm_mon is 0-based
-        year = now_tm.tm_year + 1900; // tm_year is years since 1900
-    }
-    // Initialize with specified date
-    Date(int day, int month, int year){
-        Logger l = Logger("SetDate");
-        day = day;
-        month = month;
-        year = year;
-    }
-    // Allow manual date overriding by passing the day, month, and year to this function
-    void set_date(int day, int month, int year){
-        Logger l = Logger("SetDate");
-        day = day;
-        month = month;
-        year = year;
-    }
-    // Allow setting the date with a formatted string split at '/' characters.
-    void setDate(std::string inputDate){
-        Logger l = Logger ("date setDate");
-        std::istringstream dateStream(inputDate);
-        std::string dayIn, monthIn, yearIn;
-        std::getline(dateStream, dayIn, '/');
-        std::getline(dateStream, monthIn, '/');
-        std::getline(dateStream, yearIn, '/');
-        day = std::stoi(dayIn);
-        month = std::stoi(monthIn);
-        year = std::stoi(yearIn);
-    }
-    // Return the date as a string
-    std::string get_date(){
-        Logger l = Logger("get_date");
-        std::stringstream s;
-        s << std::setfill('0');
-        s << std::setw(2) << day << '/' << std::setw(2) << month << '/' << year;
-        return s.str();
-    }
-    // Self-diagnostics of the time class's functionality
-    void CompTest(){
-        Logger l = Logger("CompTest");
-        std::cout << "Beginning CompTest initialization diagnostics.\n";
-        Date testDate;
-        std:: cout << "CompTest result: " << testDate.get_date() << "vs Self result: " << get_date() << '\n';
-        if (testDate.day != day)
-            std::cout << "Days are not equal.\n";
-        if (testDate.month != month)
-            std::cout << "Months are not equal.\n";
-        if (testDate.year != year)
-            std::cout << "Years are not equal.\n";
-        if (testDate.get_date() != get_date())
-            std::cout << "Formatting or components do not match.\n";
-
-        std::cout << "\nNow testing set_date functionality:\n";
-        testDate.set_date(day, month, year);
-        std:: cout << "CompTest result: " << testDate.get_date() << "vs Self result: " << get_date() << '\n';
-        if (testDate.day != day)
-            std::cout << "Days are not equal.\n";
-        if (testDate.month != month)
-            std::cout << "Months are not equal.\n";
-        if (testDate.year != year)
-            std::cout << "Years are not equal.\n";
-        if (testDate.get_date() != get_date())
-            std::cout << "Formatting or components do not match.\n";
-        std::cout << "CompTest finished diagnosis. Program beginning.\n";
-
-        std::cout << "Finally, testing year accuracy.\n";
-        if (year != 2024) std::cout << "Year is inaccurate!\n";
-        else std::cout << "Year is accurate.\n";
-    }
-};
-/*
-    A static class that prints colored text.
-*/
-class FancyText {
-private:
-    static inline std::string RED = "\e[31m";
-    static inline std::string GREEN = "\e[32m";
-    static inline std::string YELLOW = "\e[33m";
-    static inline std::string NORMAL = "\e[0m";
-public:
-    /*
-        Print the given text in a color provided by FancyText. Use the color's
-        name's first character to select a color. If a newline is needed after
-        what is being printed, pass a boolean true as the third parameter.
-        Newline defaults to false, color defaults to white.
-    */
-    static void print_colored(std::string text, char col = '\0', bool newline = false){
-        Logger l = Logger("print_colored");
-        std::string color;
-        if (col == 'r') color = RED;
-        else if (col == 'y') color = YELLOW;
-        else if (col == 'g') color = GREEN;
-        else color = NORMAL;
-        std::cout << color << text << NORMAL << newline ? '\n' : '\0';
-    }
-};
-
-/*
-    A basic implementation of a dictionary that supports key-value pairs between
-    a string (always) and another type. The second type is templated.
-    I may eventually support non-string keys, but I don't want to implement that yet.
-*/
-template <typename T>
-class G_Dictionary {
-private:
-    // These are parallel arrays, and special attention is paid to them in order
-    // to avoid any indexing errors.
-    G_Array<std::string> keys;
-    G_Array<T> values;
-public:
-    // Overloading the [] operator to allow accessing a value in the style
-    // Dictionary[key] 
-    T& operator[](std::string key){
-        Logger l = Logger("[] operator within Dictionary");
-        int keyIndex = -1;
-        for (int i = 0; i < keys.length(); i++){
-            if (keys[i] == key) keyIndex = i;
-        }
-        if (keyIndex == -1){
-            std::cout << "Requested key not found within dictionary.\n";
-        }
-        else return values[keyIndex];
-    }
-
-    size_t length(){
-        Logger l = Logger("length");
-        return keys.length();
-    }
-
-    // Add pair
-    void add_pair(std::string key, T value){
-        keys.add_element(key);
-        values.add_element(value);
-    }
-
-    // Remove pair
-    void remove_pair(std::string key){
-        int keyIndex = -1;
-        for (int i = 0; i < keys.length(); i++){
-            if (keys[i] == key) keyIndex = i;
-        }
-        if (keyIndex == -1) {
-            std::cout << "Couldn't remove " << key << ": key not found.\n";
-        }
-        else {
-            keys.remove_element(keyIndex);
-            values.remove_element(keyIndex);
-            std::cout << "Removed " << key << '\n';
-        }
-    }
-
-    std::ostream& operator<<(std::ostream& os){
-        for (int i = 0; i < keys.length(); i++){
-            std::cout << keys[i] << ',' << values[i] << '\t';
-        }
-        return os;
-    }
-};
-
-template<typename T>
-struct Node {
-    T data;
-    Node* next;
-};
-template<typename T>
-class G_List{
-    Node<T>* head;
-    int length = 0;
-public:
-    G_List() : head(NULL){}
-
-    // Insert a node at beginning of list
-    void push_front(T value){
-        Node<T>* newNode = new Node<T>();
-        newNode->data = value;
-        newNode->next = head;
-        head = newNode;
-        length++;
-    }
-
-    // Insert a node at end of list
-    void push_back(T value){
-        Node<T>* newNode = new Node<T>();
-        newNode->data = value;
-        newNode->next = NULL;
-        if (!head) { // Set new node as head if list is empty
-            head = newNode;
-            return;
-        }
-        // Traverse to find current last node
-        Node<T>* temp = head;
-        while (temp->next){
-            temp = temp->next;
-        }
-        temp->next = newNode; // Set new node following current last node
-        length++;
-    }
-    
-    // Insert at a specified position
-    void insert(T value, int position){
-        if (position < 1){
-            std::cout << "Position should be >= 1.\n";
-            return;
-        }
-        if (position == 1){
-            this.push_front(value);
-            return;
-        }
-
-        Node<T>* newNode = new Node<T>();
-        newNode->data = value;
-        // Traverse to specified position
-        Node<T>* temp = head;
-        for (int i = 1; i < position - 1 && temp; ++i) {
-            temp = temp->next;
-        }
-        // Return an error if specified position is beyond the end of the list.
-        if (!temp) {
-            std::cout << "Position out of range.\n";
-            delete newNode;
-            return;
-        }
-        // Insert the new node at the desired position
-        newNode->next = temp->next;
-        temp->next = newNode;
-        length++;
-    }
-    // Return a pointer to the head of the list and remove that node from the list
-    T pop_front(){
-        if (length < 1) {
-            std::cout << "List is empty.\n";
-            return;
-        }
-
-        Node<T>* temp = head; 
-        head = head->next; 
-        return temp; 
-        length--;
-    }
-    // Returns a pointer to last element in list and removes it from the list
-    T pop(){
-        if (length < 1) {
-            std::cout << "List is empty.\n";
-            return;
-        }
-        if (!head->next) {
-            delete head;   
-            head = NULL;   
-            return;
-        }
-        // Traverse to the second-to-last node
-        Node<T>* temp = head;
-        while (temp->next->next) {
-            temp = temp->next;
-        }
-        return temp->next; 
-        temp->next = NULL; 
-        length--;
-    }
-    // Removes the last element of the list from the list.
-    void delete_back(){
-        if (length < 1) {
-            std::cout << "List is empty.\n";
-            return;
-        }
-        if (!head->next) {
-            delete head;   
-            head = NULL;   
-            return;
-        }
-        // Traverse to the second-to-last node
-        Node<T>* temp = head;
-        while (temp->next->next) {
-            temp = temp->next;
-        }
-        delete temp->next; 
-        temp->next = NULL; 
-        length--;
-    }
-    // Delete the head of the list
-    void delete_front() {
-        if (!head) {
-            std::cout << "List is empty.\n";
-            return;
-        }
-
-        Node<T>* temp = head; 
-        head = head->next; 
-        delete temp;
-        length--;  
-    }
-};
-
 
 /*
     THE FOLLOWING CLASSES AND DATA ARE DESIGNED FOR USE IN THIS PROGRAM
 */
 
-// Mood data for hokeeman
-enum MOODS {
-    ANGRY = -2,
-    UNHAPPY = -1,
-    NEUTRAL = 0,
-    HAPPY = 1,
-    ECSTATIC = 2
-};
-std::string MOODSARR = std::string[5];
-MOODSARR[0] = "angry";
-MOODSARR[1] = "unhappy";
-MOODSARR[2] = "neutral";
-MOODSARR[3] = "happy";
-MOODSARR[4] = "ecstatic";
-
+// Specification C2 - Creature class
+// Specification B2 - Virtual Class Creature
 class Creature {
-private:
-    int mood, boredom, hunger;
+protected:
+    int boredom, hunger;
     std::string name;
+    void copy(Creature& otherCreature){
+        boredom = otherCreature.get_boredom();
+        hunger = otherCreature.get_hunger();
+        name = otherCreature.get_name();
+    }
 public:
+    Creature(){}
+    // Specification A2 - Copy Constructor
+    /*
+        Since I want to be able to copy data between either IHungryCreature OR 
+        IBoredCreature, I move the copy constructor into the abstract base class,
+        then call it from the child class, passing up the reference to the other
+        creature to copy from.
+    */
+    // Copy constructor
+    Creature(Creature& other) {
+        copy(other);
+    }
+    // SETTERS
     void set_name(std::string newName){
         name = newName;
     }
+    void set_boredom(int newBoredom){
+        boredom = newBoredom;
+    }
+    void set_hunger(int newHunger){
+        hunger = newHunger;
+    }
+    // GETTERS
     std::string get_name(){
         return name;
     }
+    int get_hunger(){
+        return hunger;
+    }
+    int get_boredom(){
+        return boredom;
+    }
     // Specification C4 - Overload «
-    std::ostream& operator<<(std::ostream& os){
-        std::cout << name << " is feeling " << MOODSARR[mood] << " and has hunger " << hunger << " and boredom " << boredom << '\n';
+    // Prints the Creature's current stats to the console
+    friend std::ostream& operator<<(std::ostream& os, Creature& creature){
+        os << creature.get_name() << " has hunger " << creature.get_hunger() << " and boredom " << creature.get_boredom() << '\n';
         return os;
     }
-}
+
+    //Specification B4 - Overload + Operator
+    // Overridden within child classes. Children return a creature of the same type
+    // as the one on the left of the + operator.
+    virtual Creature* operator+(Creature& other) = 0;
+
+    //Specification B3 - Overload Assignment Operator
+    // No need for this to be virtual, the functionality would be the same for
+    // either child.
+    Creature* operator=(Creature& other){
+        this->boredom = other.get_boredom();
+        this->hunger = other.get_hunger();
+        this->name = other.get_name();
+        return this;
+    }
+    //METHODS
+    // Specification C1 - PassTime()
+    /*
+        ActionTaken = 0 if user chose to listen, 
+                      1 if user chose to play
+                      2 if user chose to feed
+        Note that this base logic is overriden for hungry or bored creatures.
+    */
+    virtual void PassTime(int actionTaken) = 0;
+    void play(){
+        boredom -= RandNo::get_instance().random_int(BOREDOM_MIN_REDUCTION, BOREDOM_MAX_REDUCTION);
+        if (boredom < 0) boredom = 0;
+    }
+    void feed(){
+        hunger += RandNo::get_instance().random_int(HUNGER_MIN_REDUCTION, HUNGER_MAX_REDUCTION);
+    }
+};
+// Specification B1 - Child Class
+// Bored creatures become bored more quickly than regular creatures.
+class IBoredCreature : public Creature {
+
+public:
+    IBoredCreature(){
+        // Assignment specifies to start hunger and boredom at random numbers 0-5,
+        // but if hunger starts at 0, the hokeemon immediately dies. I'm using 1 as a lower bound.
+        hunger = RandNo::get_instance().random_int(1,5);
+        boredom = RandNo::get_instance().random_int(1,5);
+    }
+    void PassTime(int actionTaken){
+        if ( actionTaken == 1 ) { // Play
+            hunger--;
+        }
+        else if (actionTaken == 2){ //Feed
+            boredom += 2;
+        }
+        else {
+            hunger--;
+            boredom += 2;
+        }
+    }
+    IBoredCreature(Creature& otherCreature){
+        copy(otherCreature);
+    }
+    Creature* operator+(Creature& other){
+        Creature* result = new IBoredCreature();
+        result->set_boredom(this->boredom + other.get_boredom());
+        result->set_hunger(this->hunger + other.get_hunger());
+        result->set_name(this->name + other.get_name());
+        return result;
+    }
+};
+
+// Specification A3 - Second Child Class
+// Hungry creatures become hungry more quickly than regular creatures
+class IHungryCreature : public Creature {
+
+public:
+    IHungryCreature(){
+        // Assignment specifies to start hunger and boredom at random numbers 0-5,
+        // but if hunger starts at 0, the hokeemon immediately dies. I'm using 1 as a lower bound.
+        hunger = RandNo::get_instance().random_int(1,5);
+        boredom = RandNo::get_instance().random_int(1,5);
+    }
+    void PassTime(int actionTaken){
+        if ( actionTaken == 1 ) { // Play
+            hunger -= 2;
+        }
+        else if (actionTaken == 2){ //Feed
+            boredom++;
+        }
+        else {
+            hunger -= 2;
+            boredom++;
+        }
+    }
+    // Copy constructor
+    IHungryCreature(Creature& otherCreature){
+        copy(otherCreature);
+    }
+    Creature* operator+(Creature& other){
+        Creature* result = new IHungryCreature();
+        result->set_boredom(this->boredom + other.get_boredom());
+        result->set_hunger(this->hunger + other.get_hunger());
+        result->set_name(this->name + other.get_name());
+        return result;
+    }
+};
 
 // FUNCTION PROTOTYPES
 void program_greeting();
+bool validate_input(std::string);
+Creature* get_referenced_creature(G_Array<Creature*>&, std::string);
+std::string to_upper(std::string);
 
 
 int main(){
@@ -557,11 +383,229 @@ int main(){
     std::cout << std::fixed << std::setprecision(2);
     program_greeting();
 
+
+    G_Array<Creature*> creatureCollection;
+
+    // Specification A4 - Write a Lambda
+    auto capital_input = []() -> std::string {std::string in;std::getline(std::cin, in);return to_upper(in);};
+
+
+    Creature *testCreature = new IBoredCreature();
+    testCreature->set_name("HENRY");
+    creatureCollection.add_element(testCreature);
+
+    bool programRunning = true;
+    while(programRunning){
+        // Get user command
+        std::string userInput;
+        // Get user input
+        bool inputValid;
+        do {
+            inputValid = true;
+            std::cout << "Enter a command: ";
+            userInput = capital_input();
+            inputValid = validate_input(userInput);
+            if (!inputValid){
+                std::cout << "Please enter a valid command. Follow format '[command] [target]\n";   
+            }
+        } while (!inputValid);
+        // process user command
+        std::istringstream inputStream(userInput);
+        std::string command;
+        inputStream >> command;
+        std::string target, word;
+        while (inputStream >> word){
+            target += word;
+            if (!inputStream.eof()) target += ' ';
+        }
+    
+        int playOrFeed = 0;
+        Creature *targetCreature = get_referenced_creature(creatureCollection, target);
+
+        bool nonTargetCommand = false;
+        if (command == "HELP"){
+            std::cout << "Available Commands:\n";
+            std::cout << "Play\t:\tplay with target hokeemon, lowering their boredom.\n";
+            std::cout << "Feed\t:\tfeed target hokeemon, raising their hunger.\n";
+            std::cout << "Breed\t:\tcreate offspring from target hokeemon and another.\n";
+            std::cout << "Listen\t:\tlisten to target hokeemon's feelings and status.\n";
+            std::cout << "View\t:\tsee a list of your hokeeman.\n";
+            std::cout << "Rename\t:\tchange the name of a hokeemon.\n";
+            std::cout << "Getnew\t:\tget a new random hokeemon.\n";
+            nonTargetCommand = true;
+        }
+        else if (command == "QUIT"){
+            programRunning = false;
+            nonTargetCommand = true;
+        }
+        else if (command == "VIEW"){
+            for(int i = 0; i < creatureCollection.length(); i++){
+                std::cout << creatureCollection[i]->get_name() << '\n';
+            }
+            nonTargetCommand = true;
+        }
+        else if (command == "GETNEW"){
+            Creature* newCreature;
+            if(RandNo::get_instance().random_int(0, 1)){
+                newCreature = new IBoredCreature;
+                std::cout << "Your new creature is a Bored Creature! They become bored quickly, so make sure to play lots!\n";
+            } 
+            else {
+                newCreature = new IHungryCreature;
+                std::cout << "Your new creature is a Hungry Creature! They become hungry quickly, so make sure to feed them lots.\n";
+            }
+            std::cout << "What will your new hokeemon's name be?\n";
+            newCreature->set_name(capital_input());
+            creatureCollection.add_element(newCreature);
+            nonTargetCommand = true;
+        }
+
+        if (targetCreature == nullptr && !nonTargetCommand) {
+            std::cout << "No creature by name '" << target << "' was found.\n";
+            continue;
+        }
+        // act on user command
+        if (command == "LISTEN"){ // Listen
+            std::cout << *targetCreature;
+        }
+        else if (command == "PLAY") {
+            targetCreature->play();
+            playOrFeed = 1;
+        }
+        else if (command == "FEED") {
+            targetCreature->feed();
+            playOrFeed = 2;
+        }
+        // Specification A1 - Critter Name
+        else if (command == "RENAME") {
+            std::cout << "What should '" << targetCreature->get_name() << "''s new name be?\n";
+            targetCreature->set_name(capital_input());
+        }
+        else if (command == "BREED"){
+            std::cout << "Which creature would you like to breed " << targetCreature->get_name() << " with?\n";
+            Creature* secondTarget = get_referenced_creature(creatureCollection, capital_input());
+            if (secondTarget != nullptr){
+                Creature* newCreature = *targetCreature + *secondTarget;
+                creatureCollection.add_element(newCreature);
+            }
+            else {
+                std::cout << "No creature by specified name was found.\n";
+            }
+        }
+        
+
+        // Check for any dead creatures and tell the user:
+        for (int i = 0; i < creatureCollection.length(); i++){
+            Creature* c = creatureCollection[i]; // grab the currently checked creature
+            bool starvedThisTurn = false;
+            bool comatoseThisTurn = false; // init variables to check status
+            // if the current creature was interacted with this turn, take that into account
+            if (targetCreature == c){
+                c->PassTime(playOrFeed);
+            }
+            else {
+                c->PassTime(0);
+            }
+
+            // Check boredom and hunger status
+            if (c->get_boredom() > MAX_BOREDOM){
+                std::cout << c->get_name() << " has gone catatonic from boredom.\n";
+                comatoseThisTurn = true;
+            }
+            if (c->get_hunger() < MIN_HUNGER){
+                std::cout << c->get_name() << " has died of starvation!\n";
+                starvedThisTurn = true;
+            }
+            if (starvedThisTurn || comatoseThisTurn) {
+                creatureCollection.remove_element(c);
+                i--;
+            }
+        }
+    }
+    // perform any cleanup needed
+    // not closing fileOut because that prevents the logger from including the end of main.
+    exit(0);
+}
+/*
+    Searches through a collection of creatures then returns the one with a matching
+    name by reference. If no matching name is found in the array, then it returns
+    nullptr
+*/
+Creature* get_referenced_creature(G_Array<Creature*>& collection, std::string targetName){
+    Logger l = Logger("get_reference_creature");
+    if (collection.length() == 0) return nullptr;
+    for (int i = 0; i < collection.length(); i++){
+        if (collection[i]->get_name() == targetName){
+            return collection[i];
+        }
+    }
+    return nullptr;
+}
+
+// Return given string in uppercase
+std::string to_upper(std::string str){
+    Logger l = Logger("to_upper");
+    for (int i = 0; i < str.length(); i++){
+        str[i] = std::toupper(str[i]);
+    }
+    return str;
+}
+
+// Specification C3 - Validate Input
+// User input should be in the format "[command] [target]"
+// where command is a single letter, and target is the name
+// of the hokeemon you want to interact with.
+bool validate_input(std::string userInput){
+    Logger l = Logger("validate_input");
+    std::istringstream inputStream(userInput);
+    std::string command;
+    inputStream >> command;
+    if (command == "PLAY") return true; // Play
+    if (command == "FEED") return true; // Feed
+    if (command == "LISTEN") return true; // Listen
+    if (command == "QUIT") return true; // Quit
+    if (command == "BREED") return true; // Breed
+    if (command == "HELP") return true; // Help
+    if (command == "VIEW") return true; // View collection
+    if (command == "RENAME") return true; // Rename
+    if (command == "GETNEW") return true; // Get New Creature
+    return false;
 }
 
 void program_greeting(){
+    Logger l = Logger("program_greeting");
     std::cout << "Welcome to Hokeeman.cpp by Gavin Williams, written Oct 7, 2024.\n";
     std::cout << "You will be able to interact with your hokeemen through a variety of methods,\n";
     std::cout << "much like a tomodachi. Enter the command 'help' to see all the things you can do.\n\n";
-    std::cout << "Remember-- your Hokeeman loves you, and doesn't like it when you close the game.\n";
 }
+
+/*
+Welcome to Hokeeman.cpp by Gavin Williams, written Oct 7, 2024.
+You will be able to interact with your hokeemen through a variety of methods,
+much like a tomodachi. Enter the command 'help' to see all the things you can do.
+
+Enter a command: view
+HENRY
+Enter a command: help
+Available Commands:
+Play    :       play with target hokeemon, lowering their boredom.
+Feed    :       feed target hokeemon, raising their hunger.
+Breed   :       create offspring from target hokeemon and another.
+Listen  :       listen to target hokeemon's feelings and status.
+View    :       see a list of your hokeeman.
+Rename  :       change the name of a hokeemon.
+Getnew  :       get a new random hokeemon.
+Enter a command: getnew
+Your new creature is a Hungry Creature! They become hungry quickly, so make sure to feed them lots.
+What will your new hokeemon's name be?
+patrick
+Enter a command: feed patrick
+Enter a command: feed patrick
+Enter a command: view
+HENRY
+PATRICK
+HENRY has died of starvation!
+Enter a command: play patrick
+Enter a command: feed patrick
+Enter a command: ^C
+*/

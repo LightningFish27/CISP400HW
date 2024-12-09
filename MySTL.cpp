@@ -54,12 +54,13 @@ int Logger::depth = 0; // Init depth
     last indice).
 
     November 17: Added the sort method, fixed an off-by-one error in add_element.
+    Dec 3: Cleaned up removal methods substantially.
 */
 template <typename T>
 class G_Array{
 private:
-    T* array = new T[0];
-    size_t size = 0;
+    T* array;
+    size_t size;
 
     // Helper function to swap elements
     void swap(T& a, T& b) {
@@ -69,12 +70,20 @@ private:
     }
 
 public:
+    // Constructor initializes an array of size 0 and a size tracker.
+    G_Array : array(new T[0]), size(0) {}
+    // Destructor to free array on leaving scope.
+    ~G_Array {
+        delete[] array;
+    }
+
     // Adding to the array is done through the add_element function, which
     // abstracts away all the resizing done.
     void add_element(T newElement){
+        Logger l = Logger("add_element");
         size++;
         T* pTmp = new T[size];
-        for (int i = 0; i < size - 1; i++){
+        for (int i = 0; i < size; i++){
             pTmp[i] = array[i];
         }
         pTmp[size - 1] = newElement;
@@ -82,7 +91,9 @@ public:
         array = pTmp;
     }
     // Remove the last element of the array
-    void remove_element(){
+    bool remove_last(){
+        Logger l = Logger("remove_element");
+        if (size == 0) return false
         size--;
         T* pTmp = new T[size];
         for (int i = 0; i < size; i++){
@@ -90,29 +101,45 @@ public:
         }
         delete[] array;
         array = pTmp;
+        return true;
     }
     // Remove a specified array element
     // Returns false if removal was unsuccessful
-    bool remove_element(T target){
+    bool remove_element(const T& target){
         int targetIndex = -1;
         for (int i = 0; i < size; i++){
-            if (array[i] == target) targetIndex = i;
+            if (array[i] == target) {
+                targetIndex = i;
+                break;
+            }
         }
         if (targetIndex == -1) return false;
-        // Following code executes if target is found:
-        G_Array<T> tempArr;
-        for(int i = 0; i < size; i++){
-            if (i != targetIndex) tempArr.add_element(array[i]);
-        }
-        for (int i = 0; i < tempArr.length(); i++){
-            array[i] = tempArr[i];
+        remove_element_at(targetIndex);
+        return true;
+    }
+    // Removes a specified index from array
+    // Returns false if index out of bounds
+    bool remove_element_at(int index){
+        Logger l = Logger("remove_element_at");
+        if (index < 0 || static_cast<size_t>(index) > size){
+            std::cout << "Attempted to remove index not within array.\n";
+            return false;
         }
         size--;
+        T* pTmp = new T[size];
+        for (size_t i = 0, j = 0; i < size + 1; i++) {
+            if (i != index) {
+                pTmp[j++] = array[i];
+            }
+        }
+        delete[] array;
+        array = pTmp;
         return true;
     }
     // Overloading the [] operator to allow G_Array[idx] calls, rather
     // than entire function calls written out. 
     T& operator[](size_t index){
+        Logger l = Logger("[] operator");
         if (index >= size){
             std::cout << "Attempting to access an out of bounds indice.\n";
             exit(0);
@@ -120,7 +147,9 @@ public:
         else
             return array[index];
     }
+
     size_t length(){
+        Logger l = Logger("length");
         return size;
     }
 
@@ -144,7 +173,21 @@ public:
             }
         }
     }
+
+    void ComponentTest(){
+        std::cout << "Beginning Component testing of G_Array class template.\n";
+        std::cout << "Length: " << length() << '\n';
+        std::cout << "Adding element.\n";
+        add_element(T());
+        std::cout << "Length: " << length() << '\n';
+        std::cout << "Removing element.\n";
+        remove_element();
+        std::cout << "Length: " << length() << '\n';
+        std::cout << "Completed component test of G_Array\n\n";
+    }
 };
+
+
 
 /*
     The following three functors define three sorting methods-- ascending, descending,

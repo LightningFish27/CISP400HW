@@ -1,0 +1,252 @@
+Start of 'main' @ Sun Dec  8 21:48:54 2024
+	Start of 'get_instance' @ Sun Dec  8 21:48:54 2024
+		Start of 'RandNo Constructor' @ Sun Dec  8 21:48:54 2024
+		Elapsed Time: 15 microseconds
+		End of 'RandNo Constructor'
+------------------------------
+	Elapsed Time: 44 microseconds
+	End of 'get_instance'
+------------------------------
+	Start of 'random_int' @ Sun Dec  8 21:48:54 2024
+	Elapsed Time: 9 microseconds
+	End of 'random_int'
+------------------------------
+	Start of 'get_instance' @ Sun Dec  8 21:48:54 2024
+	Elapsed Time: 8 microseconds
+	End of 'get_instance'
+------------------------------
+	Start of 'random_int' @ Sun Dec  8 21:48:54 2024
+	Elapsed Time: 9 microseconds
+	End of 'random_int'
+------------------------------
+	Start of 'add_element' @ Sun Dec  8 21:48:54 2024
+	Elapsed Time: 8 microseconds
+	End of 'add_element'
+------------------------------
+	Start of 'length' @ Sun Dec  8 21:49:00 2024
+	Elapsed Time: 38 microseconds
+	End of 'length'
+------------------------------
+	Start of 'length' @ Sun Dec  8 21:49:00 2024
+	Elapsed Time: 7 microseconds
+	End of 'length'
+------------------------------
+	Start of '[] operator' @ Sun Dec  8 21:49:00 2024
+	Elapsed Time: 6 microseconds
+	End of '[] operator'
+------------------------------
+	Start of 'length' @ Sun Dec  8 21:49:00 2024
+	Elapsed Time: 5 microseconds
+	End of 'length'
+------------------------------
+	Start of 'length' @ Sun Dec  8 21:49:00 2024
+	Elapsed Time: 6 microseconds
+	End of 'length'
+------------------------------
+	Start of '[] operator' @ Sun Dec  8 21:49:00 2024
+	Elapsed Time: 6 microseconds
+	End of '[] operator'
+------------------------------
+	Start of 'length' @ Sun Dec  8 21:49:00 2024
+	Elapsed Time: 6 microseconds
+	End of 'length'
+------------------------------
+	Start of 'length' @ Sun Dec  8 21:49:00 2024
+	Elapsed Time: 5 microseconds
+	End of 'length'
+------------------------------
+	Start of '[] operator' @ Sun Dec  8 21:49:00 2024
+	Elapsed Time: 6 microseconds
+	End of '[] operator'
+------------------------------
+	Start of 'length' @ Sun Dec  8 21:49:00 2024
+	Elapsed Time: 5 microseconds
+	End of 'length'
+------------------------------
+	Start of 'length' @ Sun Dec  8 21:49:03 2024
+	Elapsed Time: 40 microseconds
+	End of 'length'
+------------------------------
+	Start of 'length' @ Sun Dec  8 21:49:03 2024
+	Elapsed Time: 10 microseconds
+	End of 'length'
+------------------------------
+	Start of '[] operator' @ Sun Dec  8 21:49:03 2024
+	Elapsed Time: 11 microseconds
+	End of '[] operator'
+------------------------------
+	Start of 'length' @ Sun Dec  8 21:49:03 2024
+	Elapsed Time: 9 microseconds
+	End of 'length'
+------------------------------
+	Start of 'length' @ Sun Dec  8 21:49:03 2024
+	Elapsed Time: 12 microseconds
+	End of 'length'
+------------------------------
+	Start of '[] operator' @ Sun Dec  8 21:49:03 2024
+	Elapsed Time: 8 microseconds
+	End of '[] operator'
+------------------------------
+	Start of 'length' @ Sun Dec  8 21:49:03 2024
+	Elapsed Time: 10 microseconds
+	End of 'length'
+------------------------------
+	Start of 'length' @ Sun Dec  8 21:49:06 2024
+	Elapsed Time: 25 microseconds
+	End of 'length'
+------------------------------
+	Start of 'length' @ Sun Dec  8 21:49:06 2024
+	Elapsed Time: 2 microseconds
+	End of 'length'
+------------------------------
+	Start of '[] operator' @ Sun Dec  8 21:49:06 2024
+	Elapsed Time: 2 microseconds
+	End of '[] operator'
+------------------------------
+	Start of 'length' @ Sun Dec  8 21:49:06 2024
+	Elapsed Time: 2 microseconds
+	End of 'length'
+------------------------------
+	Start of 'get_instance' @ Sun Dec  8 21:49:06 2024
+	Elapsed Time: 2 microseconds
+	End of 'get_instance'
+------------------------------
+	Start of 'random_int' @ Sun Dec  8 21:49:06 2024
+	Elapsed Time: 2 microseconds
+	End of 'random_int'
+------------------------------
+	Start of 'get_instance' @ Sun Dec  8 21:49:06 2024
+	Elapsed Time: 2 microseconds
+	End of 'get_instance'
+------------------------------
+	Start of 'random_int' @ Sun Dec  8 21:49:06 2024
+	Elapsed Time: 9 microseconds
+	End of 'random_int'
+------------------------------
+	Start of 'get_instance' @ Sun Dec  8 21:49:06 2024
+	Elapsed Time: 2 microseconds
+	End of 'get_instance'
+------------------------------
+	Start of 'random_int' @ Sun Dec  8 21:49:06 2024
+	Elapsed Time: 2 microseconds
+	End of 'random_int'
+------------------------------
+	Start of 'add_element' @ Sun Dec  8 21:49:11 2024
+	Elapsed Time: 54 microseconds
+	End of 'add_element'
+------------------------------
+	Start of 'length' @ Sun Dec  8 21:49:11 2024
+	Elapsed Time: 8 microseconds
+	End of 'length'
+------------------------------
+	Start of '[] operator' @ Sun Dec  8 21:49:11 2024
+	Elapsed Time: 10 microseconds
+	End of '[] operator'
+------------------------------
+	Start of 'length' @ Sun Dec  8 21:49:11 2024
+	Elapsed Time: 9 microseconds
+	End of 'length'
+------------------------------
+	Start of '[] operator' @ Sun Dec  8 21:49:11 2024
+	Elapsed Time: 9 microseconds
+	End of '[] operator'
+------------------------------
+	Start of 'length' @ Sun Dec  8 21:49:11 2024
+	Elapsed Time: 9 microseconds
+	End of 'length'
+------------------------------
+	Start of 'length' @ Sun Dec  8 21:49:12 2024
+	Elapsed Time: 49 microseconds
+	End of 'length'
+------------------------------
+	Start of 'length' @ Sun Dec  8 21:49:12 2024
+	Elapsed Time: 8 microseconds
+	End of 'length'
+------------------------------
+	Start of '[] operator' @ Sun Dec  8 21:49:12 2024
+	Elapsed Time: 7 microseconds
+	End of '[] operator'
+------------------------------
+	Start of 'length' @ Sun Dec  8 21:49:12 2024
+	Elapsed Time: 6 microseconds
+	End of 'length'
+------------------------------
+	Start of '[] operator' @ Sun Dec  8 21:49:12 2024
+	Elapsed Time: 6 microseconds
+	End of '[] operator'
+------------------------------
+	Start of '[] operator' @ Sun Dec  8 21:49:12 2024
+	Elapsed Time: 6 microseconds
+	End of '[] operator'
+------------------------------
+	Start of 'get_instance' @ Sun Dec  8 21:49:12 2024
+	Elapsed Time: 7 microseconds
+	End of 'get_instance'
+------------------------------
+	Start of 'random_int' @ Sun Dec  8 21:49:12 2024
+	Elapsed Time: 7 microseconds
+	End of 'random_int'
+------------------------------
+	Start of 'length' @ Sun Dec  8 21:49:12 2024
+	Elapsed Time: 6 microseconds
+	End of 'length'
+------------------------------
+	Start of '[] operator' @ Sun Dec  8 21:49:12 2024
+	Elapsed Time: 6 microseconds
+	End of '[] operator'
+------------------------------
+	Start of 'length' @ Sun Dec  8 21:49:12 2024
+	Elapsed Time: 6 microseconds
+	End of 'length'
+------------------------------
+	Start of '[] operator' @ Sun Dec  8 21:49:12 2024
+	Elapsed Time: 6 microseconds
+	End of '[] operator'
+------------------------------
+	Start of 'length' @ Sun Dec  8 21:49:12 2024
+	Elapsed Time: 6 microseconds
+	End of 'length'
+------------------------------
+	Start of 'length' @ Sun Dec  8 21:49:15 2024
+	Elapsed Time: 47 microseconds
+	End of 'length'
+------------------------------
+	Start of 'length' @ Sun Dec  8 21:49:15 2024
+	Elapsed Time: 5 microseconds
+	End of 'length'
+------------------------------
+	Start of '[] operator' @ Sun Dec  8 21:49:15 2024
+	Elapsed Time: 4 microseconds
+	End of '[] operator'
+------------------------------
+	Start of 'length' @ Sun Dec  8 21:49:15 2024
+	Elapsed Time: 5 microseconds
+	End of 'length'
+------------------------------
+	Start of '[] operator' @ Sun Dec  8 21:49:15 2024
+	Elapsed Time: 4 microseconds
+	End of '[] operator'
+------------------------------
+	Start of '[] operator' @ Sun Dec  8 21:49:15 2024
+	Elapsed Time: 4 microseconds
+	End of '[] operator'
+------------------------------
+	Start of 'get_instance' @ Sun Dec  8 21:49:15 2024
+	Elapsed Time: 5 microseconds
+	End of 'get_instance'
+------------------------------
+	Start of 'random_int' @ Sun Dec  8 21:49:15 2024
+	Elapsed Time: 5 microseconds
+	End of 'random_int'
+------------------------------
+	Start of 'length' @ Sun Dec  8 21:49:15 2024
+	Elapsed Time: 4 microseconds
+	End of 'length'
+------------------------------
+	Start of '[] operator' @ Sun Dec  8 21:49:15 2024
+	Elapsed Time: 4 microseconds
+	End of '[] operator'
+------------------------------
+	Start of 'length' @ Sun Dec  8 21:49:15 2024
+	Elapsed Time: 4 microseconds
+	End of 'length
