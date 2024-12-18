@@ -228,7 +228,6 @@ public:
     // Deleting the ability to copy instances or set instances equal to another
     RandNo(const RandNo&) = delete;
     RandNo& operator=(const RandNo&) = delete;
-    // Specification A3 - Overload operator»
     // Overriding stream insertion operator to set seed
     friend std::istream& operator>>(std::istream& is, RandNo& rng) {
         int seed;
@@ -256,14 +255,6 @@ public:
         Logger l = Logger("random_float");
         return min + static_cast<float>(std::rand()) / (static_cast<float>(RAND_MAX / (max - min)));
     }
-
-    void ComponentTest(){
-        std::cout << "Beginning RandNo Component Testing.\n";
-        std::cout << "Random int: " << random_int(0, 100) << " Random Float: " << random_float(0.00, 100.00) << '\n';
-        std::cout << "Both numbers should be between 0 and 100.\n";
-        std::cout << "Ending RandNo component testing.\n\n";
-    }
-
 private:
     // Private constructor to prevent instantiation
     RandNo() {
